@@ -79,20 +79,20 @@ test("news entries are unique, dated and sourced from allowlisted hosts", () => 
   ]) {
     assert.ok(idsInOrder.includes(id), id);
   }
-  assert.equal(idsInOrder.length, 28);
-  assert.equal(String(newestUpdateDate()), "2026-10-22");
-  assert.equal(idsInOrder[0], "binance-2026-10-22-stock-options");
+  assert.equal(idsInOrder.length, 32);
+  assert.equal(String(newestUpdateDate()), "2026-10-23");
+  assert.equal(idsInOrder[0], "okx-2026-10-23-tokenized-stock-schedule");
   const dates = Array.from(updates, (item) => String(item.date));
   for (let i = 1; i < dates.length; i++) {
     assert.ok(dates[i - 1] >= dates[i], dates[i]);
   }
   assert.equal(
     updates.filter((item) => String(item.exchange) === "binance").length,
-    8,
+    9,
   );
   assert.equal(
     updates.filter((item) => String(item.exchange) === "okx").length,
-    8,
+    9,
   );
   assert.equal(
     updates.filter((item) => String(item.id).includes("ai-search")).length,
@@ -144,10 +144,26 @@ test("exchange filters keep newest-first order and ignore unknown values", () =>
     JSON.stringify(Array.from(selectUpdates(fixture, "nope"), (item) => item.id)),
     JSON.stringify(["new-binance", "mid-backpack", "old-okx"]),
   );
-  assert.equal(selectUpdates(updates, "binance").length, 8);
-  assert.equal(selectUpdates(updates, "okx").length, 8);
-  assert.equal(selectUpdates(updates, "backpack").length, 12);
+  assert.equal(selectUpdates(updates, "binance").length, 9);
+  assert.equal(selectUpdates(updates, "okx").length, 9);
+  assert.equal(selectUpdates(updates, "backpack").length, 14);
   assert.equal(String(updateCopy(fixture[1], "zh-cn").title), "币安产品");
   assert.equal(String(updateCopy(fixture[1], "fr").title), "Binance product");
   assert.equal(String(updateCopy(fixture[1], "ja").summary), "Binance summary");
+});
+
+test("reviewed campaigns have UTC boundaries and eight-language copy", () => {
+ const {campaignStatus,latestReviewDate}=load("src/lib/updates.ts");
+ const reviewed=updates.filter(i=>i.checkedAt === "2026-10-26" && i.id !== "unpack-real-stocks-week-3");
+ for(const item of reviewed) {
+  for(const lang of ["en","zh","fr","pt","ko","ja","ru","fa"]) for(const field of ["title","summary"]) assert.ok(item[field][lang]?.trim(), `${item.id}/${lang}/${field}`);
+  if(item.category === "promotion") {
+   assert.ok(Date.parse(item.endsAt)>Date.parse(item.startsAt));
+   assert.equal(campaignStatus(item,Date.parse(item.startsAt)),"active");
+   assert.equal(campaignStatus(item,Date.parse(item.endsAt)),"ended");
+  }
+ }
+ assert.equal(latestReviewDate(),"2026-10-26");
+ assert.equal(campaignStatus(updates.find(i=>i.id==="unpack-real-stocks-week-3"),Date.parse("2026-10-26T00:00:00Z")),"ended");
+ assert.equal(campaignStatus({category:"promotion"}),"archive");
 });

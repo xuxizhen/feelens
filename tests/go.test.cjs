@@ -107,7 +107,7 @@ test("robots disallow /go and the sitemap omits those redirects", () => {
   assert.ok(urls.every((url) => !url.includes("/go")));
   const news = entries.filter((entry) => entry.url.endsWith("/updates"));
   assert.equal(news.length, 8);
-  assert.ok(news.every((entry) => entry.lastModified === "2026-10-22"));
+  assert.ok(news.every((entry) => entry.lastModified === "2026-10-26"));
   assert.ok(
     entries
       .filter((entry) => !entry.url.endsWith("/updates"))

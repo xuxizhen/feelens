@@ -51,7 +51,7 @@ export default async function Page({
                 datePublished: item.date,
                 description: copy.summary,
                 url: item.sourceUrl,
-                inLanguage: lang === "zh-cn" ? locale[lang].html : "en",
+                inLanguage: item.title[lang === "zh-cn" ? "zh" : lang] ? locale[lang].html : "en",
                 publisher: {
                   "@type": "Person",
                   name: "Mike Xu",

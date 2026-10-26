@@ -13,7 +13,7 @@
 
 ## 当前内容格式
 
-`src/data/updates.ts`：每周在文件顶部追加一条。字段为 `id`、`exchange`（backpack | binance | okx）、`date`（YYYY-MM-DD）、`category`（listing | fees | product | promotion | regulatory | other）、`title` / `summary` 的 `{ en, zh }`、`sourceUrl`。其他语言回退英文。页面按日期新到旧排序，并用 `?exchange=` 筛选。`/updates` 的 sitemap `lastmod` 取最新一条的日期。没有核实来源就不要补条目。
+`src/data/updates.ts`：每周在文件顶部追加一条。字段为 `id`、`exchange`（backpack | binance | okx）、`date`（YYYY-MM-DD）、`category`（listing | fees | product | promotion | regulatory | other）、`title` / `summary` 的 `{ en, zh }`、`sourceUrl`。历史条目缺少翻译时回退英文；新条目必须提供全部八种语言。页面按日期新到旧排序，并用 `?exchange=` 筛选。可选字段 checkedAt、startsAt、endsAt、signupEndsAt 记录核对日期及 UTC 窗口。`/updates` 的 sitemap `lastmod` 取最新发布或核对日期。没有核实来源就不要补条目。
 
 日期来源不一致时注明差异，不假定所有官方页面同步。2026-10-18 核对发现旧证券教程与当前官网对抵押品/转出支持存在差异，本站不把旧描述写成当前事实。
 
@@ -23,7 +23,7 @@
 
 说明活动起止、报名、最低成交、KYC/余额要求、排除产品/API、地区限制和领取时间；官方规则优先。最高奖励不是保底收益。不要因交易所活动计入股票永续，就宣传 Equity Perps 享受 Affiliate 20% 分享。零费用产品不产生可分享的手续费。不鼓励为奖励刷量。
 
-运营者是 Mike Xu，X 为 https://x.com/mikexuusa。用户授权披露创建及运营身份。维护 Affiliate 原链接及说明，不擅自修改佣金承诺。保持双语同步，内容变更更新对应日期/sitemap。
+运营者是 Mike Xu，X 为 https://x.com/mikexuusa。用户授权披露创建及运营身份。维护 Affiliate 原链接及说明，不擅自修改佣金承诺。保持八语同步，内容变更更新对应日期/sitemap。
 
 ## 发布步骤
 
@@ -47,7 +47,7 @@
 
 - `src/content/exchanges.json`：三家介绍、费用与推荐权益，按 en/zh-cn/fr/pt/ko/ja/ru/fa 维护。
 - `src/content/messages.json`：八语 UI 和编辑说明；波斯语页面必须 `lang=fa dir=rtl`，网址与代码使用 bdi 或 LTR。
-- `src/data/updates.ts`：三家交易所共用一份新闻数据。标题和摘要提供英文与简体中文，其余语言显示英文。`exchange` 只能是 backpack、binance 或 okx。
+- `src/data/updates.ts`：三家交易所共用一份新闻数据。新增及修订条目提供全部八种语言，历史条目允许英文回退。`exchange` 只能是 backpack、binance 或 okx。
 - `src/lib/invites.ts`：邀请码和注册链接只在这里修改。站内按钮走 `/go/backpack`、`/go/binance`、`/go/okx`。
 - `src/lib/exchanges.ts`：交易所标识和官方来源。OKX 使用 X45LZTTE，用户给的 Ef6h7R 页面仅作研究参考，不作本站 CTA。Binance 只保留 BNBBABA。
 - 费用计算器不预填平台费率，用户输入已确认折扣后的实际有效费率。不得把 Backpack 20% 套到其他交易所。
@@ -78,3 +78,17 @@
 ### 2026-10-21 补充核验
 
 内置浏览器成功读取 https://www.okx.com/zh-hans/fees 的可见费率表：现货／标准交易对／普通用户，Maker 0.0800%、Taker 0.1000%。八语费用说明已补充此公开快照，保留地区与登录账户费率优先说明。此记录替代此前“未提取到公开数值”的状态，不证明该值全球通用。官网页脚确认中文官方 X 为 https://x.com/okxchinese 。Backpack 官网本次浏览器重试 DNS 失败，保留其此前核对日期。
+
+## 2026-10-26 周检
+
+先将干净工作区快进到远端 8757732，沿用新的 src/data/updates.ts 新闻结构、单一 Binance BNBBABA 邀请码和现有费率快照。本次增加四条新闻，完善邀请盲盒条款；新建及修订条目均有八语翻译。活动显示 UTC 窗口和状态，Week 3 已结束；没有核实窗口的旧促销归入历史资讯。
+
+- Backpack Week 4：https://learn.backpack.exchange/blog/unpack-real-stocks-week-4 ，发布 10 月 21 日，核对 10 月 26 日。窗口 2026-10-21T00:00:00Z 至 2026-10-27T23:59:00Z。先报名，首箱需 $10,000 合格成交，最多 15 箱；KYC、结束时 $100 余额。股票现货、USDT/USDC、兑换、API、清算成交及做市商排除。10 月 29 日至 11 月 5 日开箱。股票永续计入活动不等于适用 Affiliate 分享。
+- Backpack 邀请盲盒：https://learn.backpack.exchange/blog/mystery-box-referrals ，发布 10 月 21 日。活动至 2026-11-17T23:59:00Z，注册截止 2026-11-03T23:59:00Z。注册七天内 KYC、外部入金 $500 并持有七天、成交 $5,000；排除稳定币互换、英国、EEA、做市商。双方各一箱，邀请人最多五箱。必须用任务邀请链接，尚未证明本站 Affiliate 链接符合资格；最高奖励不是保底。
+- Backpack API：https://docs.backpack.exchange/#changelog ，10 月 22 日更新。股票限价超界返回 HTTP 400 及界限，报价新增 restingLimitBound；界限会变化，订单仍可能失效。
+- OKX：https://www.okx.com/help/okx-to-list-unified-tokenized-stocks-xmara-xmcd-and-more-for-spot-trading ，发布 10 月 23 日。xMARA/USDT 计划 10 月 26 日 07:00 UTC、xMCD/USDT 07:30 UTC 上线；核对时为 02:00 UTC，未宣称已上线。价格敞口不赋予股份所有权或投票权，美国人士及美国境内不可用，另有地区限制。
+- Binance：https://www.binance.com/en/support/announcement/detail/ed8ff1366f0e4d4687eb1e105e7f61f1 ，发布 10 月 22 日。窗口 2026-10-22T12:00:00Z 至 2026-11-15T23:59:00Z。两个任务均排除推荐和 Affiliate 注册。需窗口内新注册、KYC、报名；任务 A 入金 $20 且限前 5,000 人，任务 B 成交 $50 bStocks；排除流动性提供商及受限地区。奖励券最迟 12 月 4 日派发，派发后 14 天有效。官方任务 B 奖池标题/表格 $50,000 与正文 $20,000 冲突，本站不承诺金额。
+
+同日复核 OKX 费率 FAQ（更新 9 月 9 日）、地区版推荐 FAQ（页面现显示更新 10 月 5 日，替代此前 9 月 10 日记录），没有可核实的固定推荐返佣。Binance 现货普通档及 BNB 折扣未变；不刷新未重新取得完整表格的其他产品费率日期。Backpack 分享规则仍排除 Equity Perps。官方 X @Backpack 返回 403，以官网交叉核验；未使用非官方 Square 帖子。OKX 公告列表出现未来 11 月 2 日条目，本次未采用。
+
+Binance 用户链接再次返回 302 至 bsappwv.cc/jsredirect/register?ref=BNBBABA，随后为脚本跳转页；未执行脚本，官方域名归属和最终目的地仍未确认。未修改邀请码或添加固定返佣承诺。

@@ -187,7 +187,7 @@ const slugs = [
   assert.ok(!sitemap.includes("/go/"), "sitemap excludes /go");
   assert.match(
     sitemap,
-    /<loc>https:\/\/www\.feelens\.net\/zh-cn\/updates<\/loc>(?:(?!<loc>)[\s\S])*?<lastmod>2026-10-22<\/lastmod>/,
+    /<loc>https:\/\/www\.feelens\.net\/zh-cn\/updates<\/loc>(?:(?!<loc>)[\s\S])*?<lastmod>2026-10-26<\/lastmod>/,
   );
   const filteredUpdates = await fetch(
     base + "/en/updates?exchange=binance",

@@ -1,7 +1,7 @@
 /**
  * Weekly news feed. Append one object (newest items at the top is easiest to
- * review; the page sorts by `date` descending, then `id`). Other locales use
- * the English title and summary. zh-cn uses `zh`.
+ * review; the page sorts by `date` descending, then `id`). Historical entries fall back to English where translations are missing.
+ * New and reviewed entries provide all eight locales; zh-cn uses `zh`.
  *
  * {
  *   id: "unique-slug",                 // stable, never reused
@@ -27,7 +27,7 @@ export const updateCategories = [
   "other",
 ] as const;
 export type UpdateCategory = (typeof updateCategories)[number];
-export type UpdateCopy = { en: string; zh: string };
+export type UpdateCopy = { en: string; zh: string } & Partial<Record<"fr" | "pt" | "ko" | "ja" | "ru" | "fa", string>>;
 export type UpdateItem = {
   id: string;
   exchange: UpdateExchange;
@@ -36,9 +36,129 @@ export type UpdateItem = {
   title: UpdateCopy;
   summary: UpdateCopy;
   sourceUrl: string;
+  checkedAt?: string;
+  startsAt?: string;
+  endsAt?: string;
+  signupEndsAt?: string;
 };
 
 export const updateItems: readonly UpdateItem[] = [
+  {
+    "id": "backpack-2026-10-21-unpack-week-4",
+    "exchange": "backpack",
+    "date": "2026-10-21",
+    "category": "promotion",
+    "sourceUrl": "https://learn.backpack.exchange/blog/unpack-real-stocks-week-4",
+    "checkedAt": "2026-10-26",
+    "title": {
+      "en": "Unpack Real Stocks · Week 4",
+      "zh": "Unpack Real Stocks 美股盲盒 · 第四周",
+      "fr": "Unpack Real Stocks · Semaine 4",
+      "pt": "Unpack Real Stocks · Semana 4",
+      "ko": "Unpack Real Stocks · 4주 차",
+      "ja": "Unpack Real Stocks · 第4週",
+      "ru": "Unpack Real Stocks · Неделя 4",
+      "fa": "Unpack Real Stocks · هفته چهارم"
+    },
+    "summary": {
+      "en": "Opt in before trading. First box: $10,000 eligible volume; maximum 15 boxes. KYC and $100 closing balance required. Crypto spot and all perpetuals count; stock spot, USDT/USDC, converts, API, liquidations and market makers are excluded. Open boxes October 29–November 5. Rewards vary; $1,000 is a rare maximum, not guaranteed. Regional restrictions apply; ineligible stock recipients receive equivalent USDC. Campaign eligibility does not make Equity Perps eligible for affiliate fee sharing.",
+      "zh": "交易前需报名，首个盲盒要求 10,000 美元有效成交额，最多 15 个。需 KYC 及结束时 100 美元余额。加密现货和所有永续计入；股票现货、USDT/USDC、闪兑、API、强平及做市商排除。10 月 29 日至 11 月 5 日开盒。奖励随机，1,000 美元为罕见最高额，非保底。地区限制适用；不具备股票接收资格者获等值 USDC。活动计入 Equity Perps 不代表其适用 Affiliate 手续费分享。",
+      "fr": "Inscription avant trading. Première boîte : 10 000 $ de volume éligible ; 15 maximum. KYC et solde final de 100 $ requis. Crypto spot et tous perpétuels inclus ; actions spot, USDT/USDC, conversions, API, liquidations et teneurs de marché exclus. Ouverture du 29 octobre au 5 novembre. Le maximum rare de 1 000 $ n’est pas garanti. Restrictions régionales ; remplacement en USDC si actions non accessibles. Les Equity Perps restent exclus du partage affilié.",
+      "pt": "Inscreva-se antes de operar. Primeira caixa: US$ 10.000 de volume elegível; máximo 15. Exige KYC e saldo final de US$ 100. Spot cripto e todos os perpétuos contam; ações spot, USDT/USDC, conversões, API, liquidações e formadores de mercado são excluídos. Abertura de 29 de outubro a 5 de novembro. US$ 1.000 é máximo raro, não garantido. Restrições regionais; substituição por USDC se inelegível para ações. Equity Perps seguem excluídos da comissão afiliada.",
+      "ko": "거래 전 신청해야 합니다. 첫 상자는 적격 거래량 $10,000, 최대 15개입니다. KYC와 종료 잔액 $100이 필요합니다. 암호화폐 현물과 모든 무기한은 포함되며 주식 현물, USDT/USDC, 전환, API, 청산, 마켓메이커는 제외됩니다. 개봉은 10월 29일~11월 5일입니다. $1,000은 드문 최대액으로 보장되지 않습니다. 지역 제한이 있으며 주식 수령 불가 시 USDC로 대체됩니다. Equity Perps는 제휴 수수료 공유에서 제외됩니다.",
+      "ja": "取引前に参加登録。最初の箱は対象取引高10,000ドル、最大15箱。KYCと終了時100ドルの残高が必要です。暗号資産現物と全無期限が対象、株式現物、USDT/USDC、変換、API、清算、マーケットメーカーは対象外。開封は10月29日〜11月5日。1,000ドルはまれな最高額で保証ではありません。地域制限があり株式受領不可の場合はUSDCに代替。Equity Perpsは紹介手数料共有の対象外です。",
+      "ru": "Регистрация до торговли. Первая коробка: оборот $10 000, максимум 15. Нужны KYC и $100 на конец акции. Криптоспот и все бессрочные контракты учитываются; акции спот, USDT/USDC, конвертация, API, ликвидации и маркетмейкеры исключены. Открытие 29 октября–5 ноября. $1 000 — редкий максимум без гарантии. Действуют региональные ограничения; при недоступности акций замена на USDC. Equity Perps исключены из партнёрского возврата комиссий.",
+      "fa": "پیش از معامله ثبت‌نام کنید. اولین جعبه: ۱۰٬۰۰۰ دلار حجم واجد شرایط؛ حداکثر ۱۵ جعبه. احراز هویت و موجودی نهایی ۱۰۰ دلار لازم است. اسپات رمزارز و همه قراردادهای دائمی شامل‌اند؛ سهام اسپات، USDT/USDC، تبدیل، API، لیکوئیدشدن و بازارسازها مستثنا هستند. بازکردن: ۲۹ اکتبر تا ۵ نوامبر. ۱٬۰۰۰ دلار حداکثر نادر است، نه تضمینی. محدودیت منطقه‌ای و جایگزینی USDC برای افراد فاقد صلاحیت دریافت سهام اعمال می‌شود. Equity Perps مشمول سهم کارمزد معرفی نیست."
+    },
+    "startsAt": "2026-10-21T00:00:00Z",
+    "endsAt": "2026-10-27T23:59:00Z"
+  },
+  {
+    "id": "binance-2026-10-22-bstocks-referral-exclusion",
+    "exchange": "binance",
+    "date": "2026-10-22",
+    "category": "promotion",
+    "sourceUrl": "https://www.binance.com/en/support/announcement/detail/ed8ff1366f0e4d4687eb1e105e7f61f1",
+    "checkedAt": "2026-10-26",
+    "title": {
+      "en": "bStocks Carnival excludes referral sign-ups",
+      "zh": "bStocks 活动排除推荐注册用户",
+      "fr": "Carnaval bStocks : inscriptions parrainées exclues",
+      "pt": "Carnaval bStocks exclui cadastros por indicação",
+      "ko": "bStocks 카니발: 추천 가입 제외",
+      "ja": "bStocksカーニバル：紹介登録は対象外",
+      "ru": "Карнавал bStocks: реферальные регистрации исключены",
+      "fa": "کارناوال bStocks: ثبت‌نام معرفی‌شده مستثناست"
+    },
+    "summary": {
+      "en": "Not a FeeLens referral benefit: both tasks exclude referral/affiliate sign-ups. Eligible new users must register and complete KYC during the campaign and opt in. Task A: deposit at least $20 via fiat, card or P2P; limited to 5,000 users. Task B: at least $50 bStocks volume. Regional and liquidity-provider exclusions apply. Vouchers due December 4, expire 14 days after distribution. The page conflicts on prize-pool caps ($20,000 versus $50,000); no amount is promised here. bStocks are not direct share ownership; US persons are excluded.",
+      "zh": "不是 FeeLens 推荐权益：两项任务均排除推荐或 Affiliate 注册用户。合格新用户需在活动期注册、完成 KYC 并报名。任务 A：法币、银行卡或 P2P 入金至少 20 美元，限前 5,000 人；任务 B：bStocks 成交至少 50 美元。适用地区及流动性提供商排除条件。奖励券最迟 12 月 4 日发放，发放后 14 日失效。公告奖池上限存在 20,000 与 50,000 美元冲突，本站不承诺金额。bStocks 不是直接持股，美国人士排除。",
+      "fr": "Pas un avantage FeeLens : les deux tâches excluent les inscriptions affiliées/parrainées. Nouveaux utilisateurs éligibles : inscription et KYC pendant la campagne, puis adhésion. A : dépôt de 20 $ minimum via fiat, carte ou P2P, limité à 5 000 personnes. B : volume bStocks de 50 $ minimum. Restrictions régionales et fournisseurs de liquidité exclus. Bons avant le 4 décembre, valables 14 jours. Plafonds contradictoires de 20 000/50 000 $ : aucune somme promise. bStocks ne confèrent pas la propriété directe ; personnes américaines exclues.",
+      "pt": "Não é benefício FeeLens: ambas as tarefas excluem cadastro por indicação/afiliado. Novos usuários elegíveis devem se cadastrar, fazer KYC no período e aderir. A: depósito mínimo de US$ 20 por moeda fiduciária, cartão ou P2P, limitado a 5.000 usuários. B: US$ 50 de volume bStocks. Restrições regionais e de provedores de liquidez. Vouchers até 4 de dezembro, validade de 14 dias. Limites conflitantes de US$ 20.000/50.000: nenhum valor prometido. bStocks não são propriedade direta; pessoas dos EUA excluídas.",
+      "ko": "FeeLens 추천 혜택이 아닙니다. 두 과제 모두 추천·제휴 가입을 제외합니다. 적격 신규 사용자는 기간 내 가입·KYC·참여 신청이 필요합니다. A는 법정화폐·카드·P2P로 $20 이상 입금, 선착순 5,000명입니다. B는 bStocks 거래량 $50 이상입니다. 지역·유동성 공급자 제한이 있습니다. 바우처는 12월 4일까지 발급, 발급 후 14일 만료입니다. 상금 한도 $20,000/$50,000이 상충하여 금액을 보장하지 않습니다. bStocks는 직접 주식 소유가 아니며 미국인은 제외됩니다.",
+      "ja": "FeeLens紹介特典ではありません。両タスクとも紹介・提携経由登録は対象外。対象新規ユーザーは期間内登録・KYC・参加申込が必要。Aは法定通貨・カード・P2Pで20ドル以上入金、先着5,000名。BはbStocks取引高50ドル以上。地域・流動性提供者の除外条件あり。券は12月4日までに配布、14日後失効。賞金上限が20,000／50,000ドルと矛盾するため金額は約束しません。bStocksは直接所有ではなく米国人は対象外。",
+      "ru": "Это не бонус FeeLens: обе задачи исключают реферальные/партнёрские регистрации. Нужны новая регистрация, KYC в период акции и заявка на участие. A: депозит от $20 фиатом, картой или P2P, первые 5 000 пользователей. B: оборот bStocks от $50. Региональные ограничения, поставщики ликвидности исключены. Ваучеры до 4 декабря, срок 14 дней. В источнике конфликт лимитов $20 000/$50 000 — сумма не обещается. bStocks не дают прямого владения акциями; лица США исключены.",
+      "fa": "مزیت معرفی FeeLens نیست؛ هر دو وظیفه ثبت‌نام معرفی یا همکاری را مستثنا می‌کنند. کاربر جدید واجد شرایط باید در دوره ثبت‌نام و احراز هویت کرده و شرکت را تأیید کند. A: واریز حداقل ۲۰ دلار با ارز رسمی، کارت یا P2P، محدود به ۵٬۰۰۰ نفر. B: حجم bStocks حداقل ۵۰ دلار. محدودیت منطقه و تأمین‌کنندگان نقدینگی اعمال می‌شود. کوپن تا ۴ دسامبر و اعتبار ۱۴ روز. سقف جایزه ۲۰٬۰۰۰/۵۰٬۰۰۰ دلار متناقض است؛ مبلغی وعده نمی‌دهیم. bStocks مالکیت مستقیم نیست و اشخاص آمریکایی مستثنا هستند."
+    },
+    "startsAt": "2026-10-22T12:00:00Z",
+    "endsAt": "2026-11-15T23:59:00Z"
+  },
+  {
+    "id": "okx-2026-10-23-tokenized-stock-schedule",
+    "exchange": "okx",
+    "date": "2026-10-23",
+    "category": "listing",
+    "sourceUrl": "https://www.okx.com/help/okx-to-list-unified-tokenized-stocks-xmara-xmcd-and-more-for-spot-trading",
+    "checkedAt": "2026-10-26",
+    "title": {
+      "en": "OKX schedules more tokenized-stock spot pairs",
+      "zh": "OKX 公布更多代币化股票现货上线时间",
+      "fr": "OKX programme de nouvelles paires d’actions tokenisées",
+      "pt": "OKX agenda novos pares de ações tokenizadas",
+      "ko": "OKX, 토큰화 주식 현물 추가 일정 발표",
+      "ja": "OKX、トークン化株式の現物追加予定",
+      "ru": "OKX объявляет график новых токенизированных акций",
+      "fa": "برنامه جفت‌های جدید سهام توکنی‌شده OKX"
+    },
+    "summary": {
+      "en": "October 26 UTC: xMARA/USDT is scheduled for 07:00 and xMCD/USDT for 07:30, with more pairs October 26–27. These are price-exposure products, not ownership or shareholder voting rights. Supported regions only; unavailable to US persons or within the US. Check the announcement for each pair’s pre-open, withdrawal and trading schedule; scheduled times are not a guarantee of live availability.",
+      "zh": "计划于 10 月 26 日 UTC 07:00 上线 xMARA/USDT、07:30 上线 xMCD/USDT，10 月 26–27 日另有多组。产品提供价格敞口，不代表公司所有权或股东投票权。仅限支持地区，不向美国人士或美国境内提供。各交易对预开盘、提现和交易时间以公告为准，计划时间不等于已确认可交易。",
+      "fr": "Le 26 octobre UTC : xMARA/USDT prévu à 07:00, xMCD/USDT à 07:30 ; autres paires les 26–27 octobre. Exposition au prix, sans propriété ni vote d’actionnaire. Régions autorisées uniquement ; personnes américaines et territoire américain exclus. Consultez les horaires propres à chaque paire ; un calendrier ne garantit pas la disponibilité effective.",
+      "pt": "Em 26 de outubro UTC: xMARA/USDT previsto às 07:00 e xMCD/USDT às 07:30; mais pares em 26–27 de outubro. Exposição ao preço, sem propriedade ou voto acionário. Apenas regiões permitidas; pessoas dos EUA e território americano excluídos. Confira horários por par; o cronograma não garante disponibilidade efetiva.",
+      "ko": "10월 26일 UTC xMARA/USDT 07:00, xMCD/USDT 07:30 예정이며 26~27일 추가 거래쌍이 있습니다. 가격 노출 상품으로 소유권이나 의결권은 없습니다. 지원 지역만 가능하며 미국인·미국 내 이용은 제외됩니다. 각 거래쌍 사전 개장·출금·거래 일정을 확인하세요. 예정 시간이 실제 이용 가능을 보장하지 않습니다.",
+      "ja": "10月26日UTC、xMARA/USDTは07:00、xMCD/USDTは07:30予定。26〜27日に他ペアも追加予定です。価格連動商品で、所有権や議決権ではありません。対象地域のみで、米国人・米国内は不可。各ペアの事前受付・出金・取引予定を確認してください。予定日時は利用開始の保証ではありません。",
+      "ru": "26 октября UTC: xMARA/USDT запланирован на 07:00, xMCD/USDT на 07:30; другие пары — 26–27 октября. Ценовая экспозиция без права собственности или голоса. Только разрешённые регионы; лица США и территория США исключены. Проверяйте расписание каждой пары: план не гарантирует фактическую доступность.",
+      "fa": "۲۶ اکتبر UTC: xMARA/USDT ساعت ۰۷:۰۰ و xMCD/USDT ساعت ۰۷:۳۰ برنامه‌ریزی شده‌اند؛ جفت‌های دیگر ۲۶–۲۷ اکتبر. محصول نمایانگر قیمت است، نه مالکیت یا حق رأی. فقط مناطق مجاز؛ اشخاص آمریکایی و داخل آمریکا مستثنا هستند. زمان هر جفت را بررسی کنید؛ برنامه به معنی تأیید دسترسی واقعی نیست."
+    }
+  },
+  {
+    "id": "backpack-2026-10-22-stock-price-band",
+    "exchange": "backpack",
+    "date": "2026-10-22",
+    "category": "product",
+    "sourceUrl": "https://docs.backpack.exchange/#changelog",
+    "checkedAt": "2026-10-26",
+    "title": {
+      "en": "Stock API: explicit price-band rejection",
+      "zh": "股票 API：明确返回价格区间拒单原因",
+      "fr": "API actions : rejet explicite hors bande de prix",
+      "pt": "API de ações: rejeição explícita fora da faixa",
+      "ko": "주식 API: 가격 범위 밖 주문 명시적 거부",
+      "ja": "株式API：価格帯外の拒否を明示",
+      "ru": "API акций: явный отказ вне ценового диапазона",
+      "fa": "API سهام: رد صریح سفارش خارج از محدوده"
+    },
+    "summary": {
+      "en": "The October 22 changelog adds HTTP 400 responses for stock limit prices outside the permitted band, with the current bound in the message. Indicative quotes expose restingLimitBound. The band is measured from the last price rather than bid/ask. Orders can still expire without a quote if a bound is unavailable or the market moves. This API change does not establish campaign-volume eligibility.",
+      "zh": "10 月 22 日日志新增：股票限价超出允许区间时返回 HTTP 400，并在消息中给出当前边界；指示报价增加 restingLimitBound。区间改为以最新价格而非买卖报价计算。无法获得边界或市场变动时，订单仍可能无报价到期。此 API 更新不代表成交量符合活动资格。",
+      "fr": "Le journal du 22 octobre ajoute une réponse HTTP 400 pour une limite hors bande, avec la borne actuelle. Les cotations indicatives exposent restingLimitBound. La bande utilise le dernier prix, non bid/ask. Sans borne disponible ou si le marché bouge, l’ordre peut encore expirer sans cotation. Cela ne rend pas le volume API éligible aux campagnes.",
+      "pt": "O changelog de 22 de outubro adiciona HTTP 400 para limites fora da faixa, com a borda atual. Cotações indicativas expõem restingLimitBound. A faixa usa o último preço, não bid/ask. Sem limite disponível ou com mudança de mercado, a ordem ainda pode expirar sem cotação. Isso não garante elegibilidade do volume API em campanhas.",
+      "ko": "10월 22일 로그는 허용 범위 밖 주식 지정가에 현재 경계를 포함한 HTTP 400을 추가합니다. 지표 호가에는 restingLimitBound가 제공되며 범위는 매수·매도 호가가 아닌 최근 가격 기준입니다. 경계를 알 수 없거나 시장이 움직이면 견적 없이 만료될 수 있습니다. API 거래량의 이벤트 자격을 의미하지 않습니다.",
+      "ja": "10月22日の更新で、株式指値が許容帯外の場合、現在の境界を示すHTTP 400を返します。参考価格にrestingLimitBoundを追加。帯はbid/askではなく直近価格を基準にします。境界不明や相場変動時は見積りなしで失効する場合があります。API取引高のキャンペーン適格性を意味しません。",
+      "ru": "Журнал от 22 октября добавляет HTTP 400 для лимита акций вне диапазона с текущей границей. Индикативные котировки содержат restingLimitBound. Диапазон считается от последней цены, не bid/ask. При неизвестной границе или движении рынка ордер всё ещё может истечь без котировки. Это не подтверждает участие API-оборота в акциях.",
+      "fa": "گزارش ۲۲ اکتبر پاسخ HTTP 400 با مرز جاری را برای قیمت محدود خارج از محدوده اضافه می‌کند. قیمت‌های راهنما restingLimitBound دارند. محدوده از آخرین قیمت است نه bid/ask. نبود مرز یا تغییر بازار همچنان ممکن است باعث انقضای بی‌قیمت شود. این تغییر به معنی شمول حجم API در کمپین نیست."
+    }
+  },
   {
     "id": "binance-2026-10-22-stock-options",
     "exchange": "binance",
@@ -59,15 +179,31 @@ export const updateItems: readonly UpdateItem[] = [
     "exchange": "backpack",
     "date": "2026-10-21",
     "category": "promotion",
+    "sourceUrl": "https://learn.backpack.exchange/blog/mystery-box-referrals",
+    "checkedAt": "2026-10-26",
     "title": {
-      "en": "Backpack launches referral Mystery Box rewards",
-      "zh": "Backpack 推出邀请好友赢神秘盒活动"
+      "en": "Referral Mystery Boxes: eligibility and deadlines",
+      "zh": "邀请盲盒：资格与截止时间",
+      "fr": "Boîtes de parrainage : conditions et dates",
+      "pt": "Caixas por indicação: condições e prazos",
+      "ko": "추천 미스터리 박스: 자격과 기한",
+      "ja": "紹介ミステリーボックス：条件と期限",
+      "ru": "Реферальные коробки: условия и сроки",
+      "fa": "جعبه معرفی: شرایط و مهلت‌ها"
     },
     "summary": {
-      "en": "Invite friends to Backpack and both you and your friend earn a Mystery Box when the friend completes their quest; up to 5 boxes come from referrals and up to 15 from trading in Week 4. Invitations run until Nov 3.",
-      "zh": "邀请好友加入 Backpack，好友完成任务后双方各得一个神秘盒；邀请最多可得 5 个，第 4 周交易最多可得 15 个。邀请截止 11 月 3 日。"
+      "en": "Invitees must register by November 3, 23:59 UTC. Within seven days: KYC, at least $500 deposited from outside Backpack and held seven days, and $5,000 traded. Perps, spot and stocks count; stablecoin swaps do not. UK, EEA and market-maker accounts excluded. Weekly checks; both parties get a box per qualifying invite, maximum five for the referrer. $1,000 is a rare maximum, not guaranteed. Use the official quest link; eligibility through our affiliate link is unconfirmed. Equity Perps remain excluded from fee sharing.",
+      "zh": "受邀者须于 11 月 3 日 23:59 UTC 前注册，并在注册后七日内完成 KYC、从 Backpack 外部入金至少 500 美元且保留七日、成交 5,000 美元。永续、现货及股票计入，稳定币兑换不计。英国、欧洲经济区及做市商账户排除。每周审核，合格邀请双方各得一盒，邀请人最多五盒。1,000 美元是罕见最高奖，非保底。使用官方任务链接；本站 Affiliate 链接是否适用未确认。Equity Perps 仍不参与手续费分享。",
+      "fr": "Inscription avant le 3 novembre à 23:59 UTC. Sous sept jours : KYC, dépôt externe d’au moins 500 $ conservé sept jours et volume de 5 000 $. Perpétuels, spot et actions inclus ; swaps de stablecoins exclus. Royaume-Uni, EEE et teneurs de marché exclus. Contrôle hebdomadaire ; une boîte chacun, cinq maximum pour le parrain. 1 000 $ est un maximum rare, non garanti. Utilisez le lien de quête officiel ; compatibilité de notre lien affilié non confirmée. Equity Perps exclus du partage de frais.",
+      "pt": "Cadastro até 3 de novembro, 23:59 UTC. Em sete dias: KYC, depósito externo de US$ 500 mantido sete dias e volume de US$ 5.000. Perpétuos, spot e ações contam; swaps de stablecoins não. Reino Unido, EEE e formadores de mercado excluídos. Verificação semanal; uma caixa para cada parte, até cinco para quem indica. US$ 1.000 é máximo raro, não garantido. Use o link oficial da missão; compatibilidade do nosso link afiliado não confirmada. Equity Perps sem compartilhamento de taxas.",
+      "ko": "11월 3일 23:59 UTC까지 가입하고 7일 내 KYC, 외부 입금 $500 이상을 7일 보유, 거래량 $5,000을 완료해야 합니다. 무기한·현물·주식은 포함, 스테이블코인 교환은 제외됩니다. 영국·EEA·마켓메이커는 제외됩니다. 매주 심사 후 양측에 한 상자, 추천인은 최대 5개입니다. $1,000은 드문 최대액으로 보장되지 않습니다. 공식 퀘스트 링크를 사용하세요. 당사 제휴 링크 적용은 미확인입니다. Equity Perps는 수수료 공유 제외입니다.",
+      "ja": "11月3日23:59 UTCまでに登録し、7日以内にKYC、外部から500ドル以上入金し7日保有、5,000ドルの取引が必要です。無期限・現物・株式は対象、ステーブルコイン交換は対象外。英国・EEA・マーケットメーカーは除外。毎週審査し双方1箱、紹介者は最大5箱。1,000ドルはまれな最高額で保証ではありません。公式クエストのリンクを使用し、当サイト紹介リンクの適用は未確認です。Equity Perpsは手数料共有対象外。",
+      "ru": "Регистрация до 3 ноября 23:59 UTC. За семь дней: KYC, внешний депозит от $500 с хранением семь дней и оборот $5 000. Перпетуалы, спот и акции учитываются; обмен стейблкоинов нет. Великобритания, ЕЭЗ и маркетмейкеры исключены. Проверка еженедельно, по коробке обеим сторонам, до пяти приглашающему. $1 000 — редкий максимум без гарантии. Используйте ссылку официального задания; совместимость нашей ссылки не подтверждена. Equity Perps исключены из возврата комиссий.",
+      "fa": "ثبت‌نام تا ۳ نوامبر ساعت ۲۳:۵۹ UTC. طی هفت روز: احراز هویت، واریز خارجی حداقل ۵۰۰ دلار با نگهداری هفت‌روزه و حجم معامله ۵٬۰۰۰ دلار. دائمی، اسپات و سهام شامل‌اند؛ تبدیل استیبل‌کوین خیر. بریتانیا، منطقه اقتصادی اروپا و بازارسازها مستثنا هستند. بررسی هفتگی؛ یک جعبه برای هر طرف و حداکثر پنج برای معرف. ۱٬۰۰۰ دلار حداکثر نادر است، نه تضمینی. از پیوند مأموریت رسمی استفاده کنید؛ شمول پیوند ما تأیید نشده. Equity Perps از سهم کارمزد مستثناست."
     },
-    "sourceUrl": "https://x.com/Backpack/status/2112778955426291864"
+    "startsAt": "2026-10-21T00:00:00Z",
+    "endsAt": "2026-11-17T23:59:00Z",
+    "signupEndsAt": "2026-11-03T23:59:00Z"
   },
   {
     "id": "binance-2026-10-21-five-bstocks",
@@ -247,7 +383,10 @@ export const updateItems: readonly UpdateItem[] = [
       "en": "Opt in before trading. The first mystery box requires $10,000 of eligible volume. Rewards vary; $1,000 is the rare maximum, not a guaranteed payout.",
       "zh": "交易前需先报名，首个盲盒门槛为 10,000 美元有效成交额。奖励随机，1,000 美元是罕见最高奖励，不是保底。"
     },
-    "sourceUrl": "https://learn.backpack.exchange/blog/unpack-real-stocks-week-3"
+    "sourceUrl": "https://learn.backpack.exchange/blog/unpack-real-stocks-week-3",
+    "startsAt": "2026-10-14T00:00:00Z",
+    "endsAt": "2026-10-20T23:59:00Z",
+    "checkedAt": "2026-10-26"
   },
   {
     "id": "binance-2026-10-13-x402",

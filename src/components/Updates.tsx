@@ -3,6 +3,7 @@ import { exchanges } from "@/lib/exchanges";
 import { t, type Lang } from "@/lib/i18n";
 import { inviteOrder } from "@/lib/invites";
 import {
+  campaignStatus,
   updateFilters,
   updateCopy,
   type UpdateFilter,
@@ -54,6 +55,7 @@ export default function Updates({
           <div className="updates-list">
             {items.map((item) => {
               const copy = updateCopy(item, lang);
+              const state = campaignStatus(item);
               return (
                 <article className="update-item" key={item.id}>
                   <div className="update-date">
@@ -65,6 +67,9 @@ export default function Updates({
                   </div>
                   <div>
                     <h2>{copy.title}</h2>
+                    {state && <span className={`tag status-${state}`}>{t(lang, state)}</span>}
+                    {item.startsAt && item.endsAt && <p><small>{t(lang, "window")}: <bdi>{item.startsAt} — {item.endsAt}</bdi></small></p>}
+                    {item.checkedAt && <p><small>{t(lang, "checked")}: <time dateTime={item.checkedAt}>{item.checkedAt}</time></small></p>}
                     <p>{copy.summary}</p>
                     <a
                       href={item.sourceUrl}

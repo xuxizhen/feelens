@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { langs, locale } from "@/lib/i18n";
 import { siteUrl, updated } from "@/lib/site";
 import { exchangeIds, pairs } from "@/lib/exchanges";
-import { newestUpdateDate } from "@/lib/updates";
+import { latestReviewDate } from "@/lib/updates";
 export default function sitemap(): MetadataRoute.Sitemap {
   const slugs = [
     "",
@@ -24,7 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return langs.flatMap((lang) =>
     slugs.map((slug) => ({
       url: `${siteUrl}/${lang}${slug ? "/" + slug : ""}`,
-      lastModified: slug === "updates" ? newestUpdateDate() : updated,
+      lastModified: slug === "updates" ? latestReviewDate() : updated,
       alternates: {
         languages: Object.fromEntries([
           ...langs.map((l) => [
