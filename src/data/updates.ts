@@ -44,6 +44,370 @@ export type UpdateItem = {
 
 export const updateItems: readonly UpdateItem[] = [
   {
+    "id": "binance-2026-11-08-withdrawals-hype-apt",
+    "exchange": "binance",
+    "date": "2026-11-08",
+    "category": "other",
+    "sourceUrl": "https://x.com/binance/status/2119352231732580574",
+    "checkedAt": "2026-11-09",
+    "title": {
+      "en": "Binance re-enables HYPE and APT withdrawals",
+      "zh": "币安重新开放 HYPE 与 APT 提现",
+      "fr": "Binance rétablit les retraits de HYPE et d’APT",
+      "pt": "Binance reativa saques de HYPE e APT",
+      "ko": "바이낸스, HYPE·APT 출금 재개",
+      "ja": "Binance、HYPEとAPTの出金を再開",
+      "ru": "Binance снова открыла выводы HYPE и APT",
+      "fa": "بایننس برداشت HYPE و APT را دوباره فعال کرد"
+    },
+    "summary": {
+      "en": "In a continued phased recovery after the late-October security incident, Binance said withdrawals were re-enabled for HYPE and APT. It also listed many ETH- and SOL-network assets already restored earlier in the week and said more networks and assets would reopen after security checks.",
+      "zh": "在 10 月底安全事件后的分阶段恢复中，币安称已重新开放 HYPE 与 APT 提现，并列出本周早些时候已恢复的大量 ETH 与 SOL 网络资产；更多网络与资产将在安全检查完成后继续开放。",
+      "fr": "Dans la poursuite du rétablissement par étapes après l’incident de sécurité de fin octobre, Binance a indiqué que les retraits de HYPE et d’APT étaient de nouveau ouverts. Binance a aussi énuméré de nombreux actifs des réseaux ETH et SOL déjà rétablis plus tôt dans la semaine, et a précisé que d’autres réseaux et actifs rouvriraient après les contrôles de sécurité.",
+      "pt": "Na continuidade da recuperação em fases após o incidente de segurança do fim de outubro, a Binance informou que os saques de HYPE e APT foram reativados. Também listou muitos ativos das redes ETH e SOL já restaurados no início da semana e disse que mais redes e ativos reabririam após as verificações de segurança.",
+      "ko": "10월 말 보안 사고 이후 단계적 복구가 이어지는 가운데, 바이낸스는 HYPE와 APT 출금을 다시 열었다고 밝혔습니다. 주 초에 이미 복구된 ETH·SOL 네트워크 자산도 다수 나열했으며, 더 많은 네트워크와 자산은 보안 점검 뒤에 다시 열린다고 했습니다.",
+      "ja": "10月末のセキュリティ事案後の段階的な復旧の続きとして、BinanceはHYPEとAPTの出金を再び有効にしたと述べました。週の早い時点ですでに復旧していたETHおよびSOLネットワークの多くの資産も挙げ、さらに多くのネットワークと資産はセキュリティ確認のあと再開するとしました。",
+      "ru": "В продолжение поэтапного восстановления после инцидента безопасности в конце октября Binance сообщила, что выводы HYPE и APT снова открыты. Также перечислены многие активы сетей ETH и SOL, восстановленные ранее на этой неделе; другие сети и активы откроют после проверок безопасности.",
+      "fa": "در ادامه بازیابی مرحله‌ای پس از حادثه امنیتی اواخر اکتبر، بایننس اعلام کرد برداشت HYPE و APT دوباره باز شده است. همچنین بسیاری از دارایی‌های شبکه‌های ETH و SOL را که اوایل همین هفته بازیابی شده بودند فهرست کرد و گفت شبکه‌ها و دارایی‌های بیشتر پس از بررسی‌های امنیتی بازگشایی می‌شوند."
+    }
+  },
+  {
+    "id": "okx-2026-11-08-shield-dashboard",
+    "exchange": "okx",
+    "date": "2026-11-08",
+    "category": "product",
+    "sourceUrl": "https://x.com/okx/status/2119339394247151725",
+    "checkedAt": "2026-11-09",
+    "title": {
+      "en": "OKX Shield shows security controls with up to $500,000 protection",
+      "zh": "OKX Shield 集中展示安全控制，最高 50 万美元保障",
+      "fr": "OKX Shield affiche les contrôles, jusqu’à 500 000 $ de protection",
+      "pt": "OKX Shield mostra controles com até US$ 500.000 de proteção",
+      "ko": "OKX Shield, 보안 제어와 최대 $500,000 보호를 표시",
+      "ja": "OKX Shield、セキュリティ制御と最大500,000ドルの保護を表示",
+      "ru": "OKX Shield показывает защиту с покрытием до $500 000",
+      "fa": "OKX Shield کنترل‌های امنیتی را با پوشش تا ۵۰۰٬۰۰۰ دلار نشان می‌دهد"
+    },
+    "summary": {
+      "en": "OKX said OKX Shield puts security controls and protection status in one view, with up to $500,000 in added account protection against qualifying unauthorized account takeovers. Users can activate it at okx.com/shield. Terms and eligibility apply.",
+      "zh": "OKX 表示 OKX Shield 将安全控制与保障状态集中展示，对符合条件的未授权账户接管提供最高 50 万美元额外账户保障，可在 okx.com/shield 开通。条款与资格适用。",
+      "fr": "OKX a indiqué qu’OKX Shield rassemble les contrôles de sécurité et le statut de protection dans une seule vue, avec jusqu’à 500 000 $ de protection supplémentaire du compte contre les prises de contrôle non autorisées éligibles. L’activation se fait sur okx.com/shield. Conditions et éligibilité applicables.",
+      "pt": "A OKX informou que o OKX Shield reúne controles de segurança e o status de proteção em uma única visão, com até US$ 500.000 de proteção adicional da conta contra tomadas de conta não autorizadas elegíveis. A ativação é em okx.com/shield. Termos e elegibilidade se aplicam.",
+      "ko": "OKX는 OKX Shield가 보안 제어와 보호 상태를 한 화면에 모으며, 요건을 충족하는 무단 계정 탈취에 대해 최대 $500,000의 추가 계정 보호를 제공한다고 밝혔습니다. okx.com/shield에서 활성화할 수 있습니다. 약관과 자격이 적용됩니다.",
+      "ja": "OKXは、OKX Shieldがセキュリティ制御と保護状況を一つの画面にまとめ、条件を満たす不正なアカウント乗っ取りに対して最大500,000ドルの追加アカウント保護を提供すると述べました。okx.com/shieldで有効にできます。規約と参加条件が適用されます。",
+      "ru": "OKX сообщила, что OKX Shield собирает средства безопасности и статус защиты в одном окне и даёт до $500 000 дополнительной защиты счёта от подходящих случаев несанкционированного захвата аккаунта. Включить можно на okx.com/shield. Действуют условия и критерии участия.",
+      "fa": "OKX اعلام کرد OKX Shield کنترل‌های امنیتی و وضعیت پوشش را در یک نما جمع می‌کند و در برابر تصاحب غیرمجاز واجد شرایط حساب، تا ۵۰۰٬۰۰۰ دلار حفاظت اضافه حساب می‌دهد. فعال‌سازی در okx.com/shield است. شرایط و واجد بودن اعمال می‌شود."
+    }
+  },
+  {
+    "id": "backpack-2026-11-07-deposit-mystery-box",
+    "exchange": "backpack",
+    "date": "2026-11-07",
+    "category": "promotion",
+    "sourceUrl": "https://x.com/Backpack/status/2119003520691314744",
+    "checkedAt": "2026-11-09",
+    "title": {
+      "en": "Backpack offers USD yield plus Deposit Mystery Boxes",
+      "zh": "Backpack 推出美元收益与入金盲盒活动",
+      "fr": "Backpack propose un rendement en USD et des Deposit Mystery Boxes",
+      "pt": "Backpack oferece rendimento em USD e Deposit Mystery Boxes",
+      "ko": "Backpack, 달러 수익과 입금 미스터리 박스 제공",
+      "ja": "Backpack、米ドル利回りと入金ミステリーボックスを提供",
+      "ru": "Backpack предлагает доходность в USD и Deposit Mystery Boxes",
+      "fa": "Backpack بازده دلار و جعبه‌های مرموز واریز ارائه می‌دهد"
+    },
+    "summary": {
+      "en": "Backpack said USD balances can earn up to 6.91% APY while still serving as trading collateral. Users who opt in and deposit by 2026-11-08, and keep funds on Backpack through 2026-11-22, can unlock up to 12 Deposit Mystery Boxes, each containing a real US stock. An earlier campaign post listed a lower illustrative APY of 3.64%. Terms and regional eligibility may apply.",
+      "zh": "Backpack 表示，美元余额最高可赚约 6.91% 年化收益，同时仍可作为交易抵押品。用户在 2026-11-08 前选择加入并存入资金，并在 Backpack 上保留至 2026-11-22，最多可解锁 12 个入金盲盒，每个含真实美股。更早的活动帖曾给出约 3.64% 的示例年化。条款与地区资格可能适用。",
+      "fr": "Backpack a indiqué que les soldes en USD peuvent rapporter jusqu’à 6,91 % d’APY tout en servant encore de collatéral de trading. Les utilisateurs qui adhèrent et déposent au plus tard le 8 novembre 2026, et conservent les fonds sur Backpack jusqu’au 22 novembre 2026, peuvent débloquer jusqu’à 12 Deposit Mystery Boxes, chacune contenant une action américaine réelle. Une publication antérieure de la campagne indiquait un APY illustratif plus bas, de 3,64 %. Des conditions et une éligibilité régionale peuvent s’appliquer.",
+      "pt": "A Backpack informou que saldos em USD podem render até 6,91% de APY e continuar servindo como garantia de negociação. Usuários que aderirem e depositarem até 8 de novembro de 2026, e mantiverem os fundos na Backpack até 22 de novembro de 2026, podem desbloquear até 12 Deposit Mystery Boxes, cada uma com uma ação real dos EUA. Uma publicação anterior da campanha indicou um APY ilustrativo menor, de 3,64%. Termos e elegibilidade regional podem se aplicar.",
+      "ko": "Backpack은 달러 잔액이 거래 담보로 남으면서 최대 6.91% APY를 얻을 수 있다고 밝혔습니다. 2026-11-08까지 참여를 선택하고 입금한 뒤 2026-11-22까지 자금을 Backpack에 두면, 각각 실제 미국 주식이 든 입금 미스터리 박스를 최대 12개 열 수 있습니다. 더 이른 캠페인 게시물에는 더 낮은 예시 APY인 3.64%가 적혀 있었습니다. 약관과 지역 자격이 적용될 수 있습니다.",
+      "ja": "Backpackは、米ドル残高が取引の担保のまま最大6.91%のAPYを得られると述べました。2026-11-08までに参加を選んで入金し、2026-11-22まで資金をBackpackに置いた利用者は、それぞれ実物の米国株が入った入金ミステリーボックスを最大12個解除できます。より早いキャンペーン投稿では、より低い例示APYとして3.64%が示されていました。規約と地域の参加条件が適用される場合があります。",
+      "ru": "Backpack сообщила, что остатки в USD могут приносить до 6,91% годовых и при этом оставаться торговым обеспечением. Пользователи, которые подключатся и внесут средства не позднее 8 ноября 2026 года и сохранят их на Backpack по 22 ноября 2026 года, могут открыть до 12 Deposit Mystery Boxes; в каждой — реальная акция США. В более раннем посте кампании был указан более низкий иллюстративный APY 3,64%. Могут действовать условия и региональные ограничения.",
+      "fa": "Backpack اعلام کرد موجودی دلار می‌تواند تا ۶٫۹۱٪ بازده سالانه داشته باشد و همچنان وثیقه معامله بماند. کاربرانی که تا ۸ نوامبر ۲۰۲۶ بپیوندند و واریز کنند و وجوه را تا ۲۲ نوامبر ۲۰۲۶ در Backpack نگه دارند، می‌توانند تا ۱۲ جعبه مرموز واریز باز کنند که هر کدام یک سهم واقعی آمریکا دارد. پست پیشین کمپین بازده سالانه نمونه پایین‌تری برابر ۳٫۶۴٪ را ذکر کرده بود. شرایط و واجد بودن منطقه‌ای ممکن است اعمال شود."
+    }
+  },
+  {
+    "id": "binance-2026-11-05-signalplus-api-keys",
+    "exchange": "binance",
+    "date": "2026-11-05",
+    "category": "other",
+    "sourceUrl": "https://x.com/binance/status/2118295116716589383",
+    "checkedAt": "2026-11-09",
+    "title": {
+      "en": "Binance removes API keys linked to SignalPlus as a precaution",
+      "zh": "币安预防性移除与 SignalPlus 关联的 API 密钥",
+      "fr": "Binance retire par précaution les clés API liées à SignalPlus",
+      "pt": "Binance remove por precaução chaves de API ligadas à SignalPlus",
+      "ko": "바이낸스, SignalPlus 연결 API 키를 예방 차원에서 제거",
+      "ja": "Binance、予防措置としてSignalPlus連携のAPIキーを削除",
+      "ru": "Binance на всякий случай удалила API-ключи, связанные с SignalPlus",
+      "fa": "بایننس کلیدهای API مرتبط با SignalPlus را احتیاطاً حذف کرد"
+    },
+    "summary": {
+      "en": "After a potential security issue reported by third-party platform SignalPlus, Binance said it proactively removed all API keys linked to SignalPlus. Binance said its own systems were unaffected and user funds remained safe. Users who used SignalPlus were told to review positions and open orders in Binance directly, wait for SignalPlus to confirm resolution before rebinding keys, and enable IP whitelisting.",
+      "zh": "在第三方平台 SignalPlus 报告潜在安全问题后，币安称已预防性移除所有与 SignalPlus 关联的 API 密钥，并表示自身系统未受影响、用户资金安全。曾使用 SignalPlus 的用户应直接在币安查看仓位与挂单，待 SignalPlus 确认解决后再重新绑定密钥，并启用 IP 白名单。",
+      "fr": "Après un problème de sécurité potentiel signalé par la plateforme tierce SignalPlus, Binance a indiqué avoir retiré de façon proactive toutes les clés API liées à SignalPlus. Binance a précisé que ses propres systèmes n’étaient pas affectés et que les fonds des utilisateurs restaient en sécurité. Les utilisateurs de SignalPlus ont été invités à vérifier directement sur Binance leurs positions et ordres ouverts, à attendre la confirmation de résolution par SignalPlus avant de relier de nouvelles clés, et à activer la liste blanche d’adresses IP.",
+      "pt": "Após um possível problema de segurança informado pela plataforma de terceiros SignalPlus, a Binance disse que removeu de forma proativa todas as chaves de API ligadas à SignalPlus. A Binance afirmou que seus próprios sistemas não foram afetados e que os fundos dos usuários permaneceram seguros. Usuários da SignalPlus foram orientados a revisar posições e ordens em aberto diretamente na Binance, aguardar a SignalPlus confirmar a resolução antes de vincular novas chaves e ativar a lista de IPs permitidos.",
+      "ko": "제3자 플랫폼 SignalPlus가 잠재적 보안 문제를 보고한 뒤, 바이낸스는 SignalPlus와 연결된 모든 API 키를 선제적으로 제거했다고 밝혔습니다. 바이낸스는 자체 시스템은 영향받지 않았고 사용자 자금은 안전하다고 했습니다. SignalPlus를 사용한 이용자는 바이낸스에서 포지션과 미체결 주문을 직접 확인하고, SignalPlus가 해결을 확인한 뒤에 키를 다시 연결하며, IP 화이트리스트를 사용하라는 안내를 받았습니다.",
+      "ja": "第三者プラットフォームSignalPlusが潜在的なセキュリティ問題を報告したあと、BinanceはSignalPlusに紐づくすべてのAPIキーを予防的に削除したと述べました。Binanceは自社システムは影響を受けておらず、ユーザー資金は安全だとしました。SignalPlusを使っていたユーザーには、Binance上でポジションと未約定注文を直接確認すること、SignalPlusが解決を確認してからキーを再紐付けすること、IPホワイトリストを有効にすることを案内しました。",
+      "ru": "После сообщения сторонней платформы SignalPlus о возможной проблеме безопасности Binance заявила, что превентивно удалила все API-ключи, связанные с SignalPlus. Binance сообщила, что её собственные системы не затронуты и средства пользователей в безопасности. Пользователям SignalPlus рекомендовано проверить позиции и открытые ордера непосредственно в Binance, дождаться подтверждения решения от SignalPlus перед повторной привязкой ключей и включить белый список IP.",
+      "fa": "پس از گزارش مشکل امنیتی احتمالی توسط پلتفرم ثالث SignalPlus، بایننس اعلام کرد همه کلیدهای API مرتبط با SignalPlus را پیشگیرانه حذف کرده است. بایننس گفت سیستم‌های خودش تحت تأثیر نبوده و وجوه کاربران امن مانده است. به کاربرانی که از SignalPlus استفاده می‌کردند گفته شد موقعیت‌ها و سفارش‌های باز را مستقیماً در بایننس بررسی کنند، تا تأیید رفع مشکل توسط SignalPlus برای اتصال دوباره کلیدها صبر کنند و فهرست سفید IP را فعال کنند."
+    }
+  },
+  {
+    "id": "binance-2026-11-04-recovery-98-percent",
+    "exchange": "binance",
+    "date": "2026-11-04",
+    "category": "other",
+    "sourceUrl": "https://x.com/binance/status/2118001921252347938",
+    "checkedAt": "2026-11-09",
+    "title": {
+      "en": "Binance says 98% of stolen assets are covered and expands PoR",
+      "zh": "币安称已覆盖约 98% 被盗资产并扩大储备证明",
+      "fr": "Binance indique que 98 % des actifs volés sont couverts et élargit la PoR",
+      "pt": "Binance diz que 98% dos ativos roubados estão cobertos e amplia a PoR",
+      "ko": "바이낸스, 도난 자산의 98%를 보전하고 준비금 증명을 확대",
+      "ja": "Binance、盗難資産の98%を補償しPoRを拡大",
+      "ru": "Binance сообщила о покрытии 98% похищенных активов и расширила PoR",
+      "fa": "بایننس می‌گوید ۹۸٪ دارایی‌های سرقت‌شده پوشش داده شده و اثبات ذخایر را گسترش داد"
+    },
+    "summary": {
+      "en": "In Recovery Update #7, Binance reported that about 98% of stolen assets from the security incident were covered, and published a new and expanded Proof of Reserves snapshot for users to verify.",
+      "zh": "在恢复更新第 7 期中，币安称安全事件中约 98% 被盗资产已获覆盖，并发布新的、范围扩大的储备证明快照供用户核验。",
+      "fr": "Dans la mise à jour de rétablissement n° 7, Binance a indiqué qu’environ 98 % des actifs volés lors de l’incident de sécurité étaient couverts, et a publié un nouvel instantané élargi de preuve de réserves que les utilisateurs peuvent vérifier.",
+      "pt": "Na Atualização de Recuperação nº 7, a Binance informou que cerca de 98% dos ativos roubados no incidente de segurança estavam cobertos e publicou um novo snapshot ampliado de Prova de Reservas para os usuários verificarem.",
+      "ko": "복구 업데이트 7호에서 바이낸스는 보안 사고로 도난당한 자산의 약 98%가 보전되었다고 밝혔고, 사용자가 확인할 수 있도록 새롭고 범위가 확대된 준비금 증명 스냅샷을 공개했습니다.",
+      "ja": "復旧アップデート第7号で、Binanceはセキュリティ事案で盗まれた資産の約98%がカバーされたと報告し、ユーザーが検証できる新しい拡大版のProof of Reservesスナップショットを公開しました。",
+      "ru": "В обновлении о восстановлении № 7 Binance сообщила, что покрыто около 98% активов, похищенных в ходе инцидента безопасности, и опубликовала новый расширенный снимок Proof of Reserves для проверки пользователями.",
+      "fa": "در به‌روزرسانی بازیابی شماره ۷، بایننس گزارش داد حدود ۹۸٪ دارایی‌های سرقت‌شده در حادثه امنیتی پوشش داده شده و یک تصویر جدید و گسترده‌تر از اثبات ذخایر را برای بررسی کاربران منتشر کرده است."
+    }
+  },
+  {
+    "id": "okx-2026-11-04-simple-options",
+    "exchange": "okx",
+    "date": "2026-11-04",
+    "category": "product",
+    "sourceUrl": "https://x.com/okx/status/2117927339988296026",
+    "checkedAt": "2026-11-09",
+    "title": {
+      "en": "OKX launches Simple Options on tokenized stocks",
+      "zh": "OKX 上线代币化股票简易期权",
+      "fr": "OKX lance Simple Options sur actions tokenisées",
+      "pt": "OKX lança Simple Options em ações tokenizadas",
+      "ko": "OKX, 토큰화 주식 간이 옵션 출시",
+      "ja": "OKX、トークン化株式のSimple Optionsを開始",
+      "ru": "OKX запустила Simple Options на токенизированные акции",
+      "fa": "OKX گزینه‌های ساده روی سهام توکنیزه‌شده را راه‌اندازی کرد"
+    },
+    "summary": {
+      "en": "OKX introduced Simple Options on tokenized stocks with four strategies, starting from exposure to one tokenized share, and shows premium, breakeven, and potential outcomes before trading. Availability is limited to eligible jurisdictions (excluding USA and EEA per OKX follow-up). Capital is at risk.",
+      "zh": "OKX 推出代币化股票简易期权，提供四种策略，起投可低至一张代币化股票的敞口，下单前可查看权利金、盈亏平衡与潜在结果。仅限符合条件的司法辖区（官方后续说明不含美国与欧洲经济区）。本金面临风险。",
+      "fr": "OKX a présenté Simple Options sur actions tokenisées, avec quatre stratégies, à partir d’une exposition équivalente à une action tokenisée, et affiche la prime, le seuil de rentabilité et les résultats potentiels avant la transaction. La disponibilité est limitée aux juridictions éligibles (hors États-Unis et EEE, selon un complément d’OKX). Le capital est exposé au risque.",
+      "pt": "A OKX apresentou Simple Options em ações tokenizadas, com quatro estratégias, a partir da exposição a uma ação tokenizada, e mostra prêmio, ponto de equilíbrio e resultados potenciais antes da operação. A disponibilidade limita-se a jurisdições elegíveis (excluindo EUA e EEE, segundo complemento da OKX). O capital está em risco.",
+      "ko": "OKX는 토큰화 주식에 대한 Simple Options를 네 가지 전략으로 도입했으며, 토큰화 주식 1주 노출부터 시작할 수 있고 거래 전에 프리미엄, 손익분기, 잠재 결과를 보여 줍니다. 이용은 적격 관할권으로 제한됩니다(OKX 후속 설명에 따르면 미국과 유럽경제구역 제외). 원금 손실 위험이 있습니다.",
+      "ja": "OKXはトークン化株式のSimple Optionsを4つの戦略で導入し、トークン化株式1株分のエクスポージャーから始められ、取引前にプレミアム、損益分岐、想定結果を表示します。利用は対象となる法域に限られます（OKXの続報では米国とEEAを除く）。元本はリスクにさらされます。",
+      "ru": "OKX представила Simple Options на токенизированные акции с четырьмя стратегиями, начиная с экспозиции в размере одной токенизированной акции, и до сделки показывает премию, безубыточность и возможные результаты. Доступ ограничен подходящими юрисдикциями (по последующему уточнению OKX — без США и ЕЭЗ). Капитал под риском.",
+      "fa": "OKX گزینه‌های ساده (Simple Options) روی سهام توکنیزه‌شده را با چهار راهبرد معرفی کرد؛ شروع از معرض یک سهم توکنیزه‌شده است و پیش از معامله حق بیمه، نقطه سر‌به‌سر و نتایج احتمالی را نشان می‌دهد. دسترسی به حوزه‌های قضایی واجد شرایط محدود است (طبق توضیح بعدی OKX، بدون آمریکا و منطقه اقتصادی اروپا). سرمایه در معرض ریسک است."
+    }
+  },
+  {
+    "id": "okx-2026-11-04-tradfi-copy-trading",
+    "exchange": "okx",
+    "date": "2026-11-04",
+    "category": "product",
+    "sourceUrl": "https://x.com/okx/status/2117851837768282456",
+    "checkedAt": "2026-11-09",
+    "title": {
+      "en": "OKX adds TradFi copy trading for equity, ETF, and commodity perps",
+      "zh": "OKX 推出传统金融跟单：股票、ETF 与商品永续",
+      "fr": "OKX ajoute le copy trading TradFi sur perpétuels actions, ETF et matières premières",
+      "pt": "OKX adiciona copy trading TradFi em perpétuos de ações, ETF e commodities",
+      "ko": "OKX, 주식·ETF·원자재 무기한의 TradFi 카피 트레이딩 추가",
+      "ja": "OKX、株式・ETF・コモディティ無期限のTradFiコピートレードを追加",
+      "ru": "OKX добавила копирование TradFi по бессрочным акциям, ETF и сырью",
+      "fa": "OKX کپی‌تریدینگ TradFi برای پرپچوال سهام، ETF و کالا را اضافه کرد"
+    },
+    "summary": {
+      "en": "OKX said users can follow TradFi traders and copy strategies across 40+ equity, ETF, and commodity perpetual markets. Copy trading does not guarantee profits; past results are not indicative of future performance.",
+      "zh": "OKX 表示用户可跟随传统金融交易者，在 40 多个股票、ETF 与商品永续市场复制策略。跟单不保证盈利，过往表现不代表未来结果。",
+      "fr": "OKX a indiqué que les utilisateurs peuvent suivre des traders TradFi et copier des stratégies sur plus de 40 marchés perpétuels d’actions, d’ETF et de matières premières. Le copy trading ne garantit pas de profits ; les résultats passés ne préjugent pas des performances futures.",
+      "pt": "A OKX informou que usuários podem seguir traders TradFi e copiar estratégias em mais de 40 mercados perpétuos de ações, ETF e commodities. O copy trading não garante lucros; resultados passados não indicam desempenho futuro.",
+      "ko": "OKX는 사용자가 TradFi 트레이더를 팔로우하고 40개 이상의 주식, ETF, 원자재 무기한 시장에서 전략을 복사할 수 있다고 밝혔습니다. 카피 트레이딩은 수익을 보장하지 않으며, 과거 성과가 미래 결과를 나타내지 않습니다.",
+      "ja": "OKXは、ユーザーがTradFiトレーダーをフォローし、40以上の株式、ETF、コモディティの無期限市場で戦略をコピーできると述べました。コピートレードは利益を保証せず、過去の結果は将来の成績を示すものではありません。",
+      "ru": "OKX сообщила, что пользователи могут следовать за трейдерами TradFi и копировать стратегии на более чем 40 бессрочных рынках акций, ETF и сырьевых товаров. Копирование сделок не гарантирует прибыль; прошлые результаты не указывают на будущие.",
+      "fa": "OKX اعلام کرد کاربران می‌توانند معامله‌گران TradFi را دنبال کنند و راهبردها را در بیش از ۴۰ بازار پرپچوال سهام، ETF و کالا کپی کنند. کپی‌تریدینگ سود را تضمین نمی‌کند؛ نتایج گذشته نشان‌دهنده عملکرد آینده نیست."
+    }
+  },
+  {
+    "id": "binance-2026-11-03-initial-findings",
+    "exchange": "binance",
+    "date": "2026-11-03",
+    "category": "other",
+    "sourceUrl": "https://x.com/binance/status/2117626126214504729",
+    "checkedAt": "2026-11-09",
+    "title": {
+      "en": "Binance publishes initial findings on the 29 October security incident",
+      "zh": "币安发布 10 月 29 日安全事件初步调查结果",
+      "fr": "Binance publie les premiers constats sur l’incident du 29 octobre",
+      "pt": "Binance publica conclusões iniciais sobre o incidente de 29 de outubro",
+      "ko": "바이낸스, 10월 29일 보안 사고 초기 조사 결과 공개",
+      "ja": "Binance、10月29日のセキュリティ事案の初期調査結果を公開",
+      "ru": "Binance опубликовала предварительные выводы по инциденту 29 октября",
+      "fa": "بایننس یافته‌های اولیه حادثه امنیتی ۲۹ اکتبر را منتشر کرد"
+    },
+    "summary": {
+      "en": "Binance published an article titled “29 October Binance Security Incident: Initial Findings and Response Update,” outlining early findings and its response after the incident.",
+      "zh": "币安发布题为「29 October Binance Security Incident: Initial Findings and Response Update」的文章，说明事件初步调查结果与应对措施。",
+      "fr": "Binance a publié un article intitulé « 29 October Binance Security Incident: Initial Findings and Response Update », qui présente les premiers constats et la réponse après l’incident.",
+      "pt": "A Binance publicou um artigo intitulado “29 October Binance Security Incident: Initial Findings and Response Update”, com as conclusões iniciais e a resposta após o incidente.",
+      "ko": "바이낸스가 “29 October Binance Security Incident: Initial Findings and Response Update”라는 글을 공개해, 사고 이후의 초기 조사 결과와 대응을 설명했습니다.",
+      "ja": "Binanceは「29 October Binance Security Incident: Initial Findings and Response Update」と題した記事を公開し、事案後の初期調査結果と対応を示しました。",
+      "ru": "Binance опубликовала статью «29 October Binance Security Incident: Initial Findings and Response Update» с предварительными выводами и описанием мер после инцидента.",
+      "fa": "بایننس مقاله‌ای با عنوان «29 October Binance Security Incident: Initial Findings and Response Update» منتشر کرد که یافته‌های اولیه و پاسخ پس از حادثه را شرح می‌دهد."
+    }
+  },
+  {
+    "id": "okx-2026-11-03-usdt-usdc-europe-bonus",
+    "exchange": "okx",
+    "date": "2026-11-03",
+    "category": "promotion",
+    "sourceUrl": "https://x.com/okx/status/2117504559190876504",
+    "checkedAt": "2026-11-09",
+    "title": {
+      "en": "OKX Europe offers 8% bonus for USDT-to-USDC conversion",
+      "zh": "OKX 欧洲推出 USDT 兑换 USDC 的 8% 奖励",
+      "fr": "OKX Europe offre un bonus de 8 % pour convertir des USDT en USDC",
+      "pt": "OKX Europa oferece bônus de 8% na conversão de USDT para USDC",
+      "ko": "OKX 유럽, USDT를 USDC로 전환 시 8% 보너스",
+      "ja": "OKX欧州、USDTからUSDCへの交換で8%ボーナス",
+      "ru": "OKX Europe предлагает бонус 8% за конвертацию USDT в USDC",
+      "fa": "OKX اروپا برای تبدیل USDT به USDC پاداش ۸٪ می‌دهد"
+    },
+    "summary": {
+      "en": "OKX said eligible Europe users can transfer USDT to OKX, convert to USDC at 1:1, and receive an 8% bonus up to €3,500 amid Europe’s changing stablecoin landscape. Campaign terms and regional eligibility apply; crypto is volatile.",
+      "zh": "OKX 表示，符合条件的欧洲用户可将 USDT 转入 OKX，按 1:1 兑换为 USDC，并获得最高 3,500 欧元的 8% 奖励，以应对欧洲稳定币环境变化。活动条款与地区资格适用；加密资产价格波动大。",
+      "fr": "OKX a indiqué que les utilisateurs éligibles en Europe peuvent transférer des USDT vers OKX, les convertir en USDC au taux de 1:1 et recevoir un bonus de 8 % jusqu’à 3 500 €, dans un contexte de changement du paysage des stablecoins en Europe. Les conditions de la campagne et l’éligibilité régionale s’appliquent ; les cryptomonnaies sont volatiles.",
+      "pt": "A OKX informou que usuários elegíveis na Europa podem transferir USDT para a OKX, converter em USDC a 1:1 e receber um bônus de 8% de até € 3.500, em meio às mudanças no cenário de stablecoins na Europa. Termos da campanha e elegibilidade regional se aplicam; criptoativos têm preço volátil.",
+      "ko": "OKX는 적격 유럽 사용자가 USDT를 OKX로 옮기고 1:1로 USDC로 전환하면, 유럽 스테이블코인 환경 변화에 따라 최대 €3,500의 8% 보너스를 받을 수 있다고 밝혔습니다. 캠페인 약관과 지역 자격이 적용되며, 암호화폐는 가격 변동이 큽니다.",
+      "ja": "OKXは、対象となる欧州のユーザーがUSDTをOKXに移し、1:1でUSDCに交換すると、欧州のステーブルコイン環境の変化に伴い最大3,500ユーロの8%ボーナスを受け取れると述べました。キャンペーン規約と地域の参加条件が適用されます。暗号資産は価格変動が大きいです。",
+      "ru": "OKX сообщила, что подходящие пользователи в Европе могут перевести USDT на OKX, конвертировать в USDC по курсу 1:1 и получить бонус 8% до €3 500 на фоне изменений рынка стейблкоинов в Европе. Действуют условия акции и региональные ограничения; криптоактивы волатильны.",
+      "fa": "OKX اعلام کرد کاربران واجد شرایط در اروپا می‌توانند USDT را به OKX منتقل کنند، آن را ۱:۱ به USDC تبدیل کنند و در میان تغییر فضای استیبل‌کوین اروپا تا ۳٬۵۰۰ یورو پاداش ۸٪ بگیرند. شرایط کمپین و واجد بودن منطقه‌ای اعمال می‌شود؛ رمزارز نوسان قیمت دارد."
+    }
+  },
+  {
+    "id": "binance-2026-11-02-fiat-withdrawals",
+    "exchange": "binance",
+    "date": "2026-11-02",
+    "category": "other",
+    "sourceUrl": "https://x.com/binance/status/2117164969582330063",
+    "checkedAt": "2026-11-09",
+    "title": {
+      "en": "Binance restores more fiat withdrawals including USD",
+      "zh": "币安恢复更多法币提现（含美元）",
+      "fr": "Binance rétablit d’autres retraits en fiat, dont l’USD",
+      "pt": "Binance restaura mais saques fiduciários, inclusive USD",
+      "ko": "바이낸스, 달러를 포함한 추가 법정화폐 출금 복구",
+      "ja": "Binance、米ドルを含む法定通貨の出金をさらに再開",
+      "ru": "Binance восстановила ещё больше фиатных выводов, включая USD",
+      "fa": "بایننس برداشت‌های فیات بیشتری از جمله دلار را بازگرداند"
+    },
+    "summary": {
+      "en": "Binance said fiat withdrawals were newly available for USD, AED, VND, PHP, and IDR, in addition to currencies already restored such as JPY, EUR, BRL, and others, with further updates to follow on official channels.",
+      "zh": "币安称新开放美元（USD）、阿联酋迪拉姆（AED）、越南盾（VND）、菲律宾比索（PHP）与印尼盾（IDR）等法币提现，并已恢复日元、欧元、巴西雷亚尔等币种；后续更新将通过官方渠道发布。",
+      "fr": "Binance a indiqué que les retraits en monnaie fiduciaire étaient de nouveau disponibles pour l’USD, l’AED, le VND, le PHP et l’IDR, en plus de devises déjà rétablies telles que le JPY, l’EUR, le BRL et d’autres. D’autres mises à jour suivront sur les canaux officiels.",
+      "pt": "A Binance informou que saques fiduciários voltaram a ficar disponíveis para USD, AED, VND, PHP e IDR, além de moedas já restauradas como JPY, EUR, BRL e outras. Novas atualizações serão publicadas nos canais oficiais.",
+      "ko": "바이낸스는 USD, AED, VND, PHP, IDR의 법정화폐 출금을 새로 열었다고 밝혔습니다. JPY, EUR, BRL 등 이미 복구된 통화도 있으며, 이후 업데이트는 공식 채널에서 이어집니다.",
+      "ja": "Binanceは、すでに再開していたJPY、EUR、BRLなどに加え、USD、AED、VND、PHP、IDRの法定通貨出金を新たに利用できると述べました。続報は公式チャネルで発表されます。",
+      "ru": "Binance сообщила, что выводы фиата вновь доступны для USD, AED, VND, PHP и IDR, в дополнение к уже восстановленным валютам, таким как JPY, EUR, BRL и другим. Дальнейшие обновления появятся в официальных каналах.",
+      "fa": "بایننس اعلام کرد برداشت فیات برای USD، AED، VND، PHP و IDR تازه در دسترس است، علاوه بر ارزهایی که پیش‌تر بازگردانده شده‌اند مانند JPY، EUR، BRL و سایر موارد. به‌روزرسانی‌های بعدی در کانال‌های رسمی منتشر می‌شود."
+    }
+  },
+  {
+    "id": "binance-2026-11-02-vip-level-protection",
+    "exchange": "binance",
+    "date": "2026-11-02",
+    "category": "product",
+    "sourceUrl": "https://x.com/binance/status/2117227212516835337",
+    "checkedAt": "2026-11-09",
+    "title": {
+      "en": "Binance protects eligible VIP levels for 30 days",
+      "zh": "币安为符合条件的 VIP 等级提供 30 天保护",
+      "fr": "Binance protège les niveaux VIP éligibles pendant 30 jours",
+      "pt": "Binance protege níveis VIP elegíveis por 30 dias",
+      "ko": "바이낸스, 적격 VIP 등급을 30일간 보호",
+      "ja": "Binance、対象VIPレベルを30日間保護",
+      "ru": "Binance защищает подходящие уровни VIP на 30 дней",
+      "fa": "بایننس سطح VIP واجد شرایط را ۳۰ روز محافظت می‌کند"
+    },
+    "summary": {
+      "en": "Under Binance’s VIP Level Protection Program, eligible VIP 1–9 users receive 30 days of level protection from 2026-11-03 to 2026-12-02, enrolled automatically. The protected level is the highest VIP level reached between 2026-10-21 and 2026-10-30, and will not fall below that floor during the window.",
+      "zh": "根据币安 VIP 等级保护计划，符合条件的 VIP 1–9 用户在 2026-11-03 至 2026-12-02 获得 30 天等级保护，自动纳入。保护等级为 2026-10-21 至 2026-10-30 期间达到的最高 VIP 等级，保护期内不会低于该底线。",
+      "fr": "Dans le cadre du programme de protection des niveaux VIP de Binance, les utilisateurs éligibles VIP 1 à 9 bénéficient de 30 jours de protection du niveau, du 3 novembre 2026 au 2 décembre 2026, avec inscription automatique. Le niveau protégé est le plus haut niveau VIP atteint entre le 21 octobre 2026 et le 30 octobre 2026, et ne descendra pas sous ce plancher pendant la période.",
+      "pt": "No Programa de Proteção de Nível VIP da Binance, usuários elegíveis de VIP 1 a 9 recebem 30 dias de proteção de nível, de 3 de novembro de 2026 a 2 de dezembro de 2026, com inscrição automática. O nível protegido é o VIP mais alto alcançado entre 21 de outubro de 2026 e 30 de outubro de 2026 e não cairá abaixo desse piso durante o período.",
+      "ko": "바이낸스 VIP 등급 보호 프로그램에 따라, 적격 VIP 1–9 사용자는 2026-11-03부터 2026-12-02까지 30일간 등급 보호를 받으며 자동으로 포함됩니다. 보호 등급은 2026-10-21부터 2026-10-30 사이에 도달한 최고 VIP 등급이며, 해당 기간에는 그 하한 아래로 내려가지 않습니다.",
+      "ja": "BinanceのVIPレベル保護プログラムでは、対象のVIP 1–9ユーザーが2026-11-03から2026-12-02まで30日間のレベル保護を受け、自動的に登録されます。保護されるレベルは2026-10-21から2026-10-30の間に到達した最高VIPレベルで、期間中はその下限を下回りません。",
+      "ru": "По программе защиты уровней VIP Binance подходящие пользователи VIP 1–9 получают 30 дней защиты уровня с 3 ноября 2026 по 2 декабря 2026 и подключаются автоматически. Защищённый уровень — самый высокий VIP, достигнутый с 21 октября 2026 по 30 октября 2026, и в этот период он не опустится ниже этого порога.",
+      "fa": "بر اساس برنامه حفاظت سطح VIP بایننس، کاربران واجد شرایط VIP ۱ تا ۹ از ۳ نوامبر ۲۰۲۶ تا ۲ دسامبر ۲۰۲۶ به مدت ۳۰ روز حفاظت سطح می‌گیرند و به‌طور خودکار ثبت می‌شوند. سطح محافظت‌شده بالاترین سطح VIP است که بین ۲۱ اکتبر ۲۰۲۶ و ۳۰ اکتبر ۲۰۲۶ به آن رسیده‌اند و در این بازه از آن کف پایین‌تر نمی‌رود."
+    }
+  },
+  {
+    "id": "okx-2026-11-02-card-us-live",
+    "exchange": "okx",
+    "date": "2026-11-02",
+    "category": "product",
+    "sourceUrl": "https://x.com/okx/status/2117307784287150512",
+    "checkedAt": "2026-11-09",
+    "title": {
+      "en": "OKX Card is live in the United States",
+      "zh": "OKX Card 已在美国上线",
+      "fr": "L’OKX Card est disponible aux États-Unis",
+      "pt": "OKX Card está disponível nos Estados Unidos",
+      "ko": "OKX Card, 미국에서 이용 가능",
+      "ja": "OKX Cardが米国で利用可能に",
+      "ru": "OKX Card доступна в США",
+      "fa": "OKX Card در ایالات متحده فعال است"
+    },
+    "summary": {
+      "en": "OKX announced that the OKX Card is live in the US. Eligible users can earn 2% cashback on eligible USDG purchases, with rates reaching 10% at the highest tier, with no FX fees and spending backed by stablecoins. Regional and product terms apply.",
+      "zh": "OKX 宣布 OKX Card 已在美国上线。符合条件的用户在合资格的 USDG 消费上可获 2% 返现，最高档可达 10%，无外汇手续费，消费由稳定币支持。地区与产品条款适用。",
+      "fr": "OKX a annoncé que l’OKX Card est disponible aux États-Unis. Les utilisateurs éligibles peuvent obtenir 2 % de cashback sur les achats éligibles en USDG, avec des taux allant jusqu’à 10 % au palier le plus élevé, sans frais de change, et des dépenses adossées à des stablecoins. Conditions régionales et du produit applicables.",
+      "pt": "A OKX anunciou que o OKX Card está ativo nos EUA. Usuários elegíveis podem receber 2% de cashback em compras elegíveis em USDG, com taxas de até 10% no nível mais alto, sem taxas de câmbio e gastos lastreados em stablecoins. Termos regionais e do produto se aplicam.",
+      "ko": "OKX는 OKX Card가 미국에서 출시되었다고 발표했습니다. 적격 사용자는 적격 USDG 결제에서 2% 캐시백을 받을 수 있고, 최고 등급은 10%에 달하며, 환전 수수료가 없고 지출은 스테이블코인으로 뒷받침됩니다. 지역 및 상품 약관이 적용됩니다.",
+      "ja": "OKXはOKX Cardが米国で利用可能になったと発表しました。対象ユーザーは対象のUSDG決済で2%のキャッシュバックを受け取れ、最上位では10%に達します。為替手数料はなく、支出はステーブルコインに裏付けられます。地域および商品の規約が適用されます。",
+      "ru": "OKX объявила, что OKX Card доступна в США. Подходящие пользователи могут получать 2% кэшбэка за подходящие покупки в USDG, до 10% на высшем уровне, без комиссий за конвертацию валюты; расходы обеспечены стейблкоинами. Действуют региональные и продуктовые условия.",
+      "fa": "OKX اعلام کرد OKX Card در آمریکا فعال شده است. کاربران واجد شرایط می‌توانند برای خریدهای واجد شرایط با USDG ۲٪ بازگشت وجه بگیرند و در بالاترین سطح این نرخ به ۱۰٪ می‌رسد؛ کارمزد تبدیل ارز ندارد و خرج با استیبل‌کوین پشتیبانی می‌شود. شرایط منطقه و محصول اعمال می‌شود."
+    }
+  },
+  {
+    "id": "okx-2026-11-02-por-49",
+    "exchange": "okx",
+    "date": "2026-11-02",
+    "category": "other",
+    "sourceUrl": "https://x.com/okx/status/2117278084759994419",
+    "checkedAt": "2026-11-09",
+    "title": {
+      "en": "OKX publishes its 49th Proof of Reserves report",
+      "zh": "OKX 发布第 49 期储备证明报告",
+      "fr": "OKX publie son 49e rapport de preuve de réserves",
+      "pt": "OKX publica o 49º relatório de Prova de Reservas",
+      "ko": "OKX, 49번째 준비금 증명 보고서 공개",
+      "ja": "OKXが第49回Proof of Reserves報告を公開",
+      "ru": "OKX опубликовала 49-й отчёт Proof of Reserves",
+      "fa": "OKX چهل‌ونهمین گزارش اثبات ذخایر را منتشر کرد"
+    },
+    "summary": {
+      "en": "OKX’s 49th consecutive Proof of Reserves report, covering reserves as of 2026-11-01, showed $27.8B in primary assets, with customer assets backed at more than 1:1.",
+      "zh": "OKX 第 49 期连续储备证明报告覆盖截至 2026-11-01 的储备，显示主要资产约 278 亿美元，客户资产储备超过 1:1。",
+      "fr": "Le 49e rapport consécutif de preuve de réserves d’OKX, portant sur les réserves au 1er novembre 2026, indiquait 27,8 milliards de dollars d’actifs principaux, avec des actifs clients couverts à plus de 1:1.",
+      "pt": "O 49º relatório consecutivo de Prova de Reservas da OKX, referente às reservas em 1º de novembro de 2026, mostrou US$ 27,8 bilhões em ativos principais, com ativos de clientes lastreados em mais de 1:1.",
+      "ko": "2026-11-01 기준 준비금을 다룬 OKX의 49번째 연속 준비금 증명 보고서는 주요 자산 278억 달러를 보여 주었고, 고객 자산은 1:1을 초과해 뒷받침되었습니다.",
+      "ja": "2026-11-01時点の準備金を扱うOKXの49回連続のProof of Reserves報告では、主要資産が278億ドルで、顧客資産は1:1を超えて裏付けられていました。",
+      "ru": "49-й подряд отчёт OKX о Proof of Reserves по состоянию на 1 ноября 2026 показал $27,8 млрд основных активов; клиентские активы обеспечены более чем 1:1.",
+      "fa": "چهل‌ونهمین گزارش پیاپی اثبات ذخایر OKX، برای ذخایر تا ۱ نوامبر ۲۰۲۶، حدود ۲۷٫۸ میلیارد دلار دارایی اصلی را نشان داد و دارایی مشتریان بیش از ۱:۱ پشتیبانی شده است."
+    }
+  },
+  {
     "id": "binance-2026-11-01-withdrawals-resume",
     "exchange": "binance",
     "date": "2026-11-01",
