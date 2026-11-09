@@ -79,20 +79,20 @@ test("news entries are unique, dated and sourced from allowlisted hosts", () => 
   ]) {
     assert.ok(idsInOrder.includes(id), id);
   }
-  assert.equal(idsInOrder.length, 32);
-  assert.equal(String(newestUpdateDate()), "2026-10-23");
-  assert.equal(idsInOrder[0], "okx-2026-10-23-tokenized-stock-schedule");
+  assert.equal(idsInOrder.length, 57);
+  assert.equal(String(newestUpdateDate()), "2026-11-08");
+  assert.equal(idsInOrder[0], "binance-2026-11-08-withdrawals-hype-apt");
   const dates = Array.from(updates, (item) => String(item.date));
   for (let i = 1; i < dates.length; i++) {
     assert.ok(dates[i - 1] >= dates[i], dates[i]);
   }
   assert.equal(
     updates.filter((item) => String(item.exchange) === "binance").length,
-    9,
+    20,
   );
   assert.equal(
     updates.filter((item) => String(item.exchange) === "okx").length,
-    9,
+    19,
   );
   assert.equal(
     updates.filter((item) => String(item.id).includes("ai-search")).length,
@@ -144,9 +144,9 @@ test("exchange filters keep newest-first order and ignore unknown values", () =>
     JSON.stringify(Array.from(selectUpdates(fixture, "nope"), (item) => item.id)),
     JSON.stringify(["new-binance", "mid-backpack", "old-okx"]),
   );
-  assert.equal(selectUpdates(updates, "binance").length, 9);
-  assert.equal(selectUpdates(updates, "okx").length, 9);
-  assert.equal(selectUpdates(updates, "backpack").length, 14);
+  assert.equal(selectUpdates(updates, "binance").length, 20);
+  assert.equal(selectUpdates(updates, "okx").length, 19);
+  assert.equal(selectUpdates(updates, "backpack").length, 18);
   assert.equal(String(updateCopy(fixture[1], "zh-cn").title), "币安产品");
   assert.equal(String(updateCopy(fixture[1], "fr").title), "Binance product");
   assert.equal(String(updateCopy(fixture[1], "ja").summary), "Binance summary");
@@ -163,7 +163,7 @@ test("reviewed campaigns have UTC boundaries and eight-language copy", () => {
    assert.equal(campaignStatus(item,Date.parse(item.endsAt)),"ended");
   }
  }
- assert.equal(latestReviewDate(),"2026-10-26");
+ assert.equal(latestReviewDate(),"2026-11-09");
  assert.equal(campaignStatus(updates.find(i=>i.id==="unpack-real-stocks-week-3"),Date.parse("2026-10-26T00:00:00Z")),"ended");
  assert.equal(campaignStatus({category:"promotion"}),"archive");
 });
