@@ -44,6 +44,622 @@ export type UpdateItem = {
 
 export const updateItems: readonly UpdateItem[] = [
   {
+    "id": "backpack-2026-11-15-ios-widgets",
+    "exchange": "backpack",
+    "date": "2026-11-15",
+    "category": "product",
+    "sourceUrl": "https://x.com/Backpack/status/2121950512778215816",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Backpack adds iOS Home Screen widgets",
+      "zh": "Backpack 推出 iOS 主屏幕小组件",
+      "fr": "Backpack ajoute des widgets d’écran d’accueil iOS",
+      "pt": "Backpack adiciona widgets da Tela de Início no iOS",
+      "ko": "Backpack, iOS 홈 화면 위젯 추가",
+      "ja": "Backpack、iOSホーム画面ウィジェットを追加",
+      "ru": "Backpack добавила виджеты домашнего экрана iOS",
+      "fa": "Backpack ویجت‌های صفحه اصلی iOS را اضافه کرد"
+    },
+    "summary": {
+      "en": "Backpack introduced Home Screen widgets for iOS, showing prices, markets, and upcoming earnings.",
+      "zh": "Backpack 推出 iOS 主屏幕小组件，可查看价格、市场和即将发布的财报。",
+      "fr": "Backpack a présenté des widgets d’écran d’accueil pour iOS, qui affichent les prix, les marchés et les prochaines publications de résultats.",
+      "pt": "A Backpack apresentou widgets da Tela de Início para iOS, mostrando preços, mercados e as próximas divulgações de resultados.",
+      "ko": "Backpack은 가격, 시장, 예정된 실적을 보여주는 iOS 홈 화면 위젯을 도입했습니다.",
+      "ja": "Backpackは、価格、市場、今後の決算を表示するiOSのホーム画面ウィジェットを導入しました。",
+      "ru": "Backpack представила виджеты домашнего экрана для iOS: цены, рынки и ближайшие отчёты о прибыли.",
+      "fa": "Backpack ویجت‌های صفحه اصلی iOS را معرفی کرد که قیمت‌ها، بازارها و گزارش‌های سود پیش رو را نشان می‌دهند."
+    }
+  },
+  {
+    "id": "binance-2026-11-14-zk-por-proof",
+    "exchange": "binance",
+    "date": "2026-11-14",
+    "category": "other",
+    "sourceUrl": "https://x.com/binance/status/2121557669618339988",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Binance says its Proof of Reserves ZK proof is now ready",
+      "zh": "币安称储备证明的零知识证明已生成",
+      "fr": "Binance indique que la preuve ZK de ses réserves est prête",
+      "pt": "Binance diz que a prova ZK das reservas já está pronta",
+      "ko": "바이낸스, 준비금 증명의 ZK 증명이 준비됐다고 밝혀",
+      "ja": "Binance、準備金証明のZK証明が用意できたと発表",
+      "ru": "Binance сообщила, что ZK-доказательство резервов готово",
+      "fa": "بایننس می‌گوید اثبات ZK ذخایر آماده است"
+    },
+    "summary": {
+      "en": "Binance said the zero-knowledge proof has now been generated, so users can independently verify that assets on Binance are backed at a minimum of 1:1.",
+      "zh": "币安表示零知识证明现已生成，用户可独立验证其在币安的资产至少获得 1:1 储备支持。",
+      "fr": "Binance a indiqué que la preuve à connaissance nulle a désormais été générée, afin que les utilisateurs puissent vérifier de façon indépendante que les actifs sur Binance sont couverts au minimum à 1:1.",
+      "pt": "A Binance informou que a prova de conhecimento zero já foi gerada, para que os usuários possam verificar de forma independente que os ativos na Binance têm lastro de no mínimo 1:1.",
+      "ko": "바이낸스는 영지식 증명이 생성되어, 사용자가 바이낸스 자산이 최소 1:1로 준비금 지원을 받는지 독립적으로 검증할 수 있다고 밝혔습니다.",
+      "ja": "Binanceはゼロ知識証明が生成され、ユーザーがBinance上の資産が最低1:1で裏付けられていることを独自に検証できると述べました。",
+      "ru": "Binance сообщила, что доказательство с нулевым разглашением уже сформировано, поэтому пользователи могут независимо проверить, что активы на Binance обеспечены как минимум 1:1.",
+      "fa": "بایننس اعلام کرد اثبات دانش صفر اکنون تولید شده است تا کاربران به‌طور مستقل بررسی کنند که دارایی‌ها در بایننس حداقل با نسبت ۱:۱ پشتیبانی می‌شوند."
+    }
+  },
+  {
+    "id": "binance-2026-11-14-bstocks-fiat-purchase",
+    "exchange": "binance",
+    "date": "2026-11-14",
+    "category": "product",
+    "sourceUrl": "https://x.com/binance/status/2121529493953319379",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Binance Convert and Buy/Sell add fiat purchases of bStocks",
+      "zh": "币安闪兑与买卖现已支持法币购买 bStocks",
+      "fr": "Convert et Buy/Sell de Binance ajoutent l’achat de bStocks en fiat",
+      "pt": "Convert e Buy/Sell da Binance passam a aceitar bStocks em fiat",
+      "ko": "바이낸스 Convert·Buy/Sell, bStocks 법정화폐 구매 지원",
+      "ja": "BinanceのConvertとBuy/SellでbStocksを法定通貨購入",
+      "ru": "Binance Convert и Buy/Sell добавили покупку bStocks за фиат",
+      "fa": "Convert و Buy/Sell بایننس خرید bStocks با فیات را اضافه کرد"
+    },
+    "summary": {
+      "en": "Binance said Convert and Buy/Sell now support fiat purchases of bStocks, offering tokenized stock exposure with up to 49 local currencies via fiat balance, card, Apple Pay, or Google Pay. These products are not direct share ownership. Regional restrictions may apply.",
+      "zh": "币安表示，闪兑与买卖功能现已支持用法币购买 bStocks，最多可用 49 种当地货币，通过法币余额、银行卡、Apple Pay 或 Google Pay 获得代币化股票敞口。这些产品不是直接持股。可能适用地区限制。",
+      "fr": "Binance a indiqué que Convert et Buy/Sell prennent désormais en charge l’achat de bStocks en monnaie fiduciaire, avec une exposition à des actions tokenisées dans jusqu’à 49 devises locales, via solde fiat, carte, Apple Pay ou Google Pay. Ces produits ne constituent pas une détention directe d’actions. Des restrictions régionales peuvent s’appliquer.",
+      "pt": "A Binance informou que Convert e Buy/Sell agora aceitam compras de bStocks em moeda fiduciária, com exposição a ações tokenizadas em até 49 moedas locais, via saldo fiat, cartão, Apple Pay ou Google Pay. Esses produtos não são propriedade direta de ações. Restrições regionais podem se aplicar.",
+      "ko": "바이낸스는 Convert와 Buy/Sell에서 bStocks를 법정화폐로 살 수 있게 되어, 법정화폐 잔액, 카드, Apple Pay 또는 Google Pay로 최대 49개 현지 통화를 통해 토큰화 주식 노출을 제공한다고 밝혔습니다. 이 상품은 주식을 직접 보유하는 것이 아닙니다. 지역 제한이 적용될 수 있습니다.",
+      "ja": "Binanceは、ConvertとBuy/SellがbStocksの法定通貨購入に対応し、法定通貨残高、カード、Apple PayまたはGoogle Payで最大49の現地通貨によるトークン化株式のエクスポージャーを提供すると述べました。これらの商品は株式の直接保有ではありません。地域制限が適用される場合があります。",
+      "ru": "Binance сообщила, что Convert и Buy/Sell теперь поддерживают покупку bStocks за фиат: экспозиция на токенизированные акции доступна до 49 местных валют через фиатный баланс, карту, Apple Pay или Google Pay. Эти продукты не являются прямым владением акциями. Могут действовать региональные ограничения.",
+      "fa": "بایننس اعلام کرد Convert و Buy/Sell اکنون خرید bStocks با پول فیات را پشتیبانی می‌کنند و با حداکثر ۴۹ ارز محلی، از طریق موجودی فیات، کارت، Apple Pay یا Google Pay معرض سهام توکنیزه‌شده می‌دهند. این محصولات مالکیت مستقیم سهام نیستند. محدودیت منطقه‌ای ممکن است اعمال شود."
+    }
+  },
+  {
+    "id": "binance-2026-11-14-withdrawals-87-networks",
+    "exchange": "binance",
+    "date": "2026-11-14",
+    "category": "other",
+    "sourceUrl": "https://x.com/binance/status/2121452596171010552",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Binance reopened withdrawals on 87 networks",
+      "zh": "币安本周重新开放 87 个网络的提现",
+      "fr": "Binance a rouvert les retraits sur 87 réseaux",
+      "pt": "Binance reabriu saques em 87 redes",
+      "ko": "바이낸스, 87개 네트워크 출금 재개",
+      "ja": "Binance、87ネットワークの出金を再開",
+      "ru": "Binance снова открыла выводы в 87 сетях",
+      "fa": "بایننس برداشت را در ۸۷ شبکه دوباره باز کرد"
+    },
+    "summary": {
+      "en": "Binance said it reopened withdrawals for 87 networks this week and aims to reopen withdrawals for all remaining networks and assets by the end of next week.",
+      "zh": "币安称本周已重新开放 87 个网络的提现，并计划在下周结束前开放所有剩余网络与资产的提现。",
+      "fr": "Binance a indiqué avoir rouvert cette semaine les retraits pour 87 réseaux et viser la réouverture des retraits pour tous les réseaux et actifs restants d’ici la fin de la semaine prochaine.",
+      "pt": "A Binance informou que reabriu nesta semana os saques de 87 redes e pretende reabrir os saques de todas as redes e ativos restantes até o fim da próxima semana.",
+      "ko": "바이낸스는 이번 주 87개 네트워크의 출금을 다시 열었으며, 다음 주 말까지 남은 모든 네트워크와 자산의 출금을 재개하는 것을 목표로 한다고 밝혔습니다.",
+      "ja": "Binanceは今週87のネットワークの出金を再開し、来週末までに残るすべてのネットワークと資産の出金再開を目指すと述べました。",
+      "ru": "Binance сообщила, что на этой неделе снова открыла выводы для 87 сетей и планирует до конца следующей недели открыть выводы по всем оставшимся сетям и активам.",
+      "fa": "بایننس اعلام کرد این هفته برداشت ۸۷ شبکه را دوباره باز کرده و قصد دارد تا پایان هفته بعد برداشت همه شبکه‌ها و دارایی‌های باقی‌مانده را باز کند."
+    }
+  },
+  {
+    "id": "binance-2026-11-13-bstock-dividends-ibm-apple",
+    "exchange": "binance",
+    "date": "2026-11-13",
+    "category": "other",
+    "sourceUrl": "https://x.com/binance/status/2121227224225341827",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Binance distributes IBM and Apple bStock dividends",
+      "zh": "币安发放 IBM 与苹果 bStock 股息",
+      "fr": "Binance distribue les dividendes des bStocks IBM et Apple",
+      "pt": "Binance distribui dividendos de bStocks da IBM e da Apple",
+      "ko": "바이낸스, IBM·Apple bStock 배당 지급",
+      "ja": "Binance、IBMとAppleのbStock配当を配布",
+      "ru": "Binance распределила дивиденды bStock IBM и Apple",
+      "fa": "بایننس سود سهام bStock شرکت IBM و اپل را توزیع کرد"
+    },
+    "summary": {
+      "en": "Binance said IBM bStock (IBMB) dividends of $1.69 per share were credited to Spot Wallets for holders before 10 Nov 2026, distributed as additional IBMB. Apple bStock (AAPLB) dividends of $0.27 per share were later credited for holders before 12 Nov 2026, distributed as additional AAPLB.",
+      "zh": "币安表示，在 2026 年 11 月 10 日前持有 IBM bStock（IBMB）的用户，每股 1.69 美元股息已发放至现货钱包，并以额外 IBMB 形式到账；随后，在 2026 年 11 月 12 日前持有苹果 bStock（AAPLB）的用户，每股 0.27 美元股息亦已以额外 AAPLB 形式到账。",
+      "fr": "Binance a indiqué que les dividendes d’IBM bStock (IBMB), de 1,69 $ par action, ont été crédités sur les portefeuilles Spot des détenteurs avant le 10 novembre 2026, sous forme d’IBMB supplémentaires. Les dividendes d’Apple bStock (AAPLB), de 0,27 $ par action, ont ensuite été crédités aux détenteurs avant le 12 novembre 2026, sous forme d’AAPLB supplémentaires.",
+      "pt": "A Binance informou que os dividendos de IBM bStock (IBMB), de US$ 1,69 por ação, foram creditados nas carteiras Spot de quem detinha o ativo antes de 10 de novembro de 2026, na forma de IBMB adicional. Os dividendos de Apple bStock (AAPLB), de US$ 0,27 por ação, foram creditados depois a quem detinha o ativo antes de 12 de novembro de 2026, na forma de AAPLB adicional.",
+      "ko": "바이낸스는 2026년 11월 10일 이전에 IBM bStock(IBMB)을 보유한 사용자에게 주당 $1.69 배당이 현물 지갑에 추가 IBMB로 입금되었고, 이후 2026년 11월 12일 이전에 Apple bStock(AAPLB)을 보유한 사용자에게 주당 $0.27 배당이 추가 AAPLB로 입금되었다고 밝혔습니다.",
+      "ja": "Binanceは、2026年11月10日より前にIBM bStock（IBMB）を保有していたユーザーの現物ウォレットに、1株あたり1.69ドルの配当が追加のIBMBとして入金され、その後、2026年11月12日より前にApple bStock（AAPLB）を保有していたユーザーには1株あたり0.27ドルの配当が追加のAAPLBとして入金されたと述べました。",
+      "ru": "Binance сообщила, что дивиденды IBM bStock (IBMB) в размере $1,69 на акцию зачислены на спотовые кошельки держателей до 10 ноября 2026 года в виде дополнительных IBMB. Позже дивиденды Apple bStock (AAPLB) в размере $0,27 на акцию зачислены держателям до 12 ноября 2026 года в виде дополнительных AAPLB.",
+      "fa": "بایننس اعلام کرد سود سهام IBM bStock (IBMB) به مبلغ ۱٫۶۹ دلار برای هر سهم، برای دارندگان پیش از ۱۰ نوامبر ۲۰۲۶ به کیف‌های اسپات و به‌صورت IBMB اضافه واریز شده است. سپس سود سهام Apple bStock (AAPLB) به مبلغ ۰٫۲۷ دلار برای هر سهم، برای دارندگان پیش از ۱۲ نوامبر ۲۰۲۶ به‌صورت AAPLB اضافه واریز شد."
+    }
+  },
+  {
+    "id": "binance-2026-11-13-lite-loan-fee-discount",
+    "exchange": "binance",
+    "date": "2026-11-13",
+    "category": "promotion",
+    "sourceUrl": "https://x.com/binance/status/2120940493060137215",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Binance Lite Loan returns with a 50% fee cut",
+      "zh": "币安 Lite Loan 回归，服务费再减半",
+      "fr": "Binance Lite Loan revient avec 50 % de réduction sur les frais",
+      "pt": "Binance Lite Loan volta com corte de 50% na taxa",
+      "ko": "바이낸스 Lite Loan 복귀, 수수료 50% 인하",
+      "ja": "Binance Lite Loanが復帰、手数料50%引き",
+      "ru": "Binance Lite Loan вернулся со скидкой 50% на комиссию",
+      "fa": "Lite Loan بایننس با تخفیف ۵۰٪ کارمزد بازگشت"
+    },
+    "summary": {
+      "en": "Binance said Lite Loan is back with a 50% service-fee discount: users can borrow up to 1,000 USDT against BTC, with no price-triggered liquidation for 30 days, while the BTC keeps earning Simple Earn rewards. The flat fee is 1%, or 0.5% during the campaign. Terms and eligibility may apply.",
+      "zh": "币安表示 Lite Loan 已回归并提供服务费五折：用户可以 BTC 抵押借入最多 1,000 USDT，30 天内不会因价格触发清算，抵押的 BTC 仍可获得简单赚币收益。常规服务费为 1%，活动期间为 0.5%。条款与资格可能适用。",
+      "fr": "Binance a indiqué que Lite Loan est de retour avec une remise de 50 % sur les frais de service : les utilisateurs peuvent emprunter jusqu’à 1 000 USDT contre du BTC, sans liquidation déclenchée par le prix pendant 30 jours, tandis que le BTC continue de générer des récompenses Simple Earn. Les frais forfaitaires sont de 1 %, ou de 0,5 % pendant la campagne. Des conditions et une éligibilité peuvent s’appliquer.",
+      "pt": "A Binance informou que o Lite Loan voltou com 50% de desconto na taxa de serviço: usuários podem tomar até 1.000 USDT emprestados com garantia em BTC, sem liquidação disparada por preço por 30 dias, enquanto o BTC continua rendendo no Simple Earn. A taxa fixa é de 1%, ou 0,5% durante a campanha. Termos e elegibilidade podem se aplicar.",
+      "ko": "바이낸스는 Lite Loan이 서비스 수수료 50% 할인으로 돌아왔다고 밝혔습니다. 사용자는 BTC를 담보로 최대 1,000 USDT를 빌릴 수 있고, 30일 동안 가격으로 청산되지 않으며 담보 BTC는 Simple Earn 보상을 계속 받습니다. 정액 수수료는 1%이고 캠페인 기간에는 0.5%입니다. 약관과 자격이 적용될 수 있습니다.",
+      "ja": "Binanceは、Lite Loanがサービス手数料50%割引で戻ったと述べました。ユーザーはBTCを担保に最大1,000 USDTを借りられ、30日間は価格による清算がなく、担保のBTCはSimple Earnの報酬を受け続けます。定額手数料は1%で、キャンペーン期間中は0.5%です。規約と参加条件が適用される場合があります。",
+      "ru": "Binance сообщила, что Lite Loan вернулся со скидкой 50% на сервисный сбор: можно занять до 1 000 USDT под BTC, без ликвидации по цене в течение 30 дней, при этом BTC продолжает приносить награды Simple Earn. Фиксированная комиссия — 1%, или 0,5% во время акции. Могут действовать условия и критерии участия.",
+      "fa": "بایننس اعلام کرد Lite Loan با تخفیف ۵۰٪ کارمزد خدمات بازگشته است: کاربران می‌توانند در برابر BTC تا ۱٬۰۰۰ USDT وام بگیرند، ۳۰ روز به‌خاطر قیمت لیکویید نمی‌شوند و BTC وثیقه همچنان پاداش Simple Earn می‌گیرد. کارمزد ثابت ۱٪ است و در دوره کمپین ۰٫۵٪. شرایط و واجد بودن ممکن است اعمال شود."
+    }
+  },
+  {
+    "id": "binance-2026-11-13-incident-coverage-complete",
+    "exchange": "binance",
+    "date": "2026-11-13",
+    "category": "other",
+    "sourceUrl": "https://x.com/binance/status/2120921979226329504",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Binance says it has completed coverage of incident assets",
+      "zh": "币安称已完成对安全事件受影响资产的覆盖",
+      "fr": "Binance indique avoir achevé la couverture des actifs de l’incident",
+      "pt": "Binance diz ter concluído a cobertura dos ativos do incidente",
+      "ko": "바이낸스, 사고 영향 자산의 보전을 완료했다고 밝혀",
+      "ja": "Binance、事案の影響資産の補償を完了したと発表",
+      "ru": "Binance сообщила о полном покрытии активов инцидента",
+      "fa": "بایننس می‌گوید پوشش دارایی‌های حادثه را کامل کرده است"
+    },
+    "summary": {
+      "en": "Binance said it has completed coverage of assets impacted in the security incident and published a new Proof of Reserves snapshot. It added that once the zero-knowledge proof was generated, users would be able to independently verify that their assets are backed at a minimum of 1:1.",
+      "zh": "币安称已完成对安全事件中受影响资产的覆盖，并发布了新的储备证明快照。同时表示，待零知识证明生成后，用户可独立验证其资产至少获得 1:1 储备支持。",
+      "fr": "Binance a indiqué avoir achevé la couverture des actifs touchés par l’incident de sécurité et avoir publié un nouvel instantané de preuve de réserves. Elle a ajouté qu’une fois la preuve à connaissance nulle générée, les utilisateurs pourraient vérifier de façon indépendante que leurs actifs sont couverts au minimum à 1:1.",
+      "pt": "A Binance informou que concluiu a cobertura dos ativos afetados no incidente de segurança e publicou um novo snapshot de Prova de Reservas. Acrescentou que, depois de gerada a prova de conhecimento zero, os usuários poderiam verificar de forma independente que seus ativos têm lastro de no mínimo 1:1.",
+      "ko": "바이낸스는 보안 사고에서 영향을 받은 자산의 보전을 완료하고 새 준비금 증명 스냅샷을 공개했다고 밝혔습니다. 영지식 증명이 생성되면 사용자가 자신의 자산이 최소 1:1로 준비금 지원을 받는지 독립적으로 검증할 수 있게 된다고 덧붙였습니다.",
+      "ja": "Binanceは、セキュリティ事案で影響を受けた資産の補償を完了し、新しいProof of Reservesのスナップショットを公開したと述べました。ゼロ知識証明が生成されれば、ユーザーは自分の資産が最低1:1で裏付けられていることを独自に検証できるようになると付け加えました。",
+      "ru": "Binance сообщила, что завершила покрытие активов, затронутых инцидентом безопасности, и опубликовала новый снимок Proof of Reserves. Также указала, что после формирования доказательства с нулевым разглашением пользователи смогут независимо проверить, что их активы обеспечены как минимум 1:1.",
+      "fa": "بایننس اعلام کرد پوشش دارایی‌های آسیب‌دیده در حادثه امنیتی را کامل کرده و تصویر جدیدی از اثبات ذخایر منتشر کرده است. همچنین گفت پس از تولید اثبات دانش صفر، کاربران می‌توانند به‌طور مستقل بررسی کنند که دارایی‌هایشان حداقل با نسبت ۱:۱ پشتیبانی می‌شود."
+    }
+  },
+  {
+    "id": "backpack-2026-11-12-anthropic-mystery-box",
+    "exchange": "backpack",
+    "date": "2026-11-12",
+    "category": "promotion",
+    "sourceUrl": "https://x.com/Backpack/status/2120825087230443886",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Backpack offers an Anthropic stock mystery box for new users",
+      "zh": "Backpack 面向新用户推出 Anthropic 股票盲盒",
+      "fr": "Backpack propose une mystery box d’actions Anthropic aux nouveaux utilisateurs",
+      "pt": "Backpack oferece uma mystery box de ações da Anthropic a novos usuários",
+      "ko": "Backpack, 신규 사용자에 Anthropic 주식 미스터리 박스 제공",
+      "ja": "Backpack、新規ユーザー向けにAnthropic株のミステリーボックス",
+      "ru": "Backpack предлагает новым пользователям mystery box акций Anthropic",
+      "fa": "Backpack برای کاربران جدید جعبه مرموز سهام Anthropic می‌دهد"
+    },
+    "summary": {
+      "en": "Backpack said Anthropic is coming to the platform on day one. New users who deposit $500 by Nov 16 and trade $500 in stocks can earn an $ANT stock mystery box as early as IPO day. Terms and eligibility may apply.",
+      "zh": "Backpack 表示 Anthropic 将于上市首日登陆平台。新用户在 11 月 16 日前存入 500 美元并完成 500 美元股票交易，最早可在 IPO 当日获得 $ANT 股票盲盒。条款与资格可能适用。",
+      "fr": "Backpack a indiqué qu’Anthropic arrivera sur la plateforme dès le premier jour. Les nouveaux utilisateurs qui déposent 500 $ au plus tard le 16 novembre et négocient 500 $ d’actions peuvent obtenir une mystery box d’actions $ANT dès le jour de l’introduction. Des conditions et une éligibilité peuvent s’appliquer.",
+      "pt": "A Backpack informou que a Anthropic chegará à plataforma no primeiro dia. Novos usuários que depositarem US$ 500 até 16 de novembro e negociarem US$ 500 em ações podem ganhar uma mystery box de ações $ANT já no dia do IPO. Termos e elegibilidade podem se aplicar.",
+      "ko": "Backpack은 Anthropic이 상장 첫날 플랫폼에 온다고 밝혔습니다. 11월 16일까지 500달러를 입금하고 주식 500달러를 거래한 신규 사용자는 이르면 IPO 당일에 $ANT 주식 미스터리 박스를 받을 수 있습니다. 약관과 자격이 적용될 수 있습니다.",
+      "ja": "Backpackは、Anthropicが初日にプラットフォームへ来ると述べました。11月16日までに500ドルを入金し、株式を500ドル取引した新規ユーザーは、早ければIPO当日に$ANT株のミステリーボックスを獲得できます。規約と参加条件が適用される場合があります。",
+      "ru": "Backpack сообщила, что Anthropic появится на платформе в первый день. Новые пользователи, которые внесут $500 до 16 ноября и совершат сделки с акциями на $500, могут получить mystery box акций $ANT уже в день IPO. Могут действовать условия и критерии участия.",
+      "fa": "Backpack اعلام کرد Anthropic از روز نخست به پلتفرم می‌آید. کاربران جدیدی که تا ۱۶ نوامبر ۵۰۰ دلار واریز کنند و ۵۰۰ دلار سهام معامله کنند، می‌توانند از همان روز IPO جعبه مرموز سهام $ANT بگیرند. شرایط و واجد بودن ممکن است اعمال شود."
+    }
+  },
+  {
+    "id": "backpack-2026-11-12-minna-bank-mou",
+    "exchange": "backpack",
+    "date": "2026-11-12",
+    "category": "other",
+    "sourceUrl": "https://x.com/Backpack/status/2120798292187725971",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Backpack signs MOU with Japan's Minna Bank",
+      "zh": "Backpack 与日本 Minna Bank 签署合作备忘录",
+      "fr": "Backpack signe un protocole d’accord avec Minna Bank au Japon",
+      "pt": "Backpack assina memorando de entendimento com o Minna Bank do Japão",
+      "ko": "Backpack, 일본 Minna Bank과 양해각서 체결",
+      "ja": "Backpack、日本のMinna Bankと覚書を締結",
+      "ru": "Backpack подписала меморандум с японским Minna Bank",
+      "fa": "Backpack با Minna Bank ژاپن تفاهم‌نامه امضا کرد"
+    },
+    "summary": {
+      "en": "Backpack said it signed a memorandum of understanding with Minna Bank, a digital bank under Fukuoka Financial Group (FFG), one of Japan's largest regional banking groups. The partnership will explore connecting digital banking with crypto-asset services in Japan. Minna Bank's release refers to an agreement with Trek Labs Japan.",
+      "zh": "Backpack 表示已与福冈金融集团（FFG，日本大型地方银行集团之一）旗下数字银行 Minna Bank 签署合作备忘录，探索在日本将数字银行与加密资产服务连接。Minna Bank 的新闻稿称该协议对象为 Trek Labs Japan。",
+      "fr": "Backpack a indiqué avoir signé un protocole d’accord avec Minna Bank, banque numérique du Fukuoka Financial Group (FFG), l’un des plus grands groupes bancaires régionaux du Japon. Le partenariat explorera le lien entre banque numérique et services d’actifs crypto au Japon. Le communiqué de Minna Bank évoque un accord avec Trek Labs Japan.",
+      "pt": "A Backpack informou que assinou um memorando de entendimento com o Minna Bank, banco digital do Fukuoka Financial Group (FFG), um dos maiores grupos bancários regionais do Japão. A parceria vai explorar a conexão entre banco digital e serviços de criptoativos no Japão. O comunicado do Minna Bank refere um acordo com a Trek Labs Japan.",
+      "ko": "Backpack은 일본의 대형 지방 은행 그룹 중 하나인 후쿠오카 파이낸셜 그룹(FFG) 산하 디지털 은행 Minna Bank과 양해각서를 체결했다고 밝혔습니다. 파트너십은 일본에서 디지털 뱅킹과 암호자산 서비스를 연결하는 방안을 탐색합니다. Minna Bank 보도자료는 상대를 Trek Labs Japan으로 적고 있습니다.",
+      "ja": "Backpackは、日本の大手地方銀行グループの一つ、福岡フィナンシャルグループ（FFG）傘下のデジタル銀行Minna Bankと覚書を結んだと述べました。提携では、日本でデジタルバンキングと暗号資産サービスをつなぐことを探ります。Minna Bankの発表は、合意相手をTrek Labs Japanとしています。",
+      "ru": "Backpack сообщила, что подписала меморандум о взаимопонимании с Minna Bank, цифровым банком Fukuoka Financial Group (FFG), одной из крупнейших региональных банковских групп Японии. Партнёрство изучит связь цифрового банкинга и услуг криптоактивов в Японии. В релизе Minna Bank соглашение указано с Trek Labs Japan.",
+      "fa": "Backpack اعلام کرد با Minna Bank، بانک دیجیتال زیرمجموعه Fukuoka Financial Group (FFG)، یکی از بزرگ‌ترین گروه‌های بانک منطقه‌ای ژاپن، تفاهم‌نامه امضا کرده است. این همکاری اتصال بانکداری دیجیتال و خدمات دارایی رمزارزی در ژاپن را بررسی می‌کند. بیانیه Minna Bank طرف توافق را Trek Labs Japan می‌نامد."
+    }
+  },
+  {
+    "id": "backpack-2026-11-12-perps-open",
+    "exchange": "backpack",
+    "date": "2026-11-12",
+    "category": "promotion",
+    "sourceUrl": "https://x.com/Backpack/status/2120752234359320743",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Backpack launches Perps Open with $75,000 in rewards",
+      "zh": "Backpack 推出 Perps Open，奖金池 7.5 万美元",
+      "fr": "Backpack lance Perps Open avec 75 000 $ de récompenses",
+      "pt": "Backpack lança o Perps Open com US$ 75.000 em recompensas",
+      "ko": "Backpack, 보상 $75,000의 Perps Open 시작",
+      "ja": "Backpack、報酬75,000ドルのPerps Openを開始",
+      "ru": "Backpack запустила Perps Open с наградами на $75 000",
+      "fa": "Backpack، Perps Open را با ۷۵٬۰۰۰ دلار پاداش آغاز کرد"
+    },
+    "summary": {
+      "en": "Backpack said The Perps Open is live. Users can trade crypto and equity perps to share $75,000 in rewards, with daily rewards plus two weekly rounds, split half for the top 20 and half for everyone else. Terms and eligibility may apply.",
+      "zh": "Backpack 表示 Perps Open 已上线。用户交易加密与股票永续合约即可分享 7.5 万美元奖励，包含每日奖励和两轮每周竞赛，奖金一半给予前 20 名，一半分给其余参与者。条款与资格可能适用。",
+      "fr": "Backpack a indiqué que The Perps Open est en ligne. Les utilisateurs peuvent négocier des perpétuels crypto et actions pour se partager 75 000 $ de récompenses, avec des récompenses quotidiennes et deux manches hebdomadaires, pour moitié aux 20 premiers et pour moitié aux autres participants. Des conditions et une éligibilité peuvent s’appliquer.",
+      "pt": "A Backpack informou que o Perps Open está no ar. Usuários podem negociar perpétuos de cripto e de ações para dividir US$ 75.000 em recompensas, com prêmios diários e duas rodadas semanais: metade para os 20 primeiros e metade para os demais. Termos e elegibilidade podem se aplicar.",
+      "ko": "Backpack은 Perps Open이 시작됐다고 밝혔습니다. 사용자는 암호화폐와 주식 무기한 계약을 거래해 $75,000 보상을 나눌 수 있으며, 일일 보상과 주간 라운드 두 번이 있고 상금의 절반은 상위 20명, 절반은 나머지 참가자에게 갑니다. 약관과 자격이 적용될 수 있습니다.",
+      "ja": "BackpackはThe Perps Openが開始したと述べました。ユーザーは暗号資産と株式の無期限契約を取引して75,000ドルの報酬を分け合い、毎日の報酬と週次ラウンド2回があり、賞金の半分は上位20名、半分はその他の参加者に配分されます。規約と参加条件が適用される場合があります。",
+      "ru": "Backpack сообщила, что The Perps Open запущен. Пользователи могут торговать бессрочными контрактами на криптоактивы и акции и делить $75 000 наград: ежедневные награды и два недельных раунда, половина — топ-20, половина — остальным. Могут действовать условия и критерии участия.",
+      "fa": "Backpack اعلام کرد The Perps Open فعال است. کاربران با معامله پرپچوال رمزارز و سهام ۷۵٬۰۰۰ دلار پاداش را تقسیم می‌کنند؛ پاداش روزانه و دو دور هفتگی دارد، نیمی برای ۲۰ نفر برتر و نیمی برای بقیه شرکت‌کنندگان. شرایط و واجد بودن ممکن است اعمال شود."
+    }
+  },
+  {
+    "id": "okx-2026-11-12-anthropic-xperps-europe",
+    "exchange": "okx",
+    "date": "2026-11-12",
+    "category": "product",
+    "sourceUrl": "https://x.com/okx/status/2120871789220032983",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Anthropic pre-IPO X-Perps are tradable 24/7 in Europe on OKX",
+      "zh": "OKX 欧洲已可 24/7 交易 Anthropic 上市前 X-Perps",
+      "fr": "Les X-Perps pré-IPO d’Anthropic se négocient 24 h/24, 7 j/7 en Europe sur OKX",
+      "pt": "X-Perps pré-IPO da Anthropic negociáveis 24/7 na Europa na OKX",
+      "ko": "OKX 유럽에서 Anthropic 상장 전 X-Perps를 24/7 거래",
+      "ja": "OKX欧州でAnthropicの上場前X-Perpsを24時間年中無休で取引",
+      "ru": "Пред-IPO X-Perps Anthropic торгуются 24/7 в Европе на OKX",
+      "fa": "X-Perps پیش از عرضه Anthropic در اروپا روی OKX به‌صورت ۲۴/۷ قابل معامله است"
+    },
+    "summary": {
+      "en": "OKX said Anthropic is now tradable 24/7 in Europe via pre-IPO X-Perps with up to 10x leverage, and promoted a €50 voucher with 3x leverage. Pre-IPO X-Perps are leveraged derivatives, not shares; leverage can amplify losses and cause liquidation. Capital is at risk. Regional restrictions and terms apply.",
+      "zh": "OKX 表示，Anthropic 现已可通过上市前 X-Perps 在欧洲全天候交易，最高 10 倍杠杆，并提供带 3 倍杠杆的 50 欧元券。上市前 X-Perps 是杠杆衍生品，不是股票；杠杆可能放大亏损并导致强平。本金面临风险。地区限制与条款适用。",
+      "fr": "OKX a indiqué qu’Anthropic est désormais négociable 24 h/24, 7 j/7 en Europe via des X-Perps pré-introduction, avec un levier jusqu’à 10x, et a mis en avant un bon de 50 € avec un levier de 3x. Les X-Perps pré-IPO sont des dérivés à effet de levier, pas des actions ; le levier peut amplifier les pertes et entraîner une liquidation. Le capital est exposé au risque. Des restrictions régionales et des conditions s’appliquent.",
+      "pt": "A OKX informou que a Anthropic já pode ser negociada 24/7 na Europa via X-Perps pré-IPO com alavancagem de até 10x, e promoveu um voucher de € 50 com alavancagem de 3x. Os X-Perps pré-IPO são derivativos alavancados, não ações; a alavancagem pode ampliar perdas e causar liquidação. O capital está em risco. Restrições regionais e termos se aplicam.",
+      "ko": "OKX는 Anthropic을 상장 전 X-Perps로 유럽에서 24/7 거래할 수 있으며 최대 10배 레버리지가 가능하고, 3배 레버리지의 €50 바우처를 홍보했다고 밝혔습니다. 상장 전 X-Perps는 주식이 아닌 레버리지 파생상품이며, 레버리지는 손실을 키우고 청산을 일으킬 수 있습니다. 원금 손실 위험이 있습니다. 지역 제한과 약관이 적용됩니다.",
+      "ja": "OKXは、Anthropicが上場前X-Perpsで欧州において24時間年中無休で取引でき、最大10倍のレバレッジがあり、3倍レバレッジ付きの50ユーロ券を案内したと述べました。上場前X-Perpsは株式ではなくレバレッジ付きデリバティブです。レバレッジは損失を拡大し、清算を招くことがあります。元本はリスクにさらされます。地域制限と規約が適用されます。",
+      "ru": "OKX сообщила, что Anthropic теперь торгуется 24/7 в Европе через пред-IPO X-Perps с плечом до 10x, и продвигала ваучер на €50 с плечом 3x. Пред-IPO X-Perps — это производные с плечом, а не акции; плечо может увеличить убытки и привести к ликвидации. Капитал под риском. Действуют региональные ограничения и условия.",
+      "fa": "OKX اعلام کرد Anthropic اکنون در اروپا از راه X-Perps پیش از عرضه، به‌صورت ۲۴/۷ و با اهرم تا ۱۰ برابر قابل معامله است و یک کوپن ۵۰ یورویی با اهرم ۳ برابر را تبلیغ کرده است. X-Perps پیش از عرضه مشتقه اهرمی است، نه سهم؛ اهرم می‌تواند زیان را بزرگ کند و به لیکویید شدن بینجامد. سرمایه در معرض ریسک است. محدودیت منطقه‌ای و شرایط اعمال می‌شود."
+    }
+  },
+  {
+    "id": "binance-2026-11-12-ai-pro",
+    "exchange": "binance",
+    "date": "2026-11-12",
+    "category": "product",
+    "sourceUrl": "https://x.com/binance/status/2120880359277478161",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Binance highlights AI Pro for strategy backtesting and automation",
+      "zh": "币安介绍 AI Pro：可用自然语言回测并自动执行策略",
+      "fr": "Binance présente AI Pro pour le backtest et l’automatisation de stratégies",
+      "pt": "Binance destaca o AI Pro para backtest e automação de estratégias",
+      "ko": "바이낸스, 전략 백테스트와 자동화용 AI Pro 소개",
+      "ja": "Binance、戦略のバックテストと自動化のAI Proを紹介",
+      "ru": "Binance представила AI Pro для бэктеста и автоматизации стратегий",
+      "fa": "بایننس AI Pro را برای بک‌تست و خودکارسازی راهبرد معرفی کرد"
+    },
+    "summary": {
+      "en": "Binance said users can describe a strategy in plain language with Binance AI Pro, backtest it and try it on paper, then approve it to run 24/7. Users decide when it goes live.",
+      "zh": "币安表示，用户可通过 Binance AI Pro 用自然语言描述策略，进行回测和模拟交易，确认后再让策略全天候运行。是否上线由用户决定。",
+      "fr": "Binance a indiqué que les utilisateurs peuvent décrire une stratégie en langage courant avec Binance AI Pro, la tester sur l’historique et en simulation, puis l’approuver pour qu’elle tourne 24 h/24, 7 j/7. C’est l’utilisateur qui décide du passage en réel.",
+      "pt": "A Binance informou que usuários podem descrever uma estratégia em linguagem simples com o Binance AI Pro, fazer o backtest e testá-la em paper trading, depois aprová-la para rodar 24/7. O usuário decide quando ela entra em operação.",
+      "ko": "바이낸스는 사용자가 Binance AI Pro로 전략을 일상 언어로 설명하고, 백테스트와 모의 거래를 한 뒤 승인하면 24/7 실행할 수 있다고 밝혔습니다. 실제 적용 시점은 사용자가 정합니다.",
+      "ja": "Binanceは、ユーザーがBinance AI Proで戦略を平易な言葉で記述し、バックテストとペーパートレードを試したうえで承認すると、24時間年中無休で実行できると述べました。稼働を始めるかはユーザーが決めます。",
+      "ru": "Binance сообщила, что с Binance AI Pro можно описать стратегию обычным языком, прогнать бэктест и бумажную торговлю, а затем одобрить круглосуточный запуск. Когда стратегия выйдет в реальную торговлю, решает пользователь.",
+      "fa": "بایننس اعلام کرد کاربران می‌توانند با Binance AI Pro راهبرد را به زبان ساده شرح دهند، آن را بک‌تست و معامله کاغذی کنند و سپس برای اجرای ۲۴/۷ تأیید کنند. زمان فعال‌شدن را خود کاربر تعیین می‌کند."
+    }
+  },
+  {
+    "id": "backpack-2026-11-11-stock-limit-orders-live",
+    "exchange": "backpack",
+    "date": "2026-11-11",
+    "category": "product",
+    "sourceUrl": "https://x.com/Backpack/status/2120502133250478413",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Stock limit orders are now live on Backpack",
+      "zh": "Backpack 股票限价单现已上线",
+      "fr": "Les ordres limites sur actions sont disponibles sur Backpack",
+      "pt": "Ordens limitadas de ações já estão ativas na Backpack",
+      "ko": "Backpack에서 주식 지정가 주문 시작",
+      "ja": "Backpackで株式の指値注文が利用可能に",
+      "ru": "Лимитные ордера на акции доступны на Backpack",
+      "fa": "سفارش‌های محدود سهام در Backpack فعال شد"
+    },
+    "summary": {
+      "en": "Backpack said limit orders for stocks are now live, letting users set their price and trade with zero fees.",
+      "zh": "Backpack 表示股票限价单现已上线，用户可自行设定价格，并享受零手续费交易。",
+      "fr": "Backpack a indiqué que les ordres limites sur actions sont désormais disponibles : les utilisateurs fixent leur prix et négocient sans frais.",
+      "pt": "A Backpack informou que as ordens limitadas de ações já estão ativas, permitindo que usuários definam o preço e negociem com taxa zero.",
+      "ko": "Backpack은 주식 지정가 주문이 시작되어 사용자가 가격을 직접 정하고 수수료 없이 거래할 수 있다고 밝혔습니다.",
+      "ja": "Backpackは、株式の指値注文が利用可能になり、ユーザーが価格を自分で設定して手数料ゼロで取引できると述べました。",
+      "ru": "Backpack сообщила, что лимитные ордера на акции уже доступны: пользователи задают свою цену и торгуют без комиссии.",
+      "fa": "Backpack اعلام کرد سفارش محدود سهام اکنون فعال است و کاربران قیمت خود را تعیین می‌کنند و با کارمزد صفر معامله می‌کنند."
+    }
+  },
+  {
+    "id": "okx-2026-11-11-okxice-tsv-nov23",
+    "exchange": "okx",
+    "date": "2026-11-11",
+    "category": "product",
+    "sourceUrl": "https://x.com/okx/status/2120502060428792047",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "OKXICE Tokenized Securities Venue to go live on November 23",
+      "zh": "OKXICE 代币化证券交易场所将于 11 月 23 日上线",
+      "fr": "OKXICE, lieu de titres tokenisés, ouvrira le 23 novembre",
+      "pt": "OKXICE, local de títulos tokenizados, entra no ar em 23 de novembro",
+      "ko": "OKXICE 토큰화 증권 거래소, 11월 23일 개장",
+      "ja": "OKXICEトークン化証券会場が11月23日に開始",
+      "ru": "Площадка токенизированных бумаг OKXICE откроется 23 ноября",
+      "fa": "محل اوراق بهادار توکنیزه‌شده OKXICE در ۲۳ نوامبر فعال می‌شود"
+    },
+    "summary": {
+      "en": "OKX said the OKXICE Tokenized Securities Venue will bring America's capital markets onchain on November 23, with real shares backed 1:1, held in the user's own wallet and tradeable 24/7. An official OKX blog said eligible U.S. customers would be able to trade digital securities around the clock in the OKX app, with more than 70 assets expected at launch, and that access requires eligibility, identity verification, and a CeDeFi Wallet. Terms and eligibility apply.",
+      "zh": "OKX 表示，OKXICE 代币化证券交易场所将于 11 月 23 日把美国资本市场带到链上，提供 1:1 支持的真实股份，由用户自行持有于自己的钱包并可 24/7 交易。官方博客称，符合条件的美国用户届时可在 OKX 应用中全天候交易数字证券，上线时预计超过 70 项资产，开通需满足资格、完成身份验证并启用 CeDeFi 钱包。条款与资格适用。",
+      "fr": "OKX a indiqué que l’OKXICE Tokenized Securities Venue amènera les marchés de capitaux américains sur la chaîne le 23 novembre, avec de vraies actions couvertes à 1:1, détenues dans le propre portefeuille de l’utilisateur et négociables 24 h/24, 7 j/7. Un blog officiel d’OKX a précisé que les clients américains éligibles pourraient négocier des titres numériques en continu dans l’application OKX, avec plus de 70 actifs attendus au lancement, et que l’accès exige l’éligibilité, une vérification d’identité et un portefeuille CeDeFi. Conditions et éligibilité applicables.",
+      "pt": "A OKX informou que o OKXICE Tokenized Securities Venue levará os mercados de capitais dos EUA para a cadeia em 23 de novembro, com ações reais lastreadas 1:1, mantidas na própria carteira do usuário e negociáveis 24/7. Um blog oficial da OKX disse que clientes dos EUA elegíveis poderão negociar títulos digitais o tempo todo no app da OKX, com mais de 70 ativos previstos no lançamento, e que o acesso exige elegibilidade, verificação de identidade e uma CeDeFi Wallet. Termos e elegibilidade se aplicam.",
+      "ko": "OKX는 OKXICE 토큰화 증권 거래소가 11월 23일 미국 자본시장을 온체인으로 가져오며, 1:1로 뒷받침되는 실제 주식을 사용자 본인 지갑에 두고 24/7 거래할 수 있다고 밝혔습니다. OKX 공식 블로그는 적격 미국 고객이 OKX 앱에서 디지털 증권을 상시 거래할 수 있고, 출시 때 70개 이상의 자산이 예상되며, 이용에는 자격, 신원 확인, CeDeFi Wallet이 필요하다고 했습니다. 약관과 자격이 적용됩니다.",
+      "ja": "OKXは、OKXICE Tokenized Securities Venueが11月23日に米国の資本市場をオンチェーンにし、1:1で裏付けられた実株をユーザー自身のウォレットで保有して24時間年中無休で取引できると述べました。OKX公式ブログは、対象となる米国の顧客がOKXアプリでデジタル証券を常時取引でき、開始時に70を超える資産が見込まれ、利用には適格性、本人確認、CeDeFi Walletが必要だとしました。規約と参加条件が適用されます。",
+      "ru": "OKX сообщила, что OKXICE Tokenized Securities Venue 23 ноября выведет рынки капитала США в ончейн: реальные акции с обеспечением 1:1, в собственном кошельке пользователя и с торговлей 24/7. Официальный блог OKX сообщил, что подходящие клиенты из США смогут круглосуточно торговать цифровыми ценными бумагами в приложении OKX, на старте ожидается более 70 активов, а доступ требует соответствия критериям, проверки личности и CeDeFi Wallet. Действуют условия и критерии участия.",
+      "fa": "OKX اعلام کرد محل اوراق بهادار توکنیزه‌شده OKXICE در ۲۳ نوامبر بازارهای سرمایه آمریکا را روی زنجیره می‌آورد؛ سهام واقعی با پشتوانه ۱:۱، در کیف خود کاربر و قابل معامله ۲۴/۷. وبلاگ رسمی OKX گفت مشتریان واجد شرایط آمریکا می‌توانند در اپ OKX به‌صورت شبانه‌روزی اوراق دیجیتال معامله کنند، در آغاز بیش از ۷۰ دارایی انتظار می‌رود و دسترسی نیازمند واجد بودن، تأیید هویت و کیف CeDeFi است. شرایط و واجد بودن اعمال می‌شود."
+    }
+  },
+  {
+    "id": "okx-2026-11-11-flash-earn-night",
+    "exchange": "okx",
+    "date": "2026-11-11",
+    "category": "promotion",
+    "sourceUrl": "https://x.com/okx/status/2120403650782912800",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "NIGHT is live on OKX Flash Earn Lite",
+      "zh": "NIGHT 已在 OKX Flash Earn Lite 上线",
+      "fr": "NIGHT est disponible sur OKX Flash Earn Lite",
+      "pt": "NIGHT está no OKX Flash Earn Lite",
+      "ko": "NIGHT, OKX Flash Earn Lite에 출시",
+      "ja": "NIGHTがOKX Flash Earn Liteで開始",
+      "ru": "NIGHT доступен в OKX Flash Earn Lite",
+      "fa": "NIGHT در OKX Flash Earn Lite فعال شد"
+    },
+    "summary": {
+      "en": "OKX said $NIGHT from Midnight Network is now live on Flash Earn Lite. Users who subscribe in-app may share a 12,500,000 NIGHT prize pool. The post did not state an end time and said to join before it ends. Terms and regional eligibility may apply.",
+      "zh": "OKX 表示 Midnight Network 的 $NIGHT 已在 Flash Earn Lite 上线。在应用内申购即有机会分享 1,250 万枚 NIGHT 奖池。原帖未给出结束时间，并提醒在结束前参与。条款与地区资格可能适用。",
+      "fr": "OKX a indiqué que $NIGHT de Midnight Network est désormais disponible sur Flash Earn Lite. Les utilisateurs qui souscrivent dans l’application peuvent se partager un pool de 12 500 000 NIGHT. La publication n’indiquait pas d’heure de fin et invitait à participer avant la clôture. Des conditions et une éligibilité régionale peuvent s’appliquer.",
+      "pt": "A OKX informou que $NIGHT da Midnight Network já está no Flash Earn Lite. Usuários que assinarem no app podem dividir um prêmio de 12.500.000 NIGHT. A publicação não informou o horário de término e pediu para participar antes do fim. Termos e elegibilidade regional podem se aplicar.",
+      "ko": "OKX는 Midnight Network의 $NIGHT가 Flash Earn Lite에 출시됐다고 밝혔습니다. 앱에서 신청한 사용자는 12,500,000 NIGHT 상금 풀을 나눌 수 있습니다. 게시물은 종료 시각을 밝히지 않았고 끝나기 전에 참여하라고 했습니다. 약관과 지역 자격이 적용될 수 있습니다.",
+      "ja": "OKXは、Midnight Networkの$NIGHTがFlash Earn Liteで開始したと述べました。アプリ内で申し込むユーザーは12,500,000 NIGHTの賞金プールを分け合うことができます。投稿は終了時刻を示さず、終了前に参加するよう案内しました。規約と地域の参加条件が適用される場合があります。",
+      "ru": "OKX сообщила, что $NIGHT от Midnight Network уже доступен в Flash Earn Lite. Пользователи, оформившие подписку в приложении, могут разделить призовой пул в 12 500 000 NIGHT. В посте не указано время окончания, и сказано присоединиться до его завершения. Могут действовать условия и региональные ограничения.",
+      "fa": "OKX اعلام کرد $NIGHT از Midnight Network اکنون در Flash Earn Lite فعال است. کاربرانی که در اپ اشتراک کنند می‌توانند استخر جایزه ۱۲٬۵۰۰٬۰۰۰ NIGHT را تقسیم کنند. پست زمان پایان را نگفته و خواسته پیش از پایان بپیوندند. شرایط و واجد بودن منطقه‌ای ممکن است اعمال شود."
+    }
+  },
+  {
+    "id": "backpack-2026-11-10-anthropic-day-one",
+    "exchange": "backpack",
+    "date": "2026-11-10",
+    "category": "listing",
+    "sourceUrl": "https://x.com/Backpack/status/2120151114767298681",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Anthropic to trade on Backpack from day one, with zero fees",
+      "zh": "Backpack 将于上市首日上线 Anthropic，交易零手续费",
+      "fr": "Anthropic négociable sur Backpack dès le premier jour, sans frais",
+      "pt": "Anthropic na Backpack desde o primeiro dia, com taxa zero",
+      "ko": "Anthropic, Backpack에서 첫날부터 수수료 없이 거래",
+      "ja": "AnthropicをBackpackで初日から手数料ゼロで取引",
+      "ru": "Anthropic на Backpack с первого дня и без комиссии",
+      "fa": "Anthropic از روز نخست در Backpack با کارمزد صفر معامله می‌شود"
+    },
+    "summary": {
+      "en": "Backpack said Anthropic ($ANT) will be available to trade on the platform from day one, with day-one access and zero trading fees.",
+      "zh": "Backpack 表示 Anthropic（$ANT）将自上市首日起可在平台交易，提供首日交易准入，并收取零交易手续费。",
+      "fr": "Backpack a indiqué qu’Anthropic ($ANT) sera négociable sur la plateforme dès le premier jour, avec un accès le jour même et des frais de trading nuls.",
+      "pt": "A Backpack informou que a Anthropic ($ANT) poderá ser negociada na plataforma desde o primeiro dia, com acesso no dia da estreia e taxa de negociação zero.",
+      "ko": "Backpack은 Anthropic($ANT)을 첫날부터 플랫폼에서 거래할 수 있고, 첫날 접근과 거래 수수료 0을 제공한다고 밝혔습니다.",
+      "ja": "Backpackは、Anthropic（$ANT）を初日からプラットフォームで取引でき、初日のアクセスと取引手数料ゼロを提供すると述べました。",
+      "ru": "Backpack сообщила, что Anthropic ($ANT) будет доступна для торговли на платформе с первого дня, с доступом в день старта и нулевой торговой комиссией.",
+      "fa": "Backpack اعلام کرد Anthropic ($ANT) از روز نخست در پلتفرم قابل معامله است، با دسترسی روز اول و کارمزد معامله صفر."
+    }
+  },
+  {
+    "id": "binance-2026-11-10-mexc-fincen",
+    "exchange": "binance",
+    "date": "2026-11-10",
+    "category": "regulatory",
+    "sourceUrl": "https://x.com/binance/status/2120109138256560437",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Binance tightens compliance after FinCEN designates MEXC",
+      "zh": "继 FinCEN 将 MEXC 列为主要洗钱担忧后，币安加强合规措施",
+      "fr": "Binance renforce la conformité après la désignation de MEXC par le FinCEN",
+      "pt": "Binance reforça a conformidade após o FinCEN designar a MEXC",
+      "ko": "FinCEN의 MEXC 지정 이후 바이낸스, 준수 조치 강화",
+      "ja": "FinCENがMEXCを指定したあと、Binanceがコンプライアンスを強化",
+      "ru": "Binance усилила комплаенс после обозначения MEXC со стороны FinCEN",
+      "fa": "بایننس پس از تعیین MEXC توسط FinCEN کنترل انطباق را سخت‌تر کرد"
+    },
+    "summary": {
+      "en": "Following FinCEN's designation of MEXC as a Primary Money Laundering Concern, Binance said it is applying enhanced compliance measures. Effective immediately, users should not send funds to, receive funds from, or otherwise transact through Binance involving MEXC, MEXC Global, MEXC affiliates or related entities. Requests to send funds to MEXC addresses will be rejected. Impacted funds and accounts may be temporarily restricted during review, and such activity may breach Binance's Terms of Use.",
+      "zh": "在 FinCEN 将 MEXC 指定为主要洗钱担忧对象后，币安表示已加强合规措施。即日起，用户不应通过币安向 MEXC、MEXC Global、其关联方或相关实体转出、接收或以其他方式交易资金。向 MEXC 地址转账的请求将被拒绝。审查期间受影响资金和账户可能被暂时限制，此类行为可能违反币安使用条款。",
+      "fr": "Après la désignation de MEXC par le FinCEN comme Primary Money Laundering Concern, Binance a indiqué appliquer des mesures de conformité renforcées. Avec effet immédiat, les utilisateurs ne doivent pas envoyer de fonds vers, recevoir de fonds de, ni autrement effectuer via Binance des transactions impliquant MEXC, MEXC Global, ses affiliés ou des entités liées. Les demandes d’envoi vers des adresses MEXC seront rejetées. Les fonds et comptes concernés peuvent être temporairement restreints pendant l’examen, et une telle activité peut enfreindre les conditions d’utilisation de Binance.",
+      "pt": "Após o FinCEN designar a MEXC como Primary Money Laundering Concern, a Binance informou que aplica medidas de conformidade reforçadas. Com efeito imediato, usuários não devem enviar fundos para, receber fundos de, nem de outro modo transacionar pela Binance envolvendo MEXC, MEXC Global, afiliadas da MEXC ou entidades relacionadas. Pedidos de envio para endereços da MEXC serão recusados. Fundos e contas afetados podem ser temporariamente restritos durante a análise, e essa atividade pode violar os Termos de Uso da Binance.",
+      "ko": "FinCEN이 MEXC를 Primary Money Laundering Concern으로 지정한 뒤, 바이낸스는 강화된 준수 조치를 적용한다고 밝혔습니다. 즉시 효력이 있으며, 사용자는 바이낸스를 통해 MEXC, MEXC Global, MEXC 계열사 또는 관련 주체와 자금을 보내거나 받거나 그 밖의 거래를 해서는 안 됩니다. MEXC 주소로 자금을 보내는 요청은 거부됩니다. 검토 중 영향받은 자금과 계정은 일시 제한될 수 있으며, 이러한 활동은 바이낸스 이용약관을 위반할 수 있습니다.",
+      "ja": "FinCENがMEXCをPrimary Money Laundering Concernに指定したことを受け、Binanceは強化したコンプライアンス措置を適用すると述べました。即時に効力があり、ユーザーはBinanceを通じてMEXC、MEXC Global、MEXCの関連会社または関係主体との資金の送付、受取、その他の取引をすべきではありません。MEXCアドレスへの送金依頼は拒否されます。審査中、影響を受けた資金と口座は一時的に制限されることがあり、そのような行為はBinanceの利用規約に違反する可能性があります。",
+      "ru": "После того как FinCEN обозначил MEXC как Primary Money Laundering Concern, Binance сообщила, что применяет усиленные меры комплаенса. С немедленным эффектом пользователям не следует отправлять средства на, получать средства от или иным образом проводить через Binance операции с MEXC, MEXC Global, аффилированными или связанными лицами MEXC. Запросы на отправку средств на адреса MEXC будут отклонены. Затронутые средства и счета могут быть временно ограничены на время проверки, и такая активность может нарушать Условия использования Binance.",
+      "fa": "پس از آنکه FinCEN، MEXC را Primary Money Laundering Concern تعیین کرد، بایننس اعلام کرد تدابیر انطباق تقویت‌شده اعمال می‌کند. از همین لحظه، کاربران نباید از طریق بایننس به MEXC، MEXC Global، وابستگان MEXC یا نهادهای مرتبط وجه بفرستند، از آنها وجه بگیرند یا به شکل دیگری معامله کنند. درخواست ارسال وجه به نشانی‌های MEXC رد می‌شود. وجوه و حساب‌های تحت تأثیر ممکن است در دوره بررسی موقتاً محدود شوند و چنین فعالیتی می‌تواند شرایط استفاده بایننس را نقض کند."
+    }
+  },
+  {
+    "id": "binance-2026-11-10-ios-worse-query",
+    "exchange": "binance",
+    "date": "2026-11-10",
+    "category": "other",
+    "sourceUrl": "https://x.com/binance/status/2120093246399430770",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Binance warns of an iOS vulnerability that can expose wallet secrets",
+      "zh": "币安提醒 iOS 漏洞可能导致钱包密钥泄露",
+      "fr": "Binance alerte sur une faille iOS pouvant exposer les secrets de portefeuille",
+      "pt": "Binance alerta para falha no iOS que pode expor segredos da carteira",
+      "ko": "바이낸스, 지갑 비밀을 노출할 수 있는 iOS 취약점 경고",
+      "ja": "Binance、ウォレット秘密が漏れる可能性のあるiOSの脆弱性を警告",
+      "ru": "Binance предупредила об уязвимости iOS, которая может раскрыть секреты кошелька",
+      "fa": "بایننس درباره آسیب‌پذیری iOS که می‌تواند راز کیف را افشا کند هشدار داد"
+    },
+    "summary": {
+      "en": "Binance said a vulnerability (worse_query) affecting iOS 26.7.1, 27.0.1, and 27.2 can let malicious apps read local files from other apps, putting seed phrases, private keys, and login credentials at risk. It said this is an iOS-level issue, not unique to Binance, and advised deleting apps from untrusted sources, updating iOS and apps, and, if a breach is suspected, moving funds to a new wallet on a clean device and resetting login sessions.",
+      "zh": "币安称，影响 iOS 26.7.1、27.0.1 和 27.2 的漏洞（worse_query）可能让恶意应用读取其他应用的本地文件，从而危及助记词、私钥和登录凭证。币安强调这是 iOS 系统层面的问题，并非币安独有，并建议删除来自不可信来源的应用、更新 iOS 与应用；若怀疑已遭入侵，应将资金转到在干净设备上新建的钱包，并重置所有登录会话。",
+      "fr": "Binance a indiqué qu’une vulnérabilité (worse_query) touchant iOS 26.7.1, 27.0.1 et 27.2 peut permettre à des applications malveillantes de lire les fichiers locaux d’autres applications, mettant en risque les phrases mnémoniques, les clés privées et les identifiants de connexion. Binance a précisé qu’il s’agit d’un problème au niveau d’iOS, non propre à Binance, et a conseillé de supprimer les applications de sources non fiables, de mettre à jour iOS et les applications et, en cas de suspicion d’intrusion, de déplacer les fonds vers un nouveau portefeuille sur un appareil sain et de réinitialiser les sessions de connexion.",
+      "pt": "A Binance informou que uma vulnerabilidade (worse_query) que afeta o iOS 26.7.1, 27.0.1 e 27.2 pode permitir que apps maliciosos leiam arquivos locais de outros apps, colocando em risco frases-semente, chaves privadas e credenciais de login. Disse que é um problema no nível do iOS, não exclusivo da Binance, e orientou a excluir apps de fontes não confiáveis, atualizar o iOS e os apps e, se houver suspeita de invasão, mover os fundos para uma nova carteira em um dispositivo limpo e redefinir as sessões de login.",
+      "ko": "바이낸스는 iOS 26.7.1, 27.0.1, 27.2에 영향을 주는 취약점(worse_query)이 악성 앱이 다른 앱의 로컬 파일을 읽게 해 시드 구문, 개인 키, 로그인 자격 증명을 위험에 빠뜨릴 수 있다고 밝혔습니다. 이는 바이낸스만의 문제가 아닌 iOS 수준의 문제라고 했으며, 신뢰할 수 없는 출처의 앱을 삭제하고 iOS와 앱을 업데이트하고, 침해가 의심되면 깨끗한 기기에서 새 지갑으로 자금을 옮기고 로그인 세션을 재설정하라고 안내했습니다.",
+      "ja": "Binanceは、iOS 26.7.1、27.0.1、27.2に影響する脆弱性（worse_query）により、悪意のあるアプリが他のアプリのローカルファイルを読み、シードフレーズ、秘密鍵、ログイン資格情報が危険にさらされる可能性があると述べました。これはBinance固有ではなくiOSレベルの問題だとし、信頼できない提供元のアプリを削除すること、iOSとアプリを更新すること、侵害が疑われる場合はクリーンな端末で新しいウォレットへ資金を移し、ログインセッションをリセットすることを勧めました。",
+      "ru": "Binance сообщила, что уязвимость (worse_query), затрагивающая iOS 26.7.1, 27.0.1 и 27.2, может позволить вредоносным приложениям читать локальные файлы других приложений и поставить под угрозу сид-фразы, приватные ключи и данные для входа. Binance указала, что это проблема уровня iOS, а не только Binance, и посоветовала удалить приложения из ненадёжных источников, обновить iOS и приложения, а при подозрении на взлом перевести средства в новый кошелёк на чистом устройстве и сбросить сессии входа.",
+      "fa": "بایننس اعلام کرد آسیب‌پذیری (worse_query) که iOS 26.7.1، 27.0.1 و 27.2 را تحت تأثیر قرار می‌دهد می‌تواند به اپ‌های مخرب اجازه دهد فایل‌های محلی اپ‌های دیگر را بخوانند و عبارت بازیابی، کلید خصوصی و اطلاعات ورود را به خطر بیندازند. بایننس گفت این مشکل در سطح iOS است و منحصر به بایننس نیست و توصیه کرد اپ‌های منابع نامطمئن حذف شوند، iOS و اپ‌ها به‌روز شوند و اگر نفوذ مشکوک است، وجوه به کیف تازه روی دستگاه تمیز منتقل و نشست‌های ورود بازنشانی شوند."
+    }
+  },
+  {
+    "id": "binance-2026-11-10-community-appreciation-r3",
+    "exchange": "binance",
+    "date": "2026-11-10",
+    "category": "promotion",
+    "sourceUrl": "https://x.com/binance/status/2120062789536403922",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Binance Community Appreciation Campaign round 3 adds yield rewards",
+      "zh": "币安社区回馈活动第 3 轮加码赚币收益",
+      "fr": "Le tour 3 de Community Appreciation chez Binance ajoute des rendements",
+      "pt": "A rodada 3 da campanha Community Appreciation da Binance acrescenta rendimentos",
+      "ko": "바이낸스 커뮤니티 감사 캠페인 3라운드, 수익 보상 추가",
+      "ja": "Binanceコミュニティ感謝キャンペーン第3回が利回り報酬を追加",
+      "ru": "3-й раунд кампании Community Appreciation Binance добавляет доходность",
+      "fa": "دور سوم کمپین قدردانی جامعه بایننس پاداش بازده اضافه می‌کند"
+    },
+    "summary": {
+      "en": "Binance announced round 3 of its Community Appreciation Campaign: USD1 at up to 10% APR across all Binance accounts with no individual reward cap, USDe at up to 10% APR, and KGST Flexible Earn at up to 15% APR. A later official post said the USD1 reward pool had been expanded and the campaign extended, with variable APR and no lock-up. Terms and eligibility apply.",
+      "zh": "币安公布社区回馈活动第 3 轮：所有币安账户持有 USD1 最高可享 10% 年化且无个人奖励上限，USDe 最高 10% 年化，KGST 活期赚币最高 15% 年化。随后官方称 USD1 奖励池已扩大、活动已延期，年化为浮动且无需锁仓。条款与资格适用。",
+      "fr": "Binance a annoncé le tour 3 de sa campagne Community Appreciation : USD1 jusqu’à 10 % d’APR sur tous les comptes Binance sans plafond de récompense individuel, USDe jusqu’à 10 % d’APR et KGST Flexible Earn jusqu’à 15 % d’APR. Une publication officielle ultérieure a indiqué que le pool de récompenses USD1 avait été élargi et la campagne prolongée, avec un APR variable et sans blocage. Conditions et éligibilité applicables.",
+      "pt": "A Binance anunciou a rodada 3 da campanha Community Appreciation: USD1 com até 10% de APR em todas as contas Binance sem teto individual de recompensa, USDe com até 10% de APR e KGST Flexible Earn com até 15% de APR. Uma publicação oficial posterior informou que o pool de recompensas de USD1 foi ampliado e a campanha prorrogada, com APR variável e sem bloqueio. Termos e elegibilidade se aplicam.",
+      "ko": "바이낸스는 커뮤니티 감사 캠페인 3라운드를 발표했습니다. 모든 바이낸스 계정에서 USD1은 개인 보상 한도 없이 최대 10% APR, USDe는 최대 10% APR, KGST Flexible Earn은 최대 15% APR입니다. 이후 공식 게시물은 USD1 보상 풀이 확대되고 캠페인이 연장되었으며 APR은 변동이고 락업이 없다고 했습니다. 약관과 자격이 적용됩니다.",
+      "ja": "Binanceはコミュニティ感謝キャンペーン第3回を発表しました。すべてのBinance口座のUSD1は個人の報酬上限なしで最大10% APR、USDeは最大10% APR、KGST Flexible Earnは最大15% APRです。その後の公式投稿は、USD1の報酬プールが拡大されキャンペーンが延長され、APRは変動でロックアップはないとしました。規約と参加条件が適用されます。",
+      "ru": "Binance объявила 3-й раунд кампании Community Appreciation: USD1 до 10% годовых на всех счетах Binance без личного потолка награды, USDe до 10% годовых и KGST Flexible Earn до 15% годовых. Более поздний официальный пост сообщил, что пул наград USD1 расширен, а кампания продлена, с плавающей ставкой и без блокировки. Действуют условия и критерии участия.",
+      "fa": "بایننس دور سوم کمپین قدردانی جامعه را اعلام کرد: USD1 تا ۱۰٪ APR در همه حساب‌های بایننس بدون سقف پاداش فردی، USDe تا ۱۰٪ APR و KGST Flexible Earn تا ۱۵٪ APR. پست رسمی بعدی گفت استخر پاداش USD1 بزرگ‌تر شده و کمپین تمدید شده، با APR متغیر و بدون قفل. شرایط و واجد بودن اعمال می‌شود."
+    }
+  },
+  {
+    "id": "okx-2026-11-10-europe-deposit-apr",
+    "exchange": "okx",
+    "date": "2026-11-10",
+    "category": "promotion",
+    "sourceUrl": "https://x.com/okx/status/2120170824384811266",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "OKX offers 8% APR on eligible European crypto deposits",
+      "zh": "OKX 在部分欧洲国家推出存款 8% 年化活动",
+      "fr": "OKX offre 8 % d’APR sur des dépôts crypto éligibles en Europe",
+      "pt": "OKX oferece 8% de APR em depósitos cripto elegíveis na Europa",
+      "ko": "OKX, 적격 유럽 암호화폐 입금에 8% APR",
+      "ja": "OKX、対象となる欧州の暗号資産入金に8% APR",
+      "ru": "OKX предлагает 8% годовых на подходящие криптодепозиты в Европе",
+      "fa": "OKX برای واریز رمزارز واجد شرایط در اروپا ۸٪ APR می‌دهد"
+    },
+    "summary": {
+      "en": "OKX said users in France, Spain, Italy, Poland, Sweden, and Belgium can earn 8% APR, paid over three months, when they deposit eligible crypto such as BTC, SOL, ETH, XRP and more, until 10 December. Terms and eligibility apply; crypto is volatile.",
+      "zh": "OKX 表示，法国、西班牙、意大利、波兰、瑞典和比利时的用户存入 BTC、SOL、ETH、XRP 等符合条件的加密资产，可获得分三个月发放的 8% 年化收益，活动截至 12 月 10 日。条款与资格适用；加密资产价格波动大。",
+      "fr": "OKX a indiqué que les utilisateurs en France, en Espagne, en Italie, en Pologne, en Suède et en Belgique peuvent obtenir 8 % d’APR, versés sur trois mois, en déposant des cryptomonnaies éligibles telles que BTC, SOL, ETH, XRP et d’autres, jusqu’au 10 décembre. Conditions et éligibilité applicables ; les cryptomonnaies sont volatiles.",
+      "pt": "A OKX informou que usuários na França, Espanha, Itália, Polônia, Suécia e Bélgica podem obter 8% de APR, pagos ao longo de três meses, ao depositar criptoativos elegíveis como BTC, SOL, ETH, XRP e outros, até 10 de dezembro. Termos e elegibilidade se aplicam; criptoativos têm preço volátil.",
+      "ko": "OKX는 프랑스, 스페인, 이탈리아, 폴란드, 스웨덴, 벨기에 사용자가 BTC, SOL, ETH, XRP 등 적격 암호화폐를 입금하면 12월 10일까지 3개월에 걸쳐 지급되는 8% APR을 얻을 수 있다고 밝혔습니다. 약관과 자격이 적용되며, 암호화폐는 가격 변동이 큽니다.",
+      "ja": "OKXは、フランス、スペイン、イタリア、ポーランド、スウェーデン、ベルギーのユーザーがBTC、SOL、ETH、XRPなどの対象暗号資産を入金すると、12月10日まで、3か月にわたって支払われる8% APRを得られると述べました。規約と参加条件が適用されます。暗号資産は価格変動が大きいです。",
+      "ru": "OKX сообщила, что пользователи во Франции, Испании, Италии, Польше, Швеции и Бельгии могут получить 8% годовых, выплачиваемых в течение трёх месяцев, внеся подходящие криптоактивы, такие как BTC, SOL, ETH, XRP и другие, до 10 декабря. Действуют условия и критерии участия; криптоактивы волатильны.",
+      "fa": "OKX اعلام کرد کاربران فرانسه، اسپانیا، ایتالیا، لهستان، سوئد و بلژیک با واریز رمزارز واجد شرایط مانند BTC، SOL، ETH، XRP و موارد دیگر تا ۱۰ دسامبر می‌توانند ۸٪ APR بگیرند که طی سه ماه پرداخت می‌شود. شرایط و واجد بودن اعمال می‌شود؛ رمزارز نوسان قیمت دارد."
+    }
+  },
+  {
+    "id": "binance-2026-11-09-withdrawals-alpha-networks",
+    "exchange": "binance",
+    "date": "2026-11-09",
+    "category": "other",
+    "sourceUrl": "https://x.com/binance/status/2119655363385659500",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "Binance re-enables Alpha withdrawals on BSC, ETH, Base and Arbitrum",
+      "zh": "币安重新开放 Alpha 在 BSC、ETH、Base 与 Arbitrum 的提现",
+      "fr": "Binance rétablit les retraits Alpha sur BSC, ETH, Base et Arbitrum",
+      "pt": "Binance reativa saques de Alpha em BSC, ETH, Base e Arbitrum",
+      "ko": "바이낸스, BSC·ETH·Base·Arbitrum에서 Alpha 출금 재개",
+      "ja": "Binance、BSC・ETH・Base・ArbitrumでAlphaの出金を再開",
+      "ru": "Binance снова открыла выводы Alpha в BSC, ETH, Base и Arbitrum",
+      "fa": "بایننس برداشت Alpha را در BSC، ETH، Base و Arbitrum دوباره فعال کرد"
+    },
+    "summary": {
+      "en": "In a 9 Nov withdrawal update, Binance said newly re-enabled networks for Alpha were BSC, ETH, Base, and Arbitrum. It also listed assets already enabled on ETH and SOL networks, plus HYPE and APT, and said further networks and assets would be restored in phases after security checks.",
+      "zh": "在 11 月 9 日的提现更新中，币安称已为 Alpha 重新开放 BSC、ETH、Base 和 Arbitrum 网络提现，并列出已在 ETH 与 SOL 网络恢复的资产以及 HYPE 与 APT；更多网络与资产将在安全检查完成后分阶段恢复。",
+      "fr": "Dans une mise à jour des retraits du 9 novembre, Binance a indiqué que les réseaux nouvellement rouverts pour Alpha étaient BSC, ETH, Base et Arbitrum. Binance a aussi énuméré des actifs déjà rouverts sur les réseaux ETH et SOL, ainsi que HYPE et APT, et a précisé que d’autres réseaux et actifs seraient rétablis par étapes après les contrôles de sécurité.",
+      "pt": "Em uma atualização de saques de 9 de novembro, a Binance informou que as redes recém-reativadas para Alpha eram BSC, ETH, Base e Arbitrum. Também listou ativos já habilitados nas redes ETH e SOL, além de HYPE e APT, e disse que mais redes e ativos seriam restaurados em fases após as verificações de segurança.",
+      "ko": "11월 9일 출금 업데이트에서 바이낸스는 Alpha에 새로 다시 연 네트워크가 BSC, ETH, Base, Arbitrum이라고 밝혔습니다. ETH와 SOL 네트워크에서 이미 열린 자산과 HYPE, APT도 나열했으며, 더 많은 네트워크와 자산은 보안 점검 뒤 단계적으로 복구된다고 했습니다.",
+      "ja": "11月9日の出金更新で、BinanceはAlphaについて新たに再開したネットワークはBSC、ETH、Base、Arbitrumだと述べました。ETHとSOLのネットワークですでに有効な資産に加えHYPEとAPTも挙げ、さらに多くのネットワークと資産はセキュリティ確認のあと段階的に復旧するとしました。",
+      "ru": "В обновлении о выводах от 9 ноября Binance сообщила, что для Alpha заново открыты сети BSC, ETH, Base и Arbitrum. Также перечислены активы, уже доступные в сетях ETH и SOL, плюс HYPE и APT; дальнейшие сети и активы восстановят поэтапно после проверок безопасности.",
+      "fa": "در به‌روزرسانی برداشت ۹ نوامبر، بایننس اعلام کرد شبکه‌های تازه‌بازشده برای Alpha عبارت‌اند از BSC، ETH، Base و Arbitrum. همچنین دارایی‌هایی را که از قبل روی شبکه‌های ETH و SOL فعال بودند به‌علاوه HYPE و APT فهرست کرد و گفت شبکه‌ها و دارایی‌های بیشتر پس از بررسی‌های امنیتی مرحله‌ای بازیابی می‌شوند."
+    }
+  },
+  {
+    "id": "okx-2026-11-09-asset-protection",
+    "exchange": "okx",
+    "date": "2026-11-09",
+    "category": "other",
+    "sourceUrl": "https://x.com/okx/status/2119749527489884284",
+    "checkedAt": "2026-11-16",
+    "title": {
+      "en": "OKX outlines its custody and asset-protection controls",
+      "zh": "OKX 说明其托管与资产保护机制",
+      "fr": "OKX décrit sa conservation et ses contrôles de protection des actifs",
+      "pt": "OKX descreve a custódia e os controles de proteção de ativos",
+      "ko": "OKX, 수탁과 자산 보호 통제를 설명",
+      "ja": "OKX、カストディと資産保護の管理を説明",
+      "ru": "OKX описала кастоди и меры защиты активов",
+      "fa": "OKX نگهداری و کنترل‌های حفاظت از دارایی را شرح داد"
+    },
+    "summary": {
+      "en": "In the wake of major industry exploits, OKX said it was sharing how its custody model, controls over asset movements, threat detection, response capabilities, and OKX Shield help protect user assets.",
+      "zh": "在业内发生多起重大攻击之后，OKX 表示将说明其托管模式、资产流动控制、威胁检测、应急能力以及 OKX Shield 如何保护用户资产。",
+      "fr": "Après plusieurs exploits majeurs dans le secteur, OKX a indiqué qu’elle présentait comment son modèle de conservation, ses contrôles des mouvements d’actifs, la détection des menaces, ses capacités de réponse et OKX Shield aident à protéger les actifs des utilisateurs.",
+      "pt": "Após grandes explorações no setor, a OKX informou que estava mostrando como seu modelo de custódia, os controles de movimentação de ativos, a detecção de ameaças, a capacidade de resposta e o OKX Shield ajudam a proteger os ativos dos usuários.",
+      "ko": "업계의 대형 공격 이후 OKX는 수탁 모델, 자산 이동 통제, 위협 탐지, 대응 능력, OKX Shield가 사용자 자산을 어떻게 보호하는지 공유한다고 밝혔습니다.",
+      "ja": "業界で大きな攻撃が起きたあと、OKXはカストディモデル、資産移動の管理、脅威検知、対応能力、OKX Shieldがユーザー資産の保護にどう役立つかを共有すると述べました。",
+      "ru": "После крупных отраслевых взломов OKX сообщила, что рассказывает, как модель кастоди, контроль движения активов, обнаружение угроз, возможности реагирования и OKX Shield помогают защищать активы пользователей.",
+      "fa": "پس از سوءاستفاده‌های بزرگ در صنعت، OKX اعلام کرد توضیح می‌دهد مدل نگهداری، کنترل جابه‌جایی دارایی، کشف تهدید، توان پاسخ و OKX Shield چگونه از دارایی کاربران محافظت می‌کنند."
+    }
+  },
+  {
     "id": "binance-2026-11-08-withdrawals-hype-apt",
     "exchange": "binance",
     "date": "2026-11-08",
