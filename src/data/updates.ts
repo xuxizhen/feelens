@@ -44,6 +44,654 @@ export type UpdateItem = {
 
 export const updateItems: readonly UpdateItem[] = [
   {
+    "id": "backpack-2026-11-17-cftc-derivatives-exchange-approval",
+    "exchange": "backpack",
+    "date": "2026-11-17",
+    "category": "regulatory",
+    "sourceUrl": "https://x.com/Backpack/status/2122454683369283841",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "Backpack receives CFTC approval for a U.S. derivatives exchange",
+      "zh": "Backpack 获 CFTC 批准在美国设立衍生品交易所",
+      "fr": "Backpack reçoit l’agrément de la CFTC pour une bourse de dérivés aux États-Unis",
+      "pt": "Backpack recebe aprovação da CFTC para uma bolsa de derivativos nos EUA",
+      "ko": "Backpack, 미국 파생상품 거래소에 대한 CFTC 승인 획득",
+      "ja": "Backpack、米国のデリバティブ取引所についてCFTCの承認を取得",
+      "ru": "Backpack получила одобрение CFTC на биржу деривативов в США",
+      "fa": "Backpack برای یک صرافی مشتقه در آمریکا تأیید CFTC گرفت"
+    },
+    "summary": {
+      "en": "Backpack said it received CFTC approval to establish a derivatives exchange powered by one order book with unified global liquidity, offering leveraged perpetuals, crypto collateral, cross-margin and 24/7 trading; a waitlist is open.",
+      "zh": "Backpack 表示已获 CFTC 批准，设立以单一订单簿、统一全球流动性驱动的衍生品交易所，支持杠杆永续合约、加密资产抵押、全仓保证金和 7×24 小时交易，现已开放候补名单。",
+      "fr": "Backpack a indiqué avoir reçu l’agrément de la CFTC pour établir une bourse de dérivés animée par un carnet d’ordres unique à liquidité mondiale unifiée, proposant des perpétuels à effet de levier, un collatéral en crypto, la marge croisée et une négociation 24 h/24, 7 j/7 ; une liste d’attente est ouverte.",
+      "pt": "A Backpack informou que recebeu aprovação da CFTC para estabelecer uma bolsa de derivativos movida por um único livro de ofertas com liquidez global unificada, oferecendo perpétuos alavancados, colateral em cripto, margem cruzada e negociação 24/7; a lista de espera está aberta.",
+      "ko": "Backpack은 단일 주문장과 통합된 글로벌 유동성으로 구동되는 파생상품 거래소를 설립하는 CFTC 승인을 받았으며, 레버리지 무기한 계약, 암호화폐 담보, 교차 마진, 24/7 거래를 제공하고 대기자 명단이 열렸다고 밝혔습니다.",
+      "ja": "Backpackは、単一のオーダーブックと統合されたグローバル流動性で動くデリバティブ取引所の設立についてCFTCの承認を受け、レバレッジ付き無期限契約、暗号資産担保、クロスマージン、24時間年中無休の取引を提供し、ウェイトリストを開放したと述べました。",
+      "ru": "Backpack сообщила, что получила одобрение CFTC на создание биржи деривативов с единым стаканом и общей глобальной ликвидностью: бессрочные контракты с плечом, криптозалог, кросс-маржа и торговля 24/7; лист ожидания открыт.",
+      "fa": "Backpack اعلام کرد تأیید CFTC را برای راه‌اندازی یک صرافی مشتقه با یک دفتر سفارش و نقدینگی جهانی یکپارچه دریافت کرده است؛ پرپچوال اهرمی، وثیقه رمزارزی، کراس‌مارجین و معامله ۲۴/۷ ارائه می‌شود و فهرست انتظار باز است."
+    }
+  },
+  {
+    "id": "backpack-2026-11-18-nfa-fcm-approval",
+    "exchange": "backpack",
+    "date": "2026-11-18",
+    "category": "regulatory",
+    "sourceUrl": "https://x.com/Backpack/status/2123072542483378444",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "Backpack secures NFA approval as a Futures Commission Merchant",
+      "zh": "Backpack 获 NFA 批准成为期货佣金商（FCM）",
+      "fr": "Backpack obtient l’agrément de la NFA comme commissionnaire en contrats à terme (FCM)",
+      "pt": "Backpack obtém aprovação da NFA como Futures Commission Merchant (FCM)",
+      "ko": "Backpack, 선물위탁중개인(FCM)으로 NFA 승인 확보",
+      "ja": "Backpack、先物取次業者（FCM）としてNFAの承認を取得",
+      "ru": "Backpack получила одобрение NFA как комиссионер по фьючерсам (FCM)",
+      "fa": "Backpack به‌عنوان کارگزار کمیسیون معاملات آتی (FCM) تأیید NFA را گرفت"
+    },
+    "summary": {
+      "en": "Following its exchange and clearinghouse license approvals, Backpack said it secured NFA approval to operate as a Futures Commission Merchant (FCM), aiming to bring leveraged perpetuals with unified global liquidity onshore in the U.S.",
+      "zh": "继交易所与清算所牌照获批后，Backpack 表示已获 NFA 批准以期货佣金商（FCM）身份运营，目标是把统一全球流动性的杠杆永续合约带到美国境内。",
+      "fr": "Après les agréments de sa bourse et de sa chambre de compensation, Backpack a indiqué avoir obtenu l’agrément de la NFA pour opérer comme commissionnaire en contrats à terme (FCM), afin d’amener aux États-Unis des perpétuels à effet de levier à liquidité mondiale unifiée.",
+      "pt": "Após as aprovações de licença da bolsa e da câmara de compensação, a Backpack informou que obteve aprovação da NFA para operar como Futures Commission Merchant (FCM), com o objetivo de trazer para os EUA perpétuos alavancados com liquidez global unificada.",
+      "ko": "거래소와 청산소 라이선스 승인에 이어, Backpack은 선물위탁중개인(FCM)으로 운영하는 NFA 승인을 확보해 통합된 글로벌 유동성의 레버리지 무기한 계약을 미국 역내로 가져오는 것이 목표라고 밝혔습니다.",
+      "ja": "取引所と清算機関のライセンス承認に続き、Backpackは先物取次業者（FCM）として運営するNFAの承認を取得し、統合されたグローバル流動性を持つレバレッジ付き無期限契約を米国内に持ち込むことを目指すと述べました。",
+      "ru": "После одобрения лицензий биржи и клиринговой палаты Backpack сообщила, что получила одобрение NFA на работу в качестве комиссионера по фьючерсам (FCM), чтобы вывести бессрочные контракты с плечом и единой глобальной ликвидностью на территорию США.",
+      "fa": "پس از تأیید مجوزهای صرافی و اتاق پایاپای، Backpack اعلام کرد تأیید NFA را برای فعالیت به‌عنوان کارگزار کمیسیون معاملات آتی (FCM) گرفته است تا پرپچوال‌های اهرمی با نقدینگی جهانی یکپارچه را به داخل آمریکا بیاورد."
+    }
+  },
+  {
+    "id": "backpack-2026-11-19-anthropic-ant-day-one",
+    "exchange": "backpack",
+    "date": "2026-11-19",
+    "category": "listing",
+    "sourceUrl": "https://x.com/Backpack/status/2123388649970741528",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "Backpack lists Anthropic (ANT) stock and perps on day one",
+      "zh": "Backpack 首日上线 Anthropic（ANT）股票与永续合约",
+      "fr": "Backpack cote l’action et les perpétuels Anthropic (ANT) dès le premier jour",
+      "pt": "Backpack lista a ação e os perpétuos da Anthropic (ANT) no primeiro dia",
+      "ko": "Backpack, Anthropic(ANT) 주식과 무기한 계약을 첫날 상장",
+      "ja": "Backpack、Anthropic（ANT）の株式と無期限契約を初日から上場",
+      "ru": "Backpack с первого дня листингует акции и бессрочные контракты Anthropic (ANT)",
+      "fa": "Backpack سهام و پرپچوال Anthropic (ANT) را از روز نخست فهرست کرد"
+    },
+    "summary": {
+      "en": "Backpack listed Anthropic (ANT) on its IPO day: zero-fee stock trading, 24/7 leveraged ANT perps, and the ability to use ANT shares as collateral to borrow USD and trade on margin.",
+      "zh": "Backpack 在 Anthropic（ANT）IPO 首日上线：零手续费股票交易、7×24 小时 ANT 杠杆永续合约，并可用 ANT 股票作抵押借入美元进行保证金交易。",
+      "fr": "Backpack a coté Anthropic (ANT) le jour de son introduction : négociation d’actions sans frais, perpétuels ANT à effet de levier 24 h/24, 7 j/7, et la possibilité d’utiliser des actions ANT comme collatéral pour emprunter des USD et négocier sur marge.",
+      "pt": "A Backpack listou a Anthropic (ANT) no dia do IPO: negociação de ações com taxa zero, perpétuos ANT alavancados 24/7 e a possibilidade de usar ações ANT como colateral para tomar USD emprestado e negociar com margem.",
+      "ko": "Backpack은 Anthropic(ANT) IPO 당일에 상장했습니다. 수수료 없는 주식 거래, 24/7 ANT 레버리지 무기한 계약, 그리고 ANT 주식을 담보로 USD를 빌려 마진 거래할 수 있습니다.",
+      "ja": "BackpackはAnthropic（ANT）をIPO当日に上場しました。手数料ゼロの株式取引、24時間年中無休のレバレッジ付きANT無期限契約、そしてANT株を担保にUSDを借りて証拠金取引ができます。",
+      "ru": "Backpack провела листинг Anthropic (ANT) в день IPO: торговля акциями без комиссии, бессрочные контракты ANT с плечом 24/7 и возможность использовать акции ANT как залог, чтобы занять USD и торговать с маржой.",
+      "fa": "Backpack در روز IPO، Anthropic (ANT) را فهرست کرد: معامله سهام با کارمزد صفر، پرپچوال اهرمی ANT به‌صورت ۲۴/۷، و امکان استفاده از سهام ANT به‌عنوان وثیقه برای قرض گرفتن USD و معامله با مارجین."
+    }
+  },
+  {
+    "id": "backpack-2026-11-19-perps-open-week-2",
+    "exchange": "backpack",
+    "date": "2026-11-19",
+    "category": "promotion",
+    "sourceUrl": "https://x.com/Backpack/status/2123234592576373000",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "Backpack's The Perps Open Week 2 offers $37,500 in rewards",
+      "zh": "Backpack「The Perps Open」第二周奖池 37,500 美元",
+      "fr": "La semaine 2 de The Perps Open sur Backpack offre 37 500 $ de récompenses",
+      "pt": "A semana 2 do The Perps Open da Backpack oferece US$ 37.500 em recompensas",
+      "ko": "Backpack The Perps Open 2주차, 보상 $37,500",
+      "ja": "BackpackのThe Perps Open第2週は報酬37,500ドル",
+      "ru": "Неделя 2 The Perps Open на Backpack: награды на $37 500",
+      "fa": "هفته ۲ The Perps Open در Backpack پاداش ۳۷٬۵۰۰ دلار دارد"
+    },
+    "summary": {
+      "en": "Week 2 of The Perps Open is live with $37,500 in rewards: $20,000 weekly plus $2,500 every day through November 25 for trading crypto and equity perps.",
+      "zh": "The Perps Open 第二周开启，总奖励 37,500 美元：每周 20,000 美元，另加至 11 月 25 日每天 2,500 美元，交易加密与股票永续合约即可参与瓜分。",
+      "fr": "La semaine 2 de The Perps Open est en ligne, avec 37 500 $ de récompenses : 20 000 $ pour la semaine plus 2 500 $ chaque jour jusqu’au 25 novembre, pour la négociation de perpétuels crypto et actions.",
+      "pt": "A semana 2 do The Perps Open está no ar, com US$ 37.500 em recompensas: US$ 20.000 na semana mais US$ 2.500 por dia até 25 de novembro, para quem negociar perpétuos de cripto e de ações.",
+      "ko": "The Perps Open 2주차가 $37,500 보상으로 진행 중입니다. 주간 $20,000에 더해 11월 25일까지 매일 $2,500이며, 암호화폐와 주식 무기한 계약을 거래하면 참여할 수 있습니다.",
+      "ja": "The Perps Openの第2週が報酬37,500ドルで開催中です。週間20,000ドルに加え、11月25日まで毎日2,500ドルで、暗号資産と株式の無期限契約の取引が対象です。",
+      "ru": "Неделя 2 The Perps Open идёт с наградами на $37 500: $20 000 за неделю плюс $2 500 каждый день до 25 ноября за торговлю бессрочными контрактами на криптоактивы и акции.",
+      "fa": "هفته ۲ The Perps Open با ۳۷٬۵۰۰ دلار پاداش فعال است: ۲۰٬۰۰۰ دلار هفتگی به‌علاوه هر روز ۲٬۵۰۰ دلار تا ۲۵ نوامبر، برای معامله پرپچوال رمزارز و سهام."
+    },
+    "endsAt": "2026-11-25"
+  },
+  {
+    "id": "binance-2026-11-17-binance-pay-later",
+    "exchange": "binance",
+    "date": "2026-11-17",
+    "category": "product",
+    "sourceUrl": "https://x.com/binance/status/2122412141906944154",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "Binance introduces Binance Pay Later",
+      "zh": "币安推出 Binance Pay Later 先买后付",
+      "fr": "Binance lance Binance Pay Later",
+      "pt": "Binance apresenta o Binance Pay Later",
+      "ko": "바이낸스, Binance Pay Later 도입",
+      "ja": "Binance、Binance Pay Laterを導入",
+      "ru": "Binance представила Binance Pay Later",
+      "fa": "بایننس Binance Pay Later را معرفی کرد"
+    },
+    "summary": {
+      "en": "Binance Pay Later lets users buy without selling crypto while eligible collateral keeps earning in Binance Earn, with 0% interest until the 1st of next month and up to 3% cashback on eligible transactions; initially for eligible users in Argentina and Mexico.",
+      "zh": "Binance Pay Later 让用户无需卖出加密资产即可消费，合格抵押品继续在币安理财中赚取收益；至下月 1 日前 0 利息，合格交易最高 3% 返现，首批面向阿根廷和墨西哥的合格用户。",
+      "fr": "Binance Pay Later permet d’acheter sans vendre de crypto, tandis que le collatéral éligible continue de rapporter dans Binance Earn, avec 0 % d’intérêt jusqu’au 1er du mois suivant et jusqu’à 3 % de cashback sur les transactions éligibles ; d’abord pour les utilisateurs éligibles en Argentine et au Mexique.",
+      "pt": "O Binance Pay Later permite comprar sem vender cripto, enquanto o colateral elegível continua rendendo no Binance Earn, com 0% de juros até o dia 1º do mês seguinte e até 3% de cashback em transações elegíveis; inicialmente para usuários elegíveis na Argentina e no México.",
+      "ko": "Binance Pay Later는 암호화폐를 팔지 않고 구매할 수 있게 하며, 자격 있는 담보는 Binance Earn에서 계속 수익을 냅니다. 다음 달 1일까지 이자 0%, 자격 있는 거래에 최대 3% 캐시백이며, 처음에는 아르헨티나와 멕시코의 자격 있는 사용자가 대상입니다.",
+      "ja": "Binance Pay Laterでは、暗号資産を売らずに購入でき、対象の担保はBinance Earnで収益を得続けます。翌月1日まで金利0%、対象取引で最大3%のキャッシュバックで、当初はアルゼンチンとメキシコの対象ユーザー向けです。",
+      "ru": "Binance Pay Later позволяет покупать, не продавая криптоактивы, а подходящий залог продолжает приносить доход в Binance Earn: 0% до 1-го числа следующего месяца и кэшбэк до 3% по подходящим операциям; сначала для подходящих пользователей в Аргентине и Мексике.",
+      "fa": "Binance Pay Later به کاربران امکان می‌دهد بدون فروش رمزارز خرید کنند، در حالی که وثیقه واجد شرایط در Binance Earn به کسب بازده ادامه می‌دهد؛ تا روز اول ماه بعد بهره ۰٪ و برای تراکنش‌های واجد شرایط تا ۳٪ بازگشت وجه، در ابتدا برای کاربران واجد شرایط در آرژانتین و مکزیک."
+    }
+  },
+  {
+    "id": "binance-2026-11-18-ant-nvda-perps-carnival",
+    "exchange": "binance",
+    "date": "2026-11-18",
+    "category": "promotion",
+    "sourceUrl": "https://x.com/binance/status/2122842220919497087",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "Binance Futures launches the ANT & NVDA Perps Carnival",
+      "zh": "币安合约推出 ANT 与 NVDA 永续嘉年华",
+      "fr": "Binance Futures lance le ANT & NVDA Perps Carnival",
+      "pt": "A Binance Futures lança o ANT & NVDA Perps Carnival",
+      "ko": "바이낸스 선물, ANT와 NVDA 무기한 카니발 시작",
+      "ja": "Binance Futures、ANTとNVDAの無期限カーニバルを開始",
+      "ru": "Binance Futures запустила карнавал бессрочных ANT и NVDA",
+      "fa": "Binance Futures کارناوال پرپچوال ANT و NVDA را آغاز کرد"
+    },
+    "summary": {
+      "en": "The ANT & NVDA Perps Carnival on Binance Futures offers 175,000 USDC in leaderboard rewards, 25,000 USDC for new TradFi perps traders, and a 3.5x multiplier on ANTUSDT and NVDAUSDT (3x on 9 other pairs).",
+      "zh": "币安合约 ANT 与 NVDA 永续嘉年华：排行榜奖励 175,000 USDC，新 TradFi 永续交易者专享 25,000 USDC，ANTUSDT 与 NVDAUSDT 享 3.5 倍积分加成（另 9 个交易对 3 倍）。",
+      "fr": "Le ANT & NVDA Perps Carnival sur Binance Futures offre 175 000 USDC de récompenses au classement, 25 000 USDC pour les nouveaux traders de perpétuels TradFi, et un multiplicateur de 3,5x sur ANTUSDT et NVDAUSDT (3x sur 9 autres paires).",
+      "pt": "O ANT & NVDA Perps Carnival na Binance Futures oferece 175.000 USDC em recompensas do ranking, 25.000 USDC para novos traders de perpétuos TradFi e um multiplicador de 3,5x em ANTUSDT e NVDAUSDT (3x em outros 9 pares).",
+      "ko": "바이낸스 선물의 ANT와 NVDA 무기한 카니발은 리더보드 보상 175,000 USDC, 신규 TradFi 무기한 거래자 25,000 USDC, ANTUSDT와 NVDAUSDT에 3.5배(다른 9개 페어는 3배) 배율을 제공합니다.",
+      "ja": "Binance FuturesのANTとNVDA無期限カーニバルは、リーダーボード報酬175,000 USDC、新規TradFi無期限トレーダー向け25,000 USDC、ANTUSDTとNVDAUSDTに3.5倍（他9ペアは3倍）の倍率を提供します。",
+      "ru": "Карнавал бессрочных ANT и NVDA на Binance Futures: 175 000 USDC наград в таблице лидеров, 25 000 USDC новым трейдерам бессрочных TradFi и множитель 3,5x на ANTUSDT и NVDAUSDT (3x на 9 других парах).",
+      "fa": "کارناوال پرپچوال ANT و NVDA در Binance Futures شامل ۱۷۵٬۰۰۰ USDC پاداش جدول رده‌بندی، ۲۵٬۰۰۰ USDC برای معامله‌گران جدید پرپچوال TradFi، و ضریب ۳٫۵ برابر برای ANTUSDT و NVDAUSDT (۳ برابر برای ۹ جفت دیگر) است."
+    }
+  },
+  {
+    "id": "binance-2026-11-18-seven-new-bstocks",
+    "exchange": "binance",
+    "date": "2026-11-18",
+    "category": "listing",
+    "sourceUrl": "https://x.com/binance/status/2123039237402440156",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "Binance lists seven new bStock pairs",
+      "zh": "币安上线 7 个新 bStock 交易对",
+      "fr": "Binance cote sept nouvelles paires bStock",
+      "pt": "A Binance lista sete novos pares bStock",
+      "ko": "바이낸스, bStock 신규 페어 7개 상장",
+      "ja": "Binance、bStockの新規ペア7つを上場",
+      "ru": "Binance листинговала семь новых пар bStock",
+      "fa": "بایننس هفت جفت جدید bStock را فهرست کرد"
+    },
+    "summary": {
+      "en": "Binance listed EWJB/USDT, EWTB/USDT, EWZB/USDT, EWZSB/USDT, IWMB/USDT, MELIB/USDT and NUB/USDT bStocks with 24/7 access.",
+      "zh": "币安上线 EWJB/USDT、EWTB/USDT、EWZB/USDT、EWZSB/USDT、IWMB/USDT、MELIB/USDT 和 NUB/USDT 七个 bStock 交易对，支持 7×24 小时交易。",
+      "fr": "Binance a coté les bStocks EWJB/USDT, EWTB/USDT, EWZB/USDT, EWZSB/USDT, IWMB/USDT, MELIB/USDT et NUB/USDT, accessibles 24 h/24, 7 j/7.",
+      "pt": "A Binance listou os bStocks EWJB/USDT, EWTB/USDT, EWZB/USDT, EWZSB/USDT, IWMB/USDT, MELIB/USDT e NUB/USDT, com acesso 24/7.",
+      "ko": "바이낸스는 EWJB/USDT, EWTB/USDT, EWZB/USDT, EWZSB/USDT, IWMB/USDT, MELIB/USDT, NUB/USDT bStock을 24/7 이용으로 상장했습니다.",
+      "ja": "BinanceはEWJB/USDT、EWTB/USDT、EWZB/USDT、EWZSB/USDT、IWMB/USDT、MELIB/USDT、NUB/USDTのbStockを24時間年中無休で上場しました。",
+      "ru": "Binance провела листинг bStock EWJB/USDT, EWTB/USDT, EWZB/USDT, EWZSB/USDT, IWMB/USDT, MELIB/USDT и NUB/USDT с доступом 24/7.",
+      "fa": "بایننس bStockهای EWJB/USDT، EWTB/USDT، EWZB/USDT، EWZSB/USDT، IWMB/USDT، MELIB/USDT و NUB/USDT را با دسترسی ۲۴/۷ فهرست کرد."
+    }
+  },
+  {
+    "id": "binance-2026-11-18-hacked-assets-fully-covered",
+    "exchange": "binance",
+    "date": "2026-11-18",
+    "category": "other",
+    "sourceUrl": "https://x.com/binance/status/2123019313347170504",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "Binance says coverage of hacked assets is complete",
+      "zh": "币安称已完成被盗资产全额覆盖",
+      "fr": "Binance indique que la couverture des actifs piratés est achevée",
+      "pt": "A Binance diz que a cobertura dos ativos hackeados está concluída",
+      "ko": "바이낸스, 해킹된 자산 보전이 완료됐다고 밝혀",
+      "ja": "Binance、ハッキングされた資産の補填が完了したと発表",
+      "ru": "Binance сообщила, что покрытие взломанных активов завершено",
+      "fa": "بایننس می‌گوید پوشش دارایی‌های هک‌شده کامل شده است"
+    },
+    "summary": {
+      "en": "In an #AskBinance roundup, Binance said user assets remain secure and it has completed coverage of hacked assets from the security incident, absorbing the impact so users did not bear the loss.",
+      "zh": "币安在 #AskBinance 问答中表示，用户资产安全，已完成此次安全事件被盗资产的覆盖，损失由币安承担，用户未受损失。",
+      "fr": "Dans un récapitulatif #AskBinance, Binance a indiqué que les actifs des utilisateurs restent en sécurité et qu’elle a achevé la couverture des actifs piratés lors de l’incident de sécurité, en absorbant l’impact afin que les utilisateurs ne supportent pas la perte.",
+      "pt": "Em um resumo #AskBinance, a Binance informou que os ativos dos usuários permanecem seguros e que concluiu a cobertura dos ativos hackeados no incidente de segurança, absorvendo o impacto para que os usuários não arcassem com a perda.",
+      "ko": "바이낸스는 #AskBinance 정리에서 사용자 자산은 안전하며, 보안 사고에서 해킹된 자산의 보전을 마쳐 영향을 흡수했기 때문에 사용자가 손실을 부담하지 않았다고 밝혔습니다.",
+      "ja": "Binanceは#AskBinanceのまとめの中で、ユーザー資産は安全なままで、セキュリティ事案でハッキングされた資産の補填を完了し、影響を引き受けたためユーザーは損失を負担しなかったと述べました。",
+      "ru": "В подборке #AskBinance Binance сообщила, что активы пользователей остаются в безопасности и что покрытие взломанных активов по инциденту безопасности завершено: последствия взяла на себя биржа, пользователи убыток не понесли.",
+      "fa": "بایننس در جمع‌بندی #AskBinance گفت دارایی کاربران امن مانده و پوشش دارایی‌های هک‌شده در رخداد امنیتی را کامل کرده و اثر آن را جذب کرده است تا کاربران زیان را تحمل نکنند."
+    }
+  },
+  {
+    "id": "binance-2026-11-19-stock-options-api",
+    "exchange": "binance",
+    "date": "2026-11-19",
+    "category": "product",
+    "sourceUrl": "https://x.com/binance/status/2123136662075035756",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "Binance launches Stock Options API trading",
+      "zh": "币安上线股票期权 API 交易",
+      "fr": "Binance lance la négociation d’options sur actions via API",
+      "pt": "A Binance lança a negociação de opções de ações por API",
+      "ko": "바이낸스, 주식 옵션 API 거래 시작",
+      "ja": "Binance、株式オプションのAPI取引を開始",
+      "ru": "Binance запустила торговлю опционами на акции через API",
+      "fa": "بایننس معامله API اختیار معامله سهام را راه‌اندازی کرد"
+    },
+    "summary": {
+      "en": "Binance Stock Options can now be traded through a REST API: look up option contracts, place and cancel orders, exercise long positions, and query positions, orders, fills and settlement events.",
+      "zh": "币安股票期权现可通过 REST API 交易：查询期权合约、下单与撤单、行权多头持仓，以及查询持仓、订单、成交和结算事件。",
+      "fr": "Les options sur actions de Binance peuvent désormais se négocier via une API REST : consulter les contrats d’options, passer et annuler des ordres, exercer des positions longues, et interroger les positions, les ordres, les exécutions et les événements de règlement.",
+      "pt": "As opções de ações da Binance agora podem ser negociadas por uma API REST: consultar contratos de opção, enviar e cancelar ordens, exercer posições compradas e consultar posições, ordens, execuções e eventos de liquidação.",
+      "ko": "바이낸스 주식 옵션은 이제 REST API로 거래할 수 있습니다. 옵션 계약을 조회하고, 주문을 넣고 취소하고, 롱 포지션을 행사하며, 포지션, 주문, 체결, 결제 이벤트를 조회할 수 있습니다.",
+      "ja": "Binanceの株式オプションはREST APIで取引できます。オプション契約の照会、注文の発注と取消、ロングポジションの行使、そしてポジション、注文、約定、決済イベントの照会ができます。",
+      "ru": "Опционами на акции Binance теперь можно торговать через REST API: смотреть контракты, выставлять и отменять ордера, исполнять длинные позиции и запрашивать позиции, ордера, исполнения и события расчётов.",
+      "fa": "اختیار معامله سهام بایننس اکنون از راه REST API قابل معامله است: جست‌وجوی قراردادهای اختیار، ثبت و لغو سفارش، اعمال موقعیت‌های خرید، و استعلام موقعیت‌ها، سفارش‌ها، معاملات و رویدادهای تسویه."
+    }
+  },
+  {
+    "id": "binance-2026-11-19-por-198-tokens",
+    "exchange": "binance",
+    "date": "2026-11-19",
+    "category": "other",
+    "sourceUrl": "https://x.com/binance/status/2123397190747865522",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "Binance Proof of Reserves now covers 198 tokens",
+      "zh": "币安储备金证明覆盖 198 种代币",
+      "fr": "La preuve de réserves de Binance couvre désormais 198 jetons",
+      "pt": "A prova de reservas da Binance agora cobre 198 tokens",
+      "ko": "바이낸스 준비금 증명, 이제 198개 토큰을 포함",
+      "ja": "Binanceの準備金証明が198トークンをカバー",
+      "ru": "Proof of Reserves Binance теперь охватывает 198 токенов",
+      "fa": "اثبات ذخایر بایننس اکنون ۱۹۸ توکن را پوشش می‌دهد"
+    },
+    "summary": {
+      "en": "Binance's latest Proof of Reserves snapshot covers 198 tokens; users can verify their assets under Wallet → Verification by choosing a date.",
+      "zh": "币安最新储备金证明快照覆盖 198 种代币，用户可在「钱包 → 验证」中选择日期核验自己的资产。",
+      "fr": "Le dernier instantané de preuve de réserves de Binance couvre 198 jetons ; les utilisateurs peuvent vérifier leurs actifs dans Portefeuille → Vérification en choisissant une date.",
+      "pt": "O snapshot mais recente de prova de reservas da Binance cobre 198 tokens; os usuários podem verificar seus ativos em Carteira → Verificação escolhendo uma data.",
+      "ko": "바이낸스의 최신 준비금 증명 스냅샷은 198개 토큰을 포함하며, 사용자는 지갑 → 검증에서 날짜를 선택해 자산을 확인할 수 있습니다.",
+      "ja": "Binanceの最新の準備金証明スナップショットは198トークンを対象とし、ユーザーはウォレット → 検証で日付を選んで資産を確認できます。",
+      "ru": "Последний снимок Proof of Reserves Binance охватывает 198 токенов; пользователи могут проверить свои активы в разделе «Кошелёк → Проверка», выбрав дату.",
+      "fa": "جدیدترین تصویر اثبات ذخایر بایننس ۱۹۸ توکن را پوشش می‌دهد؛ کاربران می‌توانند در کیف پول → تأیید، با انتخاب تاریخ، دارایی خود را بررسی کنند."
+    }
+  },
+  {
+    "id": "binance-2026-11-20-antb-bstock",
+    "exchange": "binance",
+    "date": "2026-11-20",
+    "category": "listing",
+    "sourceUrl": "https://x.com/binance/status/2123476399965286459",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "Binance lists Anthropic bStock ANTB/USDT",
+      "zh": "币安上线 Anthropic bStock ANTB/USDT",
+      "fr": "Binance cote le bStock Anthropic ANTB/USDT",
+      "pt": "A Binance lista o bStock da Anthropic ANTB/USDT",
+      "ko": "바이낸스, Anthropic bStock ANTB/USDT 상장",
+      "ja": "Binance、AnthropicのbStock ANTB/USDTを上場",
+      "ru": "Binance листинговала bStock Anthropic ANTB/USDT",
+      "fa": "بایننس bStock مربوط به Anthropic، ANTB/USDT را فهرست کرد"
+    },
+    "summary": {
+      "en": "Binance listed the ANTB/USDT bStock with 24/7 access and 1:1 free, instant exchange for the underlying stock.",
+      "zh": "币安上线 ANTB/USDT bStock，支持 7×24 小时交易，并可 1:1 免费即时兑换为对应股票。",
+      "fr": "Binance a coté le bStock ANTB/USDT, accessible 24 h/24, 7 j/7, avec un échange gratuit et instantané 1:1 contre l’action sous-jacente.",
+      "pt": "A Binance listou o bStock ANTB/USDT com acesso 24/7 e troca gratuita e instantânea de 1:1 pela ação subjacente.",
+      "ko": "바이낸스는 ANTB/USDT bStock을 24/7 이용과 기초 주식으로의 1:1 무료 즉시 교환과 함께 상장했습니다.",
+      "ja": "BinanceはANTB/USDTのbStockを、24時間年中無休の利用と原株への1:1の無料即時交換付きで上場しました。",
+      "ru": "Binance провела листинг bStock ANTB/USDT с доступом 24/7 и бесплатным мгновенным обменом 1:1 на базовую акцию.",
+      "fa": "بایننس bStock جفت ANTB/USDT را با دسترسی ۲۴/۷ و تبدیل رایگان و آنی ۱:۱ به سهام پایه فهرست کرد."
+    }
+  },
+  {
+    "id": "binance-2026-11-20-monitoring-tag-update",
+    "exchange": "binance",
+    "date": "2026-11-20",
+    "category": "listing",
+    "sourceUrl": "https://x.com/binance/status/2123667402626142607",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "Binance adds six tokens to the Monitoring Tag, removes Seed Tag for MORPHO and HYPE",
+      "zh": "币安将 6 个代币加入监控标签，移除 MORPHO 与 HYPE 种子标签",
+      "fr": "Binance ajoute six jetons au Monitoring Tag et retire le Seed Tag de MORPHO et HYPE",
+      "pt": "A Binance adiciona seis tokens à Monitoring Tag e remove a Seed Tag de MORPHO e HYPE",
+      "ko": "바이낸스, 토큰 6개를 모니터링 태그에 추가하고 MORPHO와 HYPE의 시드 태그 제거",
+      "ja": "Binance、6トークンをモニタリングタグに追加し、MORPHOとHYPEのシードタグを解除",
+      "ru": "Binance добавила шесть токенов в Monitoring Tag и сняла Seed Tag с MORPHO и HYPE",
+      "fa": "بایننس شش توکن را به برچسب نظارت افزود و برچسب Seed را از MORPHO و HYPE برداشت"
+    },
+    "summary": {
+      "en": "On 2026-11-20 Binance extended the Monitoring Tag to BANK, INIT, MITO, ONE, THE and ZIL, and removed the Seed Tag for MORPHO and HYPE.",
+      "zh": "币安于 2026-11-20 将 BANK、INIT、MITO、ONE、THE 和 ZIL 纳入监控标签，并移除 MORPHO 与 HYPE 的种子标签。",
+      "fr": "Le 2026-11-20, Binance a étendu le Monitoring Tag à BANK, INIT, MITO, ONE, THE et ZIL, et a retiré le Seed Tag de MORPHO et HYPE.",
+      "pt": "Em 2026-11-20, a Binance estendeu a Monitoring Tag a BANK, INIT, MITO, ONE, THE e ZIL, e removeu a Seed Tag de MORPHO e HYPE.",
+      "ko": "2026-11-20 바이낸스는 모니터링 태그를 BANK, INIT, MITO, ONE, THE, ZIL로 확대하고 MORPHO와 HYPE의 시드 태그를 제거했습니다.",
+      "ja": "2026-11-20、BinanceはモニタリングタグをBANK、INIT、MITO、ONE、THE、ZILに広げ、MORPHOとHYPEのシードタグを外しました。",
+      "ru": "2026-11-20 Binance распространила Monitoring Tag на BANK, INIT, MITO, ONE, THE и ZIL и сняла Seed Tag с MORPHO и HYPE.",
+      "fa": "در ۲۰ نوامبر ۲۰۲۶ بایننس برچسب نظارت را به BANK، INIT، MITO، ONE، THE و ZIL گسترش داد و برچسب Seed را از MORPHO و HYPE برداشت."
+    }
+  },
+  {
+    "id": "binance-2026-11-20-usd1-rewards-extended",
+    "exchange": "binance",
+    "date": "2026-11-20",
+    "category": "promotion",
+    "sourceUrl": "https://x.com/binance/status/2123763784212693363",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "Binance extends the USD1 rewards campaign",
+      "zh": "币安延长 USD1 持仓奖励活动",
+      "fr": "Binance prolonge la campagne de récompenses USD1",
+      "pt": "A Binance prorroga a campanha de recompensas de USD1",
+      "ko": "바이낸스, USD1 보상 캠페인 연장",
+      "ja": "Binance、USD1報酬キャンペーンを延長",
+      "ru": "Binance продлила кампанию наград USD1",
+      "fa": "بایننس کمپین پاداش USD1 را تمدید کرد"
+    },
+    "summary": {
+      "en": "Binance extended its USD1 rewards campaign with an expanded reward pool; holding USD1 in any account earns an estimated APR of up to 10%.",
+      "zh": "币安延长 USD1 奖励活动并扩大奖池，在任意账户持有 USD1 预估年化最高 10%。",
+      "fr": "Binance a prolongé sa campagne de récompenses USD1 avec une cagnotte élargie ; détenir de l’USD1 sur n’importe quel compte rapporte un APR estimé pouvant atteindre 10 %.",
+      "pt": "A Binance prorrogou a campanha de recompensas de USD1 com um prêmio ampliado; manter USD1 em qualquer conta rende um APR estimado de até 10%.",
+      "ko": "바이낸스는 USD1 보상 캠페인을 보상 풀을 늘려 연장했으며, 어떤 계정이든 USD1을 보유하면 예상 연이율 최대 10%를 받습니다.",
+      "ja": "BinanceはUSD1報酬キャンペーンを報酬プールを拡大して延長し、どの口座でもUSD1を保有すると推定年率最大10%になります。",
+      "ru": "Binance продлила кампанию наград USD1 с расширенным пулом; хранение USD1 на любом счёте даёт оценочную годовую ставку до 10%.",
+      "fa": "بایننس کمپین پاداش USD1 را با استخر پاداش بزرگ‌تر تمدید کرد؛ نگهداری USD1 در هر حساب نرخ سالانه برآوردی تا ۱۰٪ دارد."
+    }
+  },
+  {
+    "id": "binance-2026-11-21-stablecoin-simple-earn-5pct",
+    "exchange": "binance",
+    "date": "2026-11-21",
+    "category": "promotion",
+    "sourceUrl": "https://x.com/binance/status/2124019980635340874",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "Binance renews USDC & USDT Simple Earn campaign at up to 5% APR",
+      "zh": "币安重启 USDC/USDT 活期理财活动，年化最高 5%",
+      "fr": "Binance relance la campagne Simple Earn USDC et USDT jusqu’à 5 % d’APR",
+      "pt": "A Binance renova a campanha Simple Earn de USDC e USDT com até 5% de APR",
+      "ko": "바이낸스, USDC·USDT Simple Earn 캠페인을 최대 연 5%로 재개",
+      "ja": "Binance、USDCとUSDTのSimple Earnキャンペーンを最大年率5%で再開",
+      "ru": "Binance возобновила кампанию Simple Earn по USDC и USDT до 5% годовых",
+      "fa": "بایننس کمپین Simple Earn برای USDC و USDT را با APR تا ۵٪ از سر گرفت"
+    },
+    "summary": {
+      "en": "Binance Earn renewed its USDC & USDT Simple Earn Flexible Products campaign, offering up to 5% APR on stablecoins.",
+      "zh": "币安理财重启 USDC 与 USDT 活期产品活动，稳定币年化最高 5%。",
+      "fr": "Binance Earn a relancé sa campagne Simple Earn Flexible Products sur USDC et USDT, avec jusqu’à 5 % d’APR sur les stablecoins.",
+      "pt": "O Binance Earn renovou a campanha Simple Earn Flexible Products de USDC e USDT, oferecendo até 5% de APR em stablecoins.",
+      "ko": "Binance Earn은 USDC와 USDT Simple Earn 플렉시블 상품 캠페인을 재개해 스테이블코인에 최대 연 5%를 제공합니다.",
+      "ja": "Binance EarnはUSDCとUSDTのSimple Earnフレキシブル商品キャンペーンを再開し、ステーブルコインで最大年率5%を提供します。",
+      "ru": "Binance Earn возобновила кампанию Simple Earn Flexible Products по USDC и USDT с доходностью до 5% годовых на стейблкоины.",
+      "fa": "Binance Earn کمپین Simple Earn Flexible Products برای USDC و USDT را از سر گرفت و روی استیبل‌کوین تا ۵٪ APR می‌دهد."
+    }
+  },
+  {
+    "id": "binance-2026-11-22-bstocks-collateral",
+    "exchange": "binance",
+    "date": "2026-11-22",
+    "category": "product",
+    "sourceUrl": "https://x.com/binance/status/2124386301432696952",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "Binance adds 7 bStocks as collateral assets",
+      "zh": "币安新增 7 个 bStocks 作为抵押资产",
+      "fr": "Binance ajoute 7 bStocks comme actifs de collatéral",
+      "pt": "A Binance adiciona 7 bStocks como ativos de colateral",
+      "ko": "바이낸스, bStocks 7개를 담보 자산으로 추가",
+      "ja": "Binance、bStocks 7つを担保資産に追加",
+      "ru": "Binance добавила 7 bStocks как залоговые активы",
+      "fa": "بایننس ۷ دارایی bStocks را به‌عنوان وثیقه اضافه کرد"
+    },
+    "summary": {
+      "en": "Binance added 7 bStocks tokenized securities as collateral assets.",
+      "zh": "币安新增 7 个 bStocks 代币化证券作为抵押资产。",
+      "fr": "Binance a ajouté 7 titres tokenisés bStocks comme actifs de collatéral.",
+      "pt": "A Binance adicionou 7 valores mobiliários tokenizados bStocks como ativos de colateral.",
+      "ko": "바이낸스는 토큰화 증권 bStocks 7개를 담보 자산으로 추가했습니다.",
+      "ja": "Binanceはトークン化証券のbStocks 7つを担保資産に追加しました。",
+      "ru": "Binance добавила 7 токенизированных бумаг bStocks как залоговые активы.",
+      "fa": "بایننس ۷ اوراق بهادار توکنیزه‌شده bStocks را به‌عنوان دارایی وثیقه اضافه کرد."
+    }
+  },
+  {
+    "id": "binance-2026-11-22-velodrome-merge-aero",
+    "exchange": "binance",
+    "date": "2026-11-22",
+    "category": "other",
+    "sourceUrl": "https://x.com/binance/status/2124386314758087081",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "Binance completes VELODROME merge into AERO",
+      "zh": "币安完成 VELODROME 合并至 AERO",
+      "fr": "Binance achève la fusion de VELODROME dans AERO",
+      "pt": "A Binance conclui a fusão de VELODROME em AERO",
+      "ko": "바이낸스, VELODROME의 AERO 병합을 완료",
+      "ja": "Binance、VELODROMEのAEROへのマージを完了",
+      "ru": "Binance завершила слияние VELODROME в AERO",
+      "fa": "بایننس ادغام VELODROME در AERO را کامل کرد"
+    },
+    "summary": {
+      "en": "Binance completed the Velodrome Finance (VELODROME) token merge to Aerodrome (AERO) and the AERO contract swap.",
+      "zh": "币安已完成 Velodrome Finance（VELODROME）代币合并至 Aerodrome（AERO）及 AERO 合约置换。",
+      "fr": "Binance a achevé la fusion du jeton Velodrome Finance (VELODROME) vers Aerodrome (AERO) et l’échange de contrat AERO.",
+      "pt": "A Binance concluiu a fusão do token Velodrome Finance (VELODROME) para Aerodrome (AERO) e a troca de contrato da AERO.",
+      "ko": "바이낸스는 Velodrome Finance(VELODROME) 토큰을 Aerodrome(AERO)으로 병합하고 AERO 계약 스왑을 완료했습니다.",
+      "ja": "BinanceはVelodrome Finance（VELODROME）トークンのAerodrome（AERO）へのマージとAEROコントラクトのスワップを完了しました。",
+      "ru": "Binance завершила слияние токена Velodrome Finance (VELODROME) в Aerodrome (AERO) и своп контракта AERO.",
+      "fa": "بایننس ادغام توکن Velodrome Finance (VELODROME) به Aerodrome (AERO) و تعویض قرارداد AERO را کامل کرد."
+    }
+  },
+  {
+    "id": "okx-2026-11-17-jct-perps",
+    "exchange": "okx",
+    "date": "2026-11-17",
+    "category": "listing",
+    "sourceUrl": "https://x.com/okx/status/2122378161329447256",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "OKX lists JCTUSDT perpetual futures",
+      "zh": "OKX 上线 JCTUSDT 永续合约",
+      "fr": "OKX cote les contrats à terme perpétuels JCTUSDT",
+      "pt": "A OKX lista os futuros perpétuos JCTUSDT",
+      "ko": "OKX, JCTUSDT 무기한 선물 상장",
+      "ja": "OKX、JCTUSDTの無期限先物を上場",
+      "ru": "OKX листинговала бессрочные фьючерсы JCTUSDT",
+      "fa": "OKX معاملات آتی دائمی JCTUSDT را فهرست کرد"
+    },
+    "summary": {
+      "en": "OKX launched global JCTUSDT perpetual futures for Janction (JCT), a Layer-2 network providing AI services.",
+      "zh": "OKX 上线 Janction（JCT）的 JCTUSDT 全球永续合约，JCT 是提供 AI 服务的二层网络。",
+      "fr": "OKX a lancé les contrats à terme perpétuels JCTUSDT mondiaux pour Janction (JCT), un réseau de couche 2 qui fournit des services d’IA.",
+      "pt": "A OKX lançou futuros perpétuos JCTUSDT globais para a Janction (JCT), uma rede de camada 2 que fornece serviços de IA.",
+      "ko": "OKX는 AI 서비스를 제공하는 레이어 2 네트워크 Janction(JCT)의 글로벌 JCTUSDT 무기한 선물을 출시했습니다.",
+      "ja": "OKXは、AIサービスを提供するレイヤー2ネットワークJanction（JCT）のグローバルなJCTUSDT無期限先物を開始しました。",
+      "ru": "OKX запустила глобальные бессрочные фьючерсы JCTUSDT на Janction (JCT), сеть второго уровня, которая предоставляет ИИ-сервисы.",
+      "fa": "OKX معاملات آتی دائمی جهانی JCTUSDT را برای Janction (JCT) راه‌اندازی کرد؛ JCT یک شبکه لایه ۲ است که خدمات هوش مصنوعی ارائه می‌دهد."
+    }
+  },
+  {
+    "id": "okx-2026-11-18-anthropic-ipo-carnival",
+    "exchange": "okx",
+    "date": "2026-11-18",
+    "category": "promotion",
+    "sourceUrl": "https://x.com/okx/status/2122925275407126769",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "OKX Anthropic IPO Carnival offers 250,000 USDT",
+      "zh": "OKX Anthropic IPO 嘉年华奖池 250,000 USDT",
+      "fr": "L’Anthropic IPO Carnival d’OKX offre 250 000 USDT",
+      "pt": "O Anthropic IPO Carnival da OKX oferece 250.000 USDT",
+      "ko": "OKX Anthropic IPO 카니발, 250,000 USDT 제공",
+      "ja": "OKXのAnthropic IPOカーニバルは250,000 USDT",
+      "ru": "Anthropic IPO Carnival на OKX: 250 000 USDT",
+      "fa": "کارناوال Anthropic IPO در OKX ۲۵۰٬۰۰۰ USDT می‌دهد"
+    },
+    "summary": {
+      "en": "OKX's Anthropic IPO Carnival offers 250,000 USDT in rewards across a pre-IPO trading competition and special Outcomes events, in eligible regions only.",
+      "zh": "OKX 推出 Anthropic IPO 嘉年华，通过 IPO 前交易大赛和 Outcomes 专题活动发放共 250,000 USDT 奖励，仅限合格地区。",
+      "fr": "L’Anthropic IPO Carnival d’OKX offre 250 000 USDT de récompenses entre une compétition de trading pré-IPO et des événements Outcomes spéciaux, uniquement dans les régions éligibles.",
+      "pt": "O Anthropic IPO Carnival da OKX oferece 250.000 USDT em recompensas entre uma competição de trading pré-IPO e eventos especiais de Outcomes, apenas em regiões elegíveis.",
+      "ko": "OKX의 Anthropic IPO 카니발은 상장 전 거래 대회와 특별 Outcomes 이벤트로 250,000 USDT 보상을 제공하며, 자격 있는 지역에서만 진행됩니다.",
+      "ja": "OKXのAnthropic IPOカーニバルは、上場前の取引コンテストと特別なOutcomesイベントで250,000 USDTの報酬を提供し、対象地域のみです。",
+      "ru": "Anthropic IPO Carnival на OKX раздаёт 250 000 USDT через пред-IPO соревнование по торговле и специальные события Outcomes, только в подходящих регионах.",
+      "fa": "کارناوال Anthropic IPO در OKX در یک مسابقه معامله پیش از IPO و رویدادهای ویژه Outcomes در مجموع ۲۵۰٬۰۰۰ USDT پاداش می‌دهد و فقط در مناطق واجد شرایط است."
+    }
+  },
+  {
+    "id": "okx-2026-11-18-morpho-stock-token-collateral",
+    "exchange": "okx",
+    "date": "2026-11-18",
+    "category": "product",
+    "sourceUrl": "https://x.com/okx/status/2122994388804706438",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "OKX brings boosted stock-token collateral rates with Morpho on X Layer",
+      "zh": "OKX 联合 Morpho 在 X Layer 推出股票代币抵押借贷",
+      "fr": "OKX relève les taux de collatéral des jetons d’actions avec Morpho sur X Layer",
+      "pt": "A OKX traz taxas de colateral ampliadas para tokens de ações com a Morpho na X Layer",
+      "ko": "OKX, X Layer에서 Morpho와 함께 주식 토큰 담보율 상향",
+      "ja": "OKX、X LayerでMorphoとともに株式トークンの担保率を引き上げ",
+      "ru": "OKX с Morpho на X Layer повысила ставки залога для токенов акций",
+      "fa": "OKX با Morpho روی X Layer نرخ وثیقه توکن سهام را بالا برد"
+    },
+    "summary": {
+      "en": "Through a partnership with Morpho on X Layer, users can deposit xStocks tokenized stocks as collateral to borrow USDC, with boosted collateral rates and a vault curated by Gauntlet.",
+      "zh": "OKX 与 Morpho 合作，在 X Layer 上可用 xStocks 代币化股票作抵押借入 USDC，抵押率提升，金库由 Gauntlet 管理。",
+      "fr": "Grâce à un partenariat avec Morpho sur X Layer, les utilisateurs peuvent déposer des actions tokenisées xStocks comme collatéral pour emprunter des USDC, avec des taux de collatéral relevés et un coffre sélectionné par Gauntlet.",
+      "pt": "Por uma parceria com a Morpho na X Layer, usuários podem depositar ações tokenizadas xStocks como colateral para tomar USDC emprestado, com taxas de colateral ampliadas e um cofre curado pela Gauntlet.",
+      "ko": "X Layer에서 Morpho와의 제휴를 통해 사용자는 xStocks 토큰화 주식을 담보로 예치해 USDC를 빌릴 수 있으며, 담보율이 상향되고 금고는 Gauntlet이 큐레이션합니다.",
+      "ja": "X LayerでのMorphoとの提携により、ユーザーはxStocksのトークン化株式を担保に預けてUSDCを借りられ、担保率が引き上げられ、ボルトはGauntletがキュレーションします。",
+      "ru": "В партнёрстве с Morpho на X Layer пользователи могут внести токенизированные акции xStocks как залог и занять USDC, с повышенными ставками залога и хранилищем, которое курирует Gauntlet.",
+      "fa": "با همکاری Morpho روی X Layer، کاربران می‌توانند سهام توکنیزه‌شده xStocks را به‌عنوان وثیقه بسپارند و USDC قرض بگیرند، با نرخ وثیقه بالاتر و خزانه‌ای که Gauntlet آن را گزینش می‌کند."
+    }
+  },
+  {
+    "id": "okx-2026-11-18-x-drops-tao-europe",
+    "exchange": "okx",
+    "date": "2026-11-18",
+    "category": "promotion",
+    "sourceUrl": "https://x.com/okx/status/2123038568478122259",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "OKX X Drops in Europe shares 1,050 TAO",
+      "zh": "OKX 欧洲站 X Drops 瓜分 1,050 TAO",
+      "fr": "X Drops d’OKX en Europe partage 1 050 TAO",
+      "pt": "O X Drops da OKX na Europa reparte 1.050 TAO",
+      "ko": "OKX 유럽 X Drops, 1,050 TAO 배분",
+      "ja": "OKX欧州のX Dropsで1,050 TAOを分配",
+      "ru": "X Drops OKX в Европе: 1 050 TAO",
+      "fa": "X Drops مربوط به OKX در اروپا ۱٬۰۵۰ TAO را تقسیم می‌کند"
+    },
+    "summary": {
+      "en": "From November 18 to 22, OKX Europe users trading TAO, ZEC, HYPE, LINK, SUI, NEAR, UNI, AERO, LIT or ENA can share 1,050 TAO, with a 3x multiplier on TAO trades.",
+      "zh": "11 月 18 日至 22 日，OKX 欧洲用户交易 TAO、ZEC、HYPE、LINK、SUI、NEAR、UNI、AERO、LIT 或 ENA 可瓜分 1,050 TAO，TAO 交易享 3 倍加成。",
+      "fr": "Du 18 au 22 novembre, les utilisateurs d’OKX Europe qui négocient TAO, ZEC, HYPE, LINK, SUI, NEAR, UNI, AERO, LIT ou ENA peuvent se partager 1 050 TAO, avec un multiplicateur de 3x sur les transactions TAO.",
+      "pt": "De 18 a 22 de novembro, usuários da OKX Europa que negociarem TAO, ZEC, HYPE, LINK, SUI, NEAR, UNI, AERO, LIT ou ENA podem dividir 1.050 TAO, com multiplicador de 3x nas negociações de TAO.",
+      "ko": "11월 18일부터 22일까지 TAO, ZEC, HYPE, LINK, SUI, NEAR, UNI, AERO, LIT 또는 ENA를 거래하는 OKX 유럽 사용자는 1,050 TAO를 나눌 수 있으며, TAO 거래는 3배입니다.",
+      "ja": "11月18日から22日まで、TAO、ZEC、HYPE、LINK、SUI、NEAR、UNI、AERO、LITまたはENAを取引するOKX欧州のユーザーは1,050 TAOを分け合え、TAO取引は3倍です。",
+      "ru": "С 18 по 22 ноября пользователи OKX Europe, торгующие TAO, ZEC, HYPE, LINK, SUI, NEAR, UNI, AERO, LIT или ENA, могут разделить 1 050 TAO, с множителем 3x на сделки TAO.",
+      "fa": "از ۱۸ تا ۲۲ نوامبر، کاربران OKX اروپا که TAO، ZEC، HYPE، LINK، SUI، NEAR، UNI، AERO، LIT یا ENA معامله کنند می‌توانند ۱٬۰۵۰ TAO را تقسیم کنند و معامله TAO ضریب ۳ برابر دارد."
+    },
+    "startsAt": "2026-11-18",
+    "endsAt": "2026-11-22"
+  },
+  {
+    "id": "okx-2026-11-19-europe-usdt-to-usdc-bonus",
+    "exchange": "okx",
+    "date": "2026-11-19",
+    "category": "promotion",
+    "sourceUrl": "https://x.com/okx/status/2123144215173501150",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "OKX Europe offers 8% bonus for USDT transfers converted to USDC",
+      "zh": "OKX 欧洲：转入 USDT 免费换 USDC 享 8% 奖励",
+      "fr": "OKX Europe offre un bonus de 8 % pour les transferts d’USDT convertis en USDC",
+      "pt": "A OKX Europa oferece bônus de 8% para transferências de USDT convertidas em USDC",
+      "ko": "OKX 유럽, USDT를 이체해 USDC로 바꾸면 8% 보너스",
+      "ja": "OKX欧州、USDTを送金してUSDCに換えると8%ボーナス",
+      "ru": "OKX Europe: бонус 8% за перевод USDT с конвертацией в USDC",
+      "fa": "OKX اروپا برای انتقال USDT و تبدیل به USDC پاداش ۸٪ می‌دهد"
+    },
+    "summary": {
+      "en": "OKX invited European users holding USDT elsewhere to transfer it to OKX, convert to USDC for free, and receive an 8% bonus up to €3,500.",
+      "zh": "OKX 邀请在其他平台持有 USDT 的欧洲用户转入 OKX，免费兑换为 USDC，并获最高 3,500 欧元的 8% 奖励。",
+      "fr": "OKX a invité les utilisateurs européens qui détiennent de l’USDT ailleurs à le transférer vers OKX, à le convertir gratuitement en USDC et à recevoir un bonus de 8 % jusqu’à 3 500 €.",
+      "pt": "A OKX convidou usuários europeus que têm USDT em outro lugar a transferi-lo para a OKX, converter em USDC de graça e receber um bônus de 8% de até € 3.500.",
+      "ko": "OKX는 다른 곳에 USDT를 둔 유럽 사용자에게 이를 OKX로 이체하고 무료로 USDC로 바꾼 뒤 최대 €3,500의 8% 보너스를 받으라고 초대했습니다.",
+      "ja": "OKXは、他でUSDTを持つ欧州のユーザーに、OKXへ送金し、無料でUSDCに換えて、最大3,500ユーロの8%ボーナスを受け取るよう呼びかけました。",
+      "ru": "OKX пригласила европейских пользователей, которые держат USDT на других площадках, перевести его на OKX, бесплатно конвертировать в USDC и получить бонус 8% до €3 500.",
+      "fa": "OKX از کاربران اروپایی که جای دیگر USDT دارند دعوت کرد آن را به OKX منتقل کنند، رایگان به USDC تبدیل کنند و پاداش ۸٪ تا ۳٬۵۰۰ یورو بگیرند."
+    }
+  },
+  {
+    "id": "okx-2026-11-20-anthropic-tokenized-stocks",
+    "exchange": "okx",
+    "date": "2026-11-20",
+    "category": "listing",
+    "sourceUrl": "https://x.com/okx/status/2123458816637333812",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "OKX lists Anthropic tokenized stocks, global perps and X-Perps",
+      "zh": "OKX 上线 Anthropic 代币化股票、全球永续与 X-Perps",
+      "fr": "OKX cote les actions tokenisées, les perpétuels mondiaux et les X-Perps Anthropic",
+      "pt": "A OKX lista ações tokenizadas, perpétuos globais e X-Perps da Anthropic",
+      "ko": "OKX, Anthropic 토큰화 주식·글로벌 무기한·X-Perps 상장",
+      "ja": "OKX、Anthropicのトークン化株式、グローバル無期限、X-Perpsを上場",
+      "ru": "OKX листинговала токенизированные акции Anthropic, глобальные бессрочные контракты и X-Perps",
+      "fa": "OKX سهام توکنیزه‌شده، پرپچوال جهانی و X-Perps مربوط به Anthropic را فهرست کرد"
+    },
+    "summary": {
+      "en": "OKX made Anthropic tokenized stocks, global perps and X-Perps in Europe live, available in eligible regions.",
+      "zh": "OKX 上线 Anthropic 代币化股票、全球永续合约以及欧洲 X-Perps，仅限合格地区。",
+      "fr": "OKX a rendu disponibles les actions tokenisées Anthropic, les perpétuels mondiaux et les X-Perps en Europe, dans les régions éligibles.",
+      "pt": "A OKX colocou no ar as ações tokenizadas da Anthropic, os perpétuos globais e os X-Perps na Europa, disponíveis em regiões elegíveis.",
+      "ko": "OKX는 Anthropic 토큰화 주식, 글로벌 무기한 계약, 유럽 X-Perps를 개시했으며 자격 있는 지역에서 이용할 수 있습니다.",
+      "ja": "OKXはAnthropicのトークン化株式、グローバル無期限契約、欧州のX-Perpsを開始し、対象地域で利用できます。",
+      "ru": "OKX запустила токенизированные акции Anthropic, глобальные бессрочные контракты и X-Perps в Европе; доступно в подходящих регионах.",
+      "fa": "OKX سهام توکنیزه‌شده Anthropic، پرپچوال جهانی و X-Perps اروپا را فعال کرد و در مناطق واجد شرایط در دسترس است."
+    }
+  },
+  {
+    "id": "okx-2026-11-20-europe-8pct-apr-deposit",
+    "exchange": "okx",
+    "date": "2026-11-20",
+    "category": "promotion",
+    "sourceUrl": "https://x.com/okx/status/2123708112381300937",
+    "checkedAt": "2026-11-23",
+    "title": {
+      "en": "OKX Europe offers 8% APR on eligible crypto deposits",
+      "zh": "OKX 欧洲：存入合格加密资产享 8% 年化",
+      "fr": "OKX Europe offre 8 % d’APR sur les dépôts crypto éligibles",
+      "pt": "A OKX Europa oferece 8% de APR em depósitos de cripto elegíveis",
+      "ko": "OKX 유럽, 자격 있는 암호화폐 입금에 연 8%",
+      "ja": "OKX欧州、対象の暗号資産入金に年率8%",
+      "ru": "OKX Europe: 8% годовых на подходящие криптодепозиты",
+      "fa": "OKX اروپا برای واریز رمزارز واجد شرایط APR ۸٪ می‌دهد"
+    },
+    "summary": {
+      "en": "OKX offers 8% APR, paid over three months, on deposits of eligible crypto such as BTC, SOL, ETH and XRP, live in France, Spain, Italy, Poland, Sweden and Belgium until December 10.",
+      "zh": "OKX 对存入 BTC、SOL、ETH、XRP 等合格加密资产提供 8% 年化，分三个月发放，在法国、西班牙、意大利、波兰、瑞典和比利时开放至 12 月 10 日。",
+      "fr": "OKX offre 8 % d’APR, versés sur trois mois, sur les dépôts de crypto éligibles comme BTC, SOL, ETH et XRP, en France, en Espagne, en Italie, en Pologne, en Suède et en Belgique jusqu’au 10 décembre.",
+      "pt": "A OKX oferece 8% de APR, pagos ao longo de três meses, sobre depósitos de cripto elegíveis como BTC, SOL, ETH e XRP, ativo na França, Espanha, Itália, Polônia, Suécia e Bélgica até 10 de dezembro.",
+      "ko": "OKX는 BTC, SOL, ETH, XRP 등 자격 있는 암호화폐 입금에 연 8%를 석 달에 걸쳐 지급하며, 프랑스, 스페인, 이탈리아, 폴란드, 스웨덴, 벨기에에서 12월 10일까지 진행됩니다.",
+      "ja": "OKXはBTC、SOL、ETH、XRPなどの対象暗号資産の入金に年率8%を3か月にわたって支払い、フランス、スペイン、イタリア、ポーランド、スウェーデン、ベルギーで12月10日まで実施します。",
+      "ru": "OKX даёт 8% годовых, с выплатой в течение трёх месяцев, на депозиты подходящих криптоактивов, таких как BTC, SOL, ETH и XRP, во Франции, Испании, Италии, Польше, Швеции и Бельгии до 10 декабря.",
+      "fa": "OKX برای واریز رمزارز واجد شرایط مانند BTC، SOL، ETH و XRP نرخ سالانه ۸٪ می‌دهد که در سه ماه پرداخت می‌شود و تا ۱۰ دسامبر در فرانسه، اسپانیا، ایتالیا، لهستان، سوئد و بلژیک فعال است."
+    },
+    "endsAt": "2026-12-10"
+  },
+  {
     "id": "backpack-2026-11-15-ios-widgets",
     "exchange": "backpack",
     "date": "2026-11-15",
